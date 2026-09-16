@@ -1,0 +1,30 @@
+{
+  "database_metadata": {
+    "version": "1.0.0",
+    "description": "Mock Threat Intelligence Database for Ransomware Forensic Simulation",
+    "last_updated": "2024-09-16"
+  },
+  "threat_groups": [
+    {
+      "actor_id": "TA-SIM-001",
+      "family_name": "MOCK_LOCKBIT_SIM_v1",
+      "known_c2_endpoints": [
+        "127.0.0.1:4444",
+        "127.0.0.1:8080"
+      ],
+      "known_ransom_notes": [
+        "READ_ME_RANSOM.txt",
+        "DECRYPT_INSTRUCTIONS.txt"
+      ],
+      "file_extensions": [
+        ".locked",
+        ".crypto"
+      ],
+      "associated_cve": "CVE-2021-44228-MOCK",
+      "confidence_weight": 98.5
+    }
+  ],
+  "known_bad_hashes": [
+    "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  ]
+}

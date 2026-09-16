@@ -1,0 +1,22 @@
+{
+  "timestamp": "2026-09-16T00:12:19.931703",
+  "matched_actor_id": "TA-SIM-001",
+  "attributed_family": "MOCK_LOCKBIT_SIM_v1",
+  "associated_cve": "CVE-2021-44228-MOCK",
+  "correlated_indicators": {
+    "c2_endpoint": [
+      "127.0.0.1:4444"
+    ],
+    "ransom_notes": [
+      "READ_ME_RANSOM.txt"
+    ],
+    "encrypted_files_count": 4
+  },
+  "performance_metrics": {
+    "detection_accuracy_pct": 98.4,
+    "recovery_rate_pct": 100.0,
+    "ioc_detection_rate_pct": 96.8,
+    "attribution_confidence_pct": 98.5,
+    "response_time_seconds": 2.15
+  }
+}

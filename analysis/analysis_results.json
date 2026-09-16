@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-09-16T00:12:19.927700",
+  "rules_file": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/analysis/ransomware_rules.yar",
+  "target_directory": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/evidence_disk_image",
+  "total_files_scanned": 6,
+  "matched_artifacts": [
+    {
+      "filename": "employee_roster.txt.locked",
+      "matched_yara_rules": [
+        "Suspicious_Locked_Extension"
+      ],
+      "file_size": 184
+    },
+    {
+      "filename": "financial_q4.csv.locked",
+      "matched_yara_rules": [
+        "Suspicious_Locked_Extension"
+      ],
+      "file_size": 204
+    },
+    {
+      "filename": "project_roadmap.docx.locked",
+      "matched_yara_rules": [
+        "Suspicious_Locked_Extension"
+      ],
+      "file_size": 228
+    },
+    {
+      "filename": "confidential_keys.json.locked",
+      "matched_yara_rules": [
+        "Suspicious_Locked_Extension"
+      ],
+      "file_size": 184
+    },
+    {
+      "filename": "READ_ME_RANSOM.txt",
+      "matched_yara_rules": [
+        "Educational_Ransomware_Simulator_Artifacts"
+      ],
+      "file_size": 793
+    }
+  ],
+  "extracted_iocs": {
+    "hashes": [],
+    "c2_addresses": [
+      "127.0.0.1:4444"
+    ],
+    "ransom_note_signatures": [
+      "READ_ME_RANSOM.txt"
+    ],
+    "threat_actor_attribution": "MOCK_LOCKBIT_SIM_v1"
+  }
+}

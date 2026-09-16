@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-16T00:12:19.922584",
+  "source_directory": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/sandbox",
+  "target_image_directory": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/evidence_disk_image",
+  "total_files_acquired": 6,
+  "files": [
+    {
+      "filename": "decryption_key.log",
+      "size_bytes": 44,
+      "sha256": "dca9afd4061c3130b3cb84898af60a2baa3c161a889f2ac0e9e24ae4e403444b",
+      "acquisition_time": "2026-09-16T00:12:19.923221"
+    },
+    {
+      "filename": "employee_roster.txt.locked",
+      "size_bytes": 184,
+      "sha256": "6f4b977ab4894f30389f67cfadba4464c4aa3e5262c20ed89b063b67cdd798a3",
+      "acquisition_time": "2026-09-16T00:12:19.923709"
+    },
+    {
+      "filename": "financial_q4.csv.locked",
+      "size_bytes": 204,
+      "sha256": "39af8c35eb508d8521e92fb0b288b12cd8472481a44c2ab183cf17efe72611c9",
+      "acquisition_time": "2026-09-16T00:12:19.924136"
+    },
+    {
+      "filename": "project_roadmap.docx.locked",
+      "size_bytes": 228,
+      "sha256": "fa6f9fd5694183f74f50e249a80c7e643143371a7c01fa156ac55c91bd1a9d68",
+      "acquisition_time": "2026-09-16T00:12:19.924652"
+    },
+    {
+      "filename": "confidential_keys.json.locked",
+      "size_bytes": 184,
+      "sha256": "e647821e0348200a87dd3a8aa5f8c0da90abc86a0b34930e2ebf9a1c47c87a73",
+      "acquisition_time": "2026-09-16T00:12:19.925065"
+    },
+    {
+      "filename": "READ_ME_RANSOM.txt",
+      "size_bytes": 793,
+      "sha256": "99bae9d3930a3288bbc75c6ae68c08b56371afa1db20e17a301a7d5784a14120",
+      "acquisition_time": "2026-09-16T00:12:19.925446"
+    }
+  ]
+}

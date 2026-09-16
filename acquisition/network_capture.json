@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-09-16T00:12:19.926316",
+  "target_interface": "lo0 / 127.0.0.1",
+  "captured_flows": [
+    {
+      "src_ip": "127.0.0.1",
+      "src_port": 51234,
+      "dst_ip": "127.0.0.1",
+      "dst_port": 4444,
+      "protocol": "TCP",
+      "payload_snippet": "HELO C2_MOCK_BEACON_BEHAVIOR_RANSOM_SIM",
+      "status": "BEACON_DETECTED"
+    }
+  ],
+  "total_flows": 1
+}

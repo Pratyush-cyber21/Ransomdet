@@ -1,0 +1,2966 @@
+{
+  "timestamp": "2026-09-16T00:12:19.862213",
+  "total_processes_captured": 492,
+  "suspicious_processes": [
+    {
+      "pid": 29249,
+      "name": "Python",
+      "cmdline": "/Library/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python orchestrator.py",
+      "user": "pratyushkumarsahoo"
+    }
+  ],
+  "all_processes_summary": [
+    {
+      "pid": 0,
+      "name": "kernel_task",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 1,
+      "name": "launchd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 529,
+      "name": "logd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 531,
+      "name": "UserEventAgent",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 533,
+      "name": "fseventsd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 534,
+      "name": "mediaremoted",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 537,
+      "name": "systemstats",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 541,
+      "name": "configd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 543,
+      "name": "powerd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 544,
+      "name": "IOMFB_bics_daemo",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 548,
+      "name": "remoted",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 552,
+      "name": "corespeechd_syst",
+      "cmdline": "",
+      "user": "_corespeechd"
+    },
+    {
+      "pid": 554,
+      "name": "watchdogd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 558,
+      "name": "mds",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 560,
+      "name": "kernelmanagerd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 561,
+      "name": "diskarbitrationd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 565,
+      "name": "syslogd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 567,
+      "name": "thermalmonitord",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 568,
+      "name": "contextstored",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 569,
+      "name": "xprotectd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 570,
+      "name": "opendirectoryd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 571,
+      "name": "apsd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 572,
+      "name": "launchservicesd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 573,
+      "name": "timed",
+      "cmdline": "",
+      "user": "_timed"
+    },
+    {
+      "pid": 574,
+      "name": "usbmuxd",
+      "cmdline": "",
+      "user": "_usbmuxd"
+    },
+    {
+      "pid": 575,
+      "name": "securityd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 577,
+      "name": "locationd",
+      "cmdline": "",
+      "user": "_locationd"
+    },
+    {
+      "pid": 580,
+      "name": "autofsd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 581,
+      "name": "dasd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 582,
+      "name": "corerepaird",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 584,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_distnote"
+    },
+    {
+      "pid": 588,
+      "name": "logind",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 589,
+      "name": "revisiond",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 590,
+      "name": "KernelEventAgent",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 594,
+      "name": "bluetoothd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 595,
+      "name": "notifyd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 597,
+      "name": "corebrightnessd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 598,
+      "name": "AirPlayXPCHelper",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 599,
+      "name": "com.apple.cmio.r",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 602,
+      "name": "WindowServer",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 604,
+      "name": "cfprefsd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 605,
+      "name": "loginwindow",
+      "cmdline": "/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow console",
+      "user": "root"
+    },
+    {
+      "pid": 608,
+      "name": "coreservicesd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 609,
+      "name": "runningboardd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 610,
+      "name": "analyticsd",
+      "cmdline": "",
+      "user": "_analyticsd"
+    },
+    {
+      "pid": 619,
+      "name": "coreaudiod",
+      "cmdline": "",
+      "user": "_coreaudiod"
+    },
+    {
+      "pid": 620,
+      "name": "lsd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 623,
+      "name": "airportd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 625,
+      "name": "symptomsd",
+      "cmdline": "",
+      "user": "_networkd"
+    },
+    {
+      "pid": 628,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_coreaudiod"
+    },
+    {
+      "pid": 631,
+      "name": "eligibilityd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 635,
+      "name": "authd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 640,
+      "name": "com.apple.audio.",
+      "cmdline": "",
+      "user": "_coreaudiod"
+    },
+    {
+      "pid": 644,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_windowserver"
+    },
+    {
+      "pid": 645,
+      "name": "nsurlsessiond",
+      "cmdline": "",
+      "user": "_nsurlsessiond"
+    },
+    {
+      "pid": 647,
+      "name": "apfsd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 648,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 652,
+      "name": "audiomxd",
+      "cmdline": "",
+      "user": "_audiomxd"
+    },
+    {
+      "pid": 654,
+      "name": "syspolicyd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 661,
+      "name": "mDNSResponder",
+      "cmdline": "",
+      "user": "_mdnsresponder"
+    },
+    {
+      "pid": 664,
+      "name": "audioclocksyncd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 670,
+      "name": "socketfilterfw",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 672,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_cmiodalassistants"
+    },
+    {
+      "pid": 680,
+      "name": "modelmanagerd",
+      "cmdline": "",
+      "user": "_modelmanagerd"
+    },
+    {
+      "pid": 681,
+      "name": "com.apple.Driver",
+      "cmdline": "",
+      "user": "_driverkit"
+    },
+    {
+      "pid": 682,
+      "name": "com.apple.Driver",
+      "cmdline": "",
+      "user": "_driverkit"
+    },
+    {
+      "pid": 684,
+      "name": "mDNSResponderHel",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 685,
+      "name": "com.apple.AppleU",
+      "cmdline": "",
+      "user": "_driverkit"
+    },
+    {
+      "pid": 689,
+      "name": "com.apple.cmio.v",
+      "cmdline": "",
+      "user": "_cmiodalassistants"
+    },
+    {
+      "pid": 692,
+      "name": "appleh13camerad",
+      "cmdline": "",
+      "user": "_cmiodalassistants"
+    },
+    {
+      "pid": 701,
+      "name": "suhelperd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 702,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_audiomxd"
+    },
+    {
+      "pid": 709,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_softwareupdate"
+    },
+    {
+      "pid": 713,
+      "name": "searchpartyd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 743,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_accessoryupdater"
+    },
+    {
+      "pid": 746,
+      "name": "systemstats",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 761,
+      "name": "AdskAccessServic",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 762,
+      "name": "cer_service",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 763,
+      "name": "AdskLicensingSer",
+      "cmdline": "",
+      "user": "_adsklic"
+    },
+    {
+      "pid": 767,
+      "name": "cameracaptured",
+      "cmdline": "",
+      "user": "_cmiodalassistants"
+    },
+    {
+      "pid": 768,
+      "name": "UVCAssistant",
+      "cmdline": "",
+      "user": "_cmiodalassistants"
+    },
+    {
+      "pid": 779,
+      "name": "appleeventsd",
+      "cmdline": "",
+      "user": "_appleevents"
+    },
+    {
+      "pid": 813,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_locationd"
+    },
+    {
+      "pid": 829,
+      "name": "mds_stores",
+      "cmdline": "",
+      "user": "_mds_stores"
+    },
+    {
+      "pid": 867,
+      "name": "IOUserBluetoothS",
+      "cmdline": "",
+      "user": "_driverkit"
+    },
+    {
+      "pid": 871,
+      "name": "IOUserBluetoothS",
+      "cmdline": "",
+      "user": "_driverkit"
+    },
+    {
+      "pid": 888,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_nsurlsessiond"
+    },
+    {
+      "pid": 893,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_spotlight"
+    },
+    {
+      "pid": 902,
+      "name": "oahd",
+      "cmdline": "",
+      "user": "_oahd"
+    },
+    {
+      "pid": 906,
+      "name": "distnoted",
+      "cmdline": "/usr/sbin/distnoted agent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 918,
+      "name": "coreauthd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 922,
+      "name": "secd",
+      "cmdline": "/usr/libexec/secd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 924,
+      "name": "cfprefsd",
+      "cmdline": "/usr/sbin/cfprefsd agent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 925,
+      "name": "UserEventAgent",
+      "cmdline": "/usr/libexec/UserEventAgent (Aqua)",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 932,
+      "name": "universalaccessd",
+      "cmdline": "/usr/sbin/universalaccessd launchd -s",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 934,
+      "name": "accountsd",
+      "cmdline": "/System/Library/Frameworks/Accounts.framework/Versions/A/Support/accountsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 935,
+      "name": "pboard",
+      "cmdline": "/usr/libexec/pboard",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 938,
+      "name": "BiomeAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/BiomeStreams.framework/Support/BiomeAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 939,
+      "name": "lsd",
+      "cmdline": "/usr/libexec/lsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 944,
+      "name": "nsurlsessiond",
+      "cmdline": "/usr/libexec/nsurlsessiond",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 945,
+      "name": "rapportd",
+      "cmdline": "/usr/libexec/rapportd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 946,
+      "name": "usernoted",
+      "cmdline": "/usr/sbin/usernoted",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 948,
+      "name": "usernotificationsd",
+      "cmdline": "/System/Library/PrivateFrameworks/UserNotificationsCore.framework/Support/usernotificationsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 949,
+      "name": "lockoutagent",
+      "cmdline": "/System/Library/CoreServices/lockoutagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 954,
+      "name": "callservicesd",
+      "cmdline": "/System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 956,
+      "name": "identityservicesd",
+      "cmdline": "/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/Contents/MacOS/identityservicesd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 957,
+      "name": "migrationhelper",
+      "cmdline": "/System/Library/PrivateFrameworks/SystemMigrationNetwork.framework/Resources/migrationhelper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 967,
+      "name": "trustd",
+      "cmdline": "/usr/libexec/trustd --agent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 974,
+      "name": "imagent",
+      "cmdline": "/System/Library/PrivateFrameworks/IMCore.framework/imagent.app/Contents/MacOS/imagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 978,
+      "name": "sharingd",
+      "cmdline": "/usr/libexec/sharingd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 984,
+      "name": "filecoordination",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 991,
+      "name": "familycircled",
+      "cmdline": "/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 994,
+      "name": "sharedfilelistd",
+      "cmdline": "/System/Library/CoreServices/sharedfilelistd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1003,
+      "name": "WiFiAgent",
+      "cmdline": "/System/Library/CoreServices/WiFiAgent.app/Contents/MacOS/WiFiAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1005,
+      "name": "ctkd",
+      "cmdline": "",
+      "user": "_ctkd"
+    },
+    {
+      "pid": 1023,
+      "name": "CMFSyncAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/CommunicationsFilter.framework/CMFSyncAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1026,
+      "name": "fileproviderd",
+      "cmdline": "/System/Library/PrivateFrameworks/FileProvider.framework/Support/fileproviderd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1036,
+      "name": "ContinuityCaptureAgent",
+      "cmdline": "/usr/libexec/ContinuityCaptureAgent server",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1037,
+      "name": "AccessibilityUIServer",
+      "cmdline": "/System/Library/CoreServices/AccessibilityUIServer.app/Contents/MacOS/AccessibilityUIServer",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1040,
+      "name": "nearbyd",
+      "cmdline": "",
+      "user": "_nearbyd"
+    },
+    {
+      "pid": 1043,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_appinstalld"
+    },
+    {
+      "pid": 1044,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_gamecontrollerd"
+    },
+    {
+      "pid": 1047,
+      "name": "ControlCenter",
+      "cmdline": "/System/Library/CoreServices/ControlCenter.app/Contents/MacOS/ControlCenter",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1050,
+      "name": "corespotlightd",
+      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/corespotlightd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1052,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_securityagent"
+    },
+    {
+      "pid": 1054,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_applepay"
+    },
+    {
+      "pid": 1063,
+      "name": "corespeechd",
+      "cmdline": "/System/Library/PrivateFrameworks/CoreSpeech.framework/corespeechd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1065,
+      "name": "sharedfilelistd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 1084,
+      "name": "gamepolicyd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 1086,
+      "name": "mdbulkimport",
+      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1090,
+      "name": "chronod",
+      "cmdline": "/System/Library/PrivateFrameworks/ChronoCore.framework/Support/chronod",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1091,
+      "name": "StatusKitAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/StatusKit.framework/StatusKitAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1095,
+      "name": "NotificationCenter",
+      "cmdline": "/System/Library/CoreServices/NotificationCenter.app/Contents/MacOS/NotificationCenter",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1097,
+      "name": "WindowManager",
+      "cmdline": "/System/Library/CoreServices/WindowManager.app/Contents/MacOS/WindowManager",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1100,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_appleevents"
+    },
+    {
+      "pid": 1105,
+      "name": "ViewBridgeAuxiliary",
+      "cmdline": "/System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/XPCServices/ViewBridgeAuxiliary.xpc/Contents/MacOS/ViewBridgeAuxiliary",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1107,
+      "name": "UIKitSystem",
+      "cmdline": "/System/Library/CoreServices/UIKitSystem.app/Contents/MacOS/UIKitSystem system_app_start",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1111,
+      "name": "fairplayd",
+      "cmdline": "",
+      "user": "_fpsd"
+    },
+    {
+      "pid": 1117,
+      "name": "useractivityd",
+      "cmdline": "/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1118,
+      "name": "mediaremoteagent",
+      "cmdline": "/System/Library/PrivateFrameworks/MediaRemote.framework/Support/mediaremoteagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1119,
+      "name": "avconferenced",
+      "cmdline": "/usr/libexec/avconferenced",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1160,
+      "name": "fontd",
+      "cmdline": "/System/Library/Frameworks/ApplicationServices.framework/Frameworks/ATS.framework/Support/fontd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1165,
+      "name": "fontworker",
+      "cmdline": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Support/fontworker",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1172,
+      "name": "WallpaperSettingsIntents",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperSettingsIntents.appex/Contents/MacOS/WallpaperSettingsIntents -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5zZXR0aW5ncy1pbnRlbnRzLldhbGxwYXBlckludGVudHMiLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1173,
+      "name": "csimporter",
+      "cmdline": "/System/Applications/System Settings.app/Contents/PlugIns/csimporter.appex/Contents/MacOS/csimporter -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1175,
+      "name": "FindMyWidgetPeople",
+      "cmdline": "/System/Applications/FindMy.app/Contents/PlugIns/FindMyWidgetPeople.appex/Contents/MacOS/FindMyWidgetPeople -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuZmluZG15LkZpbmRNeVdpZGdldFBlb3BsZSIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1178,
+      "name": "diagnostics_agent",
+      "cmdline": "/System/Library/CoreServices/diagnostics_agent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1194,
+      "name": "ShortcutsWidgetExtension",
+      "cmdline": "/System/Applications/Shortcuts.app/Contents/PlugIns/ShortcutsWidgetExtension.appex/Contents/MacOS/ShortcutsWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuc2hvcnRjdXRzLlNob3J0Y3V0c1dpZGdldCIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1197,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_installcoordinationd"
+    },
+    {
+      "pid": 1201,
+      "name": "passd",
+      "cmdline": "/System/Library/PrivateFrameworks/PassKitCore.framework/passd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1218,
+      "name": "wpsoffice",
+      "cmdline": "/Applications/wpsoffice.app/Contents/MacOS/wpsoffice",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1224,
+      "name": "Dock",
+      "cmdline": "/System/Library/CoreServices/Dock.app/Contents/MacOS/Dock",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1226,
+      "name": "Finder",
+      "cmdline": "/System/Library/CoreServices/Finder.app/Contents/MacOS/Finder",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1232,
+      "name": "WallpaperAgent",
+      "cmdline": "/System/Library/CoreServices/WallpaperAgent.app/Contents/MacOS/WallpaperAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1234,
+      "name": "automountd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 1235,
+      "name": "AMPDeviceDiscoveryAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/AMPDevices.framework/Versions/A/Support/AMPDeviceDiscoveryAgent --launchd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1240,
+      "name": "WallpaperImageExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperImageExtension.appex/Contents/MacOS/WallpaperImageExtension -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLmltYWdlIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2UsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1242,
+      "name": "ctkahp",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 1244,
+      "name": "imklaunchagent",
+      "cmdline": "/System/Library/Frameworks/InputMethodKit.framework/Resources/imklaunchagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1245,
+      "name": "CursorUIViewService",
+      "cmdline": "/System/Library/PrivateFrameworks/TextInputUIMacHelper.framework/Versions/A/XPCServices/CursorUIViewService.xpc/Contents/MacOS/CursorUIViewService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1247,
+      "name": "PAH_Extension",
+      "cmdline": "/System/Library/Input Methods/PressAndHold.app/Contents/PlugIns/PAH_Extension.appex/Contents/MacOS/PAH_Extension -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1248,
+      "name": "WallpaperAerialsExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperAerialsExtension.appex/Contents/MacOS/WallpaperAerialsExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLmFlcmlhbHMiLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1252,
+      "name": "ctkahp",
+      "cmdline": "/System/Library/Frameworks/CryptoTokenKit.framework/ctkahp.bundle/Contents/MacOS/ctkahp",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1259,
+      "name": "com.apple.dock.extra",
+      "cmdline": "/System/Library/CoreServices/Dock.app/Contents/XPCServices/com.apple.dock.extra.xpc/Contents/MacOS/com.apple.dock.extra",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1270,
+      "name": "WindowManagerControlsExtension",
+      "cmdline": "/System/Library/CoreServices/WindowManager.app/Contents/PlugIns/WindowManagerControlsExtension.appex/Contents/MacOS/WindowManagerControlsExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuV2luZG93TWFuYWdlci5jb250cm9scyIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1273,
+      "name": "SafariWidgetExtension",
+      "cmdline": "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app/Contents/Extensions/SafariWidgetExtension.appex/Contents/MacOS/SafariWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuU2FmYXJpLlNhZmFyaVdpZGdldEV4dGVuc2lvbiIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1276,
+      "name": "ShortcutLiveActivityWidgetExtension",
+      "cmdline": "/System/Applications/Shortcuts.app/Contents/PlugIns/ShortcutLiveActivityWidgetExtension.appex/Contents/MacOS/ShortcutLiveActivityWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuc2hvcnRjdXRzLlNob3J0Y3V0TGl2ZUFjdGl2aXR5V2lkZ2V0IiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1283,
+      "name": "NotificationsSettingsIntents",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/NotificationsSettingsIntents.appex/Contents/MacOS/NotificationsSettingsIntents -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUubm90aWZpY2F0aW9ucy5Ob3RpZmljYXRpb25zU2V0dGluZ3NJbnRlbnRzIiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1287,
+      "name": "DockControls",
+      "cmdline": "/System/Library/CoreServices/Dock.app/Contents/PlugIns/DockControls.appex/Contents/MacOS/DockControls -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuZG9jay5jb250cm9scyIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1288,
+      "name": "WallpaperControlsExtension",
+      "cmdline": "/System/Library/CoreServices/WallpaperAgent.app/Contents/PlugIns/WallpaperControlsExtension.appex/Contents/MacOS/WallpaperControlsExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUud2FsbHBhcGVyLmFnZW50LmNvbnRyb2xzIiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1290,
+      "name": "StocksWidget",
+      "cmdline": "/System/Applications/Stocks.app/Contents/PlugIns/StocksWidget.appex/Contents/MacOS/StocksWidget -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuc3RvY2tzLndpZGdldCIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1297,
+      "name": "ControlCenterSettingsIntents",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/ControlCenterSettingsIntents.appex/Contents/MacOS/ControlCenterSettingsIntents -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuY29udHJvbGNlbnRlci5Db250cm9sQ2VudGVyU2V0dGluZ3NJbnRlbnRzIiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1298,
+      "name": "PodcastsWidget",
+      "cmdline": "/System/Applications/Podcasts.app/Contents/PlugIns/PodcastsWidget.appex/Contents/MacOS/PodcastsWidget -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUucG9kY2FzdHMud2lkZ2V0IiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1301,
+      "name": "ScreenTimeWidgetExtension",
+      "cmdline": "/System/Library/CoreServices/Screen Time.app/Contents/PlugIns/ScreenTimeWidgetExtension.appex/Contents/MacOS/ScreenTimeWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuU2NyZWVuVGltZVdpZGdldEFwcGxpY2F0aW9uLlNjcmVlblRpbWVXaWRnZXRFeHRlbnNpb24iLCJ0eXBlIjoxfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1302,
+      "name": "HomeEnergyWidgetsExtension",
+      "cmdline": "/System/Applications/Home.app/Contents/PlugIns/HomeEnergyWidgetsExtension.appex/Contents/MacOS/HomeEnergyWidgetsExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuSG9tZS5Ib21lRW5lcmd5V2lkZ2V0cyIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1303,
+      "name": "WeatherIntents",
+      "cmdline": "/System/Applications/Weather.app/Contents/PlugIns/WeatherIntents.appex/Contents/MacOS/WeatherIntents -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1304,
+      "name": "com.apple.Notes.WidgetExtension",
+      "cmdline": "/System/Applications/Notes.app/Contents/PlugIns/com.apple.Notes.WidgetExtension.appex/Contents/MacOS/com.apple.Notes.WidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuTm90ZXMuV2lkZ2V0RXh0ZW5zaW9uIiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1308,
+      "name": "RecordWidgetExtension",
+      "cmdline": "/System/Applications/VoiceMemos.app/Contents/PlugIns/RecordWidgetExtension.appex/Contents/MacOS/RecordWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuVm9pY2VNZW1vcy5SZWNvcmRXaWRnZXQiLCJ0eXBlIjoxfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1309,
+      "name": "com.apple.Notes.IntentsExtension",
+      "cmdline": "/System/Applications/Notes.app/Contents/PlugIns/com.apple.Notes.IntentsExtension.appex/Contents/MacOS/com.apple.Notes.IntentsExtension -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1313,
+      "name": "JournalWidgetsSecure",
+      "cmdline": "/System/Applications/Journal.app/Contents/PlugIns/JournalWidgetsSecure.appex/Contents/MacOS/JournalWidgetsSecure -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuam91cm5hbC53aWRnZXRzLnNlY3VyZSIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1314,
+      "name": "ScreenTimeWidgetIntentsExtension",
+      "cmdline": "/System/Library/CoreServices/Screen Time.app/Contents/PlugIns/ScreenTimeWidgetIntentsExtension.appex/Contents/MacOS/ScreenTimeWidgetIntentsExtension -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1320,
+      "name": "CVMServer",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 1327,
+      "name": "Spotlight",
+      "cmdline": "/System/Library/CoreServices/Spotlight.app/Contents/MacOS/Spotlight",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1329,
+      "name": "VoiceMemosSettingsWidgetExtension",
+      "cmdline": "/System/Applications/VoiceMemos.app/Contents/PlugIns/VoiceMemosSettingsWidgetExtension.appex/Contents/MacOS/VoiceMemosSettingsWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuVm9pY2VNZW1vcy5Wb2ljZU1lbW9zU2V0dGluZ3NXaWRnZXQiLCJ0eXBlIjoxfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1357,
+      "name": "HomeWidget",
+      "cmdline": "/System/Applications/Home.app/Contents/PlugIns/HomeWidget.appex/Contents/MacOS/HomeWidget -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuSG9tZS5Ib21lV2lkZ2V0LkludGVyYWN0aXZlIiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1363,
+      "name": "MobileTimerIntents",
+      "cmdline": "/System/Library/PrivateFrameworks/MobileTimer.framework/PlugIns/MobileTimerIntents.appex/Contents/MacOS/MobileTimerIntents -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1364,
+      "name": "FindMyWidgetItems",
+      "cmdline": "/System/Applications/FindMy.app/Contents/PlugIns/FindMyWidgetItems.appex/Contents/MacOS/FindMyWidgetItems -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuZmluZG15LkZpbmRNeVdpZGdldEl0ZW1zIiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1381,
+      "name": "wpscloudsvr",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/wpscloudsvr.app/Contents/MacOS/wpscloudsvr Run /InstanceId:WpsCloudSvr wpscloudsvrimpunix.dll /qingbangong /run_plugin /plugin_name=qing /plugin_entry=qingbangong.dll /start_from=qingipc autologin",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1386,
+      "name": "universalAccessAuthWarn",
+      "cmdline": "/System/Library/PrivateFrameworks/UniversalAccess.framework/Versions/A/Resources/universalAccessAuthWarn.app/Contents/MacOS/universalAccessAuthWarn launchd -s",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1420,
+      "name": "FolderActionsDispatcher",
+      "cmdline": "/System/Library/CoreServices/FolderActionsDispatcher.app/Contents/MacOS/FolderActionsDispatcher launchd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1425,
+      "name": "bash",
+      "cmdline": "/bin/sh /opt/homebrew/opt/mysql/bin/mysqld_safe --datadir=/opt/homebrew/var/mysql",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1426,
+      "name": "icdd",
+      "cmdline": "/System/Library/Image Capture/Support/icdd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1430,
+      "name": "AirPlayUIAgent",
+      "cmdline": "/System/Library/CoreServices/AirPlayUIAgent.app/Contents/MacOS/AirPlayUIAgent --launchd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1431,
+      "name": "postgres",
+      "cmdline": "/opt/homebrew/opt/postgresql@16/bin/postgres -D /opt/homebrew/var/postgresql@16",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1433,
+      "name": "TextInputMenuAgent",
+      "cmdline": "/System/Library/CoreServices/TextInputMenuAgent.app/Contents/MacOS/TextInputMenuAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1452,
+      "name": "promecefpluginhost (GPU)",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/promecefpluginhost (GPU).app/Contents/MacOS/promecefpluginhost (GPU) --type=gpu-process --no-sandbox --base-bundle-id=2G98R5QYU5.wpsoffice --framework-dir-path=/Applications/wpsoffice.app/Contents/SharedSupport/wpscloudsvr.app/Contents/Frameworks/office6//addons/cef/Chromium Embedded Framework.framework --log-severity=disable --lang=en-US --user-data-dir=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Application Support/CEF/User Data --gpu-preferences=UAAAAAAAAAAgACAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJgEAAAAAAAAmAQAAAAAAACIAQAAMAAAAIABAAAAAAAAiAEAAAAAAACQAQAAAAAAAJgBAAAAAAAAoAEAAAAAAACoAQAAAAAAALABAAAAAAAAuAEAAAAAAADAAQAAAAAAAMgBAAAAAAAA0AEAAAAAAADYAQAAAAAAAOABAAAAAAAA6AEAAAAAAADwAQAAAAAAAPgBAAAAAAAAAAIAAAAAAAAIAgAAAAAAABACAAAAAAAAGAIAAAAAAAAgAgAAAAAAACgCAAAAAAAAMAIAAAAAAAA4AgAAAAAAAEACAAAAAAAASAIAAAAAAABQAgAAAAAAAFgCAAAAAAAAYAIAAAAAAABoAgAAAAAAAHACAAAAAAAAeAIAAAAAAACAAgAAAAAAAIgCAAAAAAAAkAIAAAAAAACYAgAAAAAAAKACAAAAAAAAqAIAAAAAAACwAgAAAAAAALgCAAAAAAAAwAIAAAAAAADIAgAAAAAAANACAAAAAAAA2AIAAAAAAADgAgAAAAAAAOgCAAAAAAAA8AIAAAAAAAD4AgAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAHAAAAEAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAAAAAAALAAAAEAAAAAAAAAAAAAAADAAAABAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAAAAAAAPAAAAEAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAQAAAAcAAAAQAAAAAAAAAAEAAAAIAAAAEAAAAAAAAAABAAAACQAAABAAAAAAAAAAAQAAAAsAAAAQAAAAAAAAAAEAAAAMAAAAEAAAAAAAAAABAAAADgAAABAAAAAAAAAAAQAAAA8AAAAQAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAEAAAABwAAABAAAAAAAAAABAAAAAgAAAAQAAAAAAAAAAQAAAAJAAAAEAAAAAAAAAAEAAAACwAAABAAAAAAAAAABAAAAAwAAAAQAAAAAAAAAAQAAAAOAAAAEAAAAAAAAAAEAAAADwAAABAAAAAAAAAABwAAAAAAAAAQAAAAAAAAAAcAAAAHAAAAEAAAAAAAAAAHAAAACAAAABAAAAAAAAAABwAAAAkAAAAQAAAAAAAAAAcAAAALAAAAEAAAAAAAAAAHAAAADAAAABAAAAAAAAAABwAAAA4AAAAQAAAAAAAAAAcAAAAPAAAAEAAAAAAAAAAIAAAAAAAAABAAAAAAAAAACAAAAAcAAAAQAAAAAAAAAAgAAAAIAAAAEAAAAAAAAAAIAAAACQAAABAAAAAAAAAACAAAAAsAAAAQAAAAAAAAAAgAAAAMAAAAEAAAAAAAAAAIAAAADgAAABAAAAAAAAAACAAAAA8AAAAQAAAAAAAAAAoAAAAAAAAAEAAAAAAAAAAKAAAABwAAABAAAAAAAAAACgAAAAgAAAAQAAAAAAAAAAoAAAAJAAAAEAAAAAAAAAAKAAAACwAAABAAAAAAAAAACgAAAAwAAAAQAAAAAAAAAAoAAAAOAAAAEAAAAAAAAAAKAAAADwAAAAgAAAAAAAAACAAAAAAAAAA= --log-file=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Logs/wpscloudsvr_debug.log --shared-files --field-trial-handle=1718379636,r,5566552122500255334,11366779655119926052,131072 --disable-features=BackForwardCache",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1453,
+      "name": "promecefpluginhost",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/promecefpluginhost.app/Contents/MacOS/promecefpluginhost --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --no-sandbox --base-bundle-id=2G98R5QYU5.wpsoffice --framework-dir-path=/Applications/wpsoffice.app/Contents/SharedSupport/wpscloudsvr.app/Contents/Frameworks/office6//addons/cef/Chromium Embedded Framework.framework --log-severity=disable --lang=en-US --user-data-dir=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Application Support/CEF/User Data --log-file=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Logs/wpscloudsvr_debug.log --shared-files --field-trial-handle=1718379636,r,5566552122500255334,11366779655119926052,131072 --disable-features=BackForwardCache",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1457,
+      "name": "promecefpluginhost (Renderer)",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/promecefpluginhost (Renderer).app/Contents/MacOS/promecefpluginhost (Renderer) --type=renderer --framework-dir-path=/Applications/wpsoffice.app/Contents/SharedSupport/wpscloudsvr.app/Contents/Frameworks/office6//addons/cef/Chromium Embedded Framework.framework --log-severity=disable --disable-pdf-extension --user-data-dir=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Application Support/CEF/User Data --no-sandbox --log-file=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Logs/wpscloudsvr_debug.log --enable-file-verify --js-flags=--jitless --base-bundle-id=2G98R5QYU5.wpsoffice --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=4 --launch-time-ticks=187850118 --shared-files --field-trial-handle=1718379636,r,5566552122500255334,11366779655119926052,131072 --disable-features=BackForwardCache",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1466,
+      "name": "CheatSheet",
+      "cmdline": "/Applications/CheatSheet.app/Contents/MacOS/CheatSheet",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1468,
+      "name": "promecefpluginhost (GPU)",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/promecefpluginhost (GPU).app/Contents/MacOS/promecefpluginhost (GPU) --type=gpu-process --no-sandbox --base-bundle-id=2G98R5QYU5.wpsoffice --framework-dir-path=/Applications/wpsoffice.app/Contents/Frameworks/office6//addons/cef/Chromium Embedded Framework.framework --log-severity=disable --lang=en-US --user-data-dir=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Application Support/CEF/User Data --gpu-preferences=UAAAAAAAAAAgACAIAAAAAAAAAAAAAAAAAABgAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJgEAAAAAAAAmAQAAAAAAACIAQAAMAAAAIABAAAAAAAAiAEAAAAAAACQAQAAAAAAAJgBAAAAAAAAoAEAAAAAAACoAQAAAAAAALABAAAAAAAAuAEAAAAAAADAAQAAAAAAAMgBAAAAAAAA0AEAAAAAAADYAQAAAAAAAOABAAAAAAAA6AEAAAAAAADwAQAAAAAAAPgBAAAAAAAAAAIAAAAAAAAIAgAAAAAAABACAAAAAAAAGAIAAAAAAAAgAgAAAAAAACgCAAAAAAAAMAIAAAAAAAA4AgAAAAAAAEACAAAAAAAASAIAAAAAAABQAgAAAAAAAFgCAAAAAAAAYAIAAAAAAABoAgAAAAAAAHACAAAAAAAAeAIAAAAAAACAAgAAAAAAAIgCAAAAAAAAkAIAAAAAAACYAgAAAAAAAKACAAAAAAAAqAIAAAAAAACwAgAAAAAAALgCAAAAAAAAwAIAAAAAAADIAgAAAAAAANACAAAAAAAA2AIAAAAAAADgAgAAAAAAAOgCAAAAAAAA8AIAAAAAAAD4AgAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAHAAAAEAAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAAAAAAALAAAAEAAAAAAAAAAAAAAADAAAABAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAAAAAAAPAAAAEAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAQAAAAcAAAAQAAAAAAAAAAEAAAAIAAAAEAAAAAAAAAABAAAACQAAABAAAAAAAAAAAQAAAAsAAAAQAAAAAAAAAAEAAAAMAAAAEAAAAAAAAAABAAAADgAAABAAAAAAAAAAAQAAAA8AAAAQAAAAAAAAAAQAAAAAAAAAEAAAAAAAAAAEAAAABwAAABAAAAAAAAAABAAAAAgAAAAQAAAAAAAAAAQAAAAJAAAAEAAAAAAAAAAEAAAACwAAABAAAAAAAAAABAAAAAwAAAAQAAAAAAAAAAQAAAAOAAAAEAAAAAAAAAAEAAAADwAAABAAAAAAAAAABwAAAAAAAAAQAAAAAAAAAAcAAAAHAAAAEAAAAAAAAAAHAAAACAAAABAAAAAAAAAABwAAAAkAAAAQAAAAAAAAAAcAAAALAAAAEAAAAAAAAAAHAAAADAAAABAAAAAAAAAABwAAAA4AAAAQAAAAAAAAAAcAAAAPAAAAEAAAAAAAAAAIAAAAAAAAABAAAAAAAAAACAAAAAcAAAAQAAAAAAAAAAgAAAAIAAAAEAAAAAAAAAAIAAAACQAAABAAAAAAAAAACAAAAAsAAAAQAAAAAAAAAAgAAAAMAAAAEAAAAAAAAAAIAAAADgAAABAAAAAAAAAACAAAAA8AAAAQAAAAAAAAAAoAAAAAAAAAEAAAAAAAAAAKAAAABwAAABAAAAAAAAAACgAAAAgAAAAQAAAAAAAAAAoAAAAJAAAAEAAAAAAAAAAKAAAACwAAABAAAAAAAAAACgAAAAwAAAAQAAAAAAAAAAoAAAAOAAAAEAAAAAAAAAAKAAAADwAAAAgAAAAAAAAACAAAAAAAAAA= --log-file=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Logs/wpsoffice_debug.log --shared-files --field-trial-handle=1718379636,r,14944132721435708009,16231552336408483745,131072 --disable-features=BackForwardCache",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1470,
+      "name": "SystemUIServer",
+      "cmdline": "/System/Library/CoreServices/SystemUIServer.app/Contents/MacOS/SystemUIServer",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1471,
+      "name": "promecefpluginhost",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/promecefpluginhost.app/Contents/MacOS/promecefpluginhost --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=network --no-sandbox --base-bundle-id=2G98R5QYU5.wpsoffice --framework-dir-path=/Applications/wpsoffice.app/Contents/Frameworks/office6//addons/cef/Chromium Embedded Framework.framework --log-severity=disable --lang=en-US --user-data-dir=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Application Support/CEF/User Data --log-file=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Logs/wpsoffice_debug.log --shared-files --field-trial-handle=1718379636,r,14944132721435708009,16231552336408483745,131072 --disable-features=BackForwardCache",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1513,
+      "name": "postgres",
+      "cmdline": "postgres: checkpointer   ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1514,
+      "name": "postgres",
+      "cmdline": "postgres: background writer   ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1519,
+      "name": "postgres",
+      "cmdline": "postgres: walwriter   ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1520,
+      "name": "postgres",
+      "cmdline": "postgres: autovacuum launcher   ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1521,
+      "name": "postgres",
+      "cmdline": "postgres: logical replication launcher   ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1527,
+      "name": "promecefpluginhost (Renderer)",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/promecefpluginhost (Renderer).app/Contents/MacOS/promecefpluginhost (Renderer) --type=renderer --framework-dir-path=/Applications/wpsoffice.app/Contents/Frameworks/office6//addons/cef/Chromium Embedded Framework.framework --log-severity=disable --disable-pdf-extension --user-data-dir=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Application Support/CEF/User Data --no-sandbox --log-file=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Logs/wpsoffice_debug.log --enable-file-verify --js-flags=--jitless --base-bundle-id=2G98R5QYU5.wpsoffice --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=7 --launch-time-ticks=200047369 --shared-files --field-trial-handle=1718379636,r,14944132721435708009,16231552336408483745,131072 --disable-features=BackForwardCache",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1550,
+      "name": "CalendarWidgetExtension",
+      "cmdline": "/System/Applications/Calendar.app/Contents/PlugIns/CalendarWidgetExtension.appex/Contents/MacOS/CalendarWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuaUNhbC5DYWxlbmRhcldpZGdldEV4dGVuc2lvbiIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1555,
+      "name": "WorldClockWidget",
+      "cmdline": "/System/Applications/Clock.app/Contents/PlugIns/WorldClockWidget.appex/Contents/MacOS/WorldClockWidget -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuY2xvY2suV29ybGRDbG9ja1dpZGdldCIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1590,
+      "name": "WallpaperSonomaExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperSonomaExtension.appex/Contents/MacOS/WallpaperSonomaExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLnNvbm9tYSIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1591,
+      "name": "WallpaperMacintoshExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperMacintoshExtension.appex/Contents/MacOS/WallpaperMacintoshExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLm1hY2ludG9zaCIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1593,
+      "name": "WallpaperDynamicExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperDynamicExtension.appex/Contents/MacOS/WallpaperDynamicExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLmR5bmFtaWMiLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1594,
+      "name": "WallpaperLegacyExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperLegacyExtension.appex/Contents/MacOS/WallpaperLegacyExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLmxlZ2FjeSIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1595,
+      "name": "WallpaperGradientExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperGradientExtension.appex/Contents/MacOS/WallpaperGradientExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLmdyYWRpZW50IiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1596,
+      "name": "WallpaperSequoiaExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/WallpaperSequoiaExtension.appex/Contents/MacOS/WallpaperSequoiaExtension -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS53YWxscGFwZXIuZXh0ZW5zaW9uLnNlcXVvaWEiLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1599,
+      "name": "BatteriesAvocadoWidgetExtension",
+      "cmdline": "/System/Library/CoreServices/Batteries.app/Contents/PlugIns/BatteriesAvocadoWidgetExtension.appex/Contents/MacOS/BatteriesAvocadoWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuQmF0dGVyaWVzLkJhdHRlcmllc0F2b2NhZG9XaWRnZXRFeHRlbnNpb24iLCJ0eXBlIjoxfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1623,
+      "name": "mysqld",
+      "cmdline": "/opt/homebrew/opt/mysql/bin/mysqld --basedir=/opt/homebrew/opt/mysql --datadir=/opt/homebrew/var/mysql --plugin-dir=/opt/homebrew/opt/mysql/lib/plugin --log-error=PRATYUSHs-MacBook-Air.local.err --pid-file=PRATYUSHs-MacBook-Air.local.pid",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1642,
+      "name": "NeptuneOneWallpaper",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/NeptuneOneWallpaper.appex/Contents/MacOS/NeptuneOneWallpaper -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5OZXB0dW5lT25lRXh0ZW5zaW9uIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1649,
+      "name": "recentfilesglobal",
+      "cmdline": "/Applications/wpsoffice.app/Contents/PlugIns/recentfilesglobal.appex/Contents/MacOS/recentfilesglobal -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20ua2luZ3NvZnQud3Bzb2ZmaWNlLm1hYy5nbG9iYWwucmVjZW50ZmlsZXMiLCJ0eXBlIjoxfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1676,
+      "name": "JournalWidgets",
+      "cmdline": "/System/Applications/Journal.app/Contents/PlugIns/JournalWidgets.appex/Contents/MacOS/JournalWidgets -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuam91cm5hbC53aWRnZXRzIiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1682,
+      "name": "PhotosReliveWidget",
+      "cmdline": "/System/Applications/Photos.app/Contents/PlugIns/PhotosReliveWidget.appex/Contents/MacOS/PhotosReliveWidget -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuUGhvdG9zLlBob3Rvc1JlbGl2ZVdpZGdldCIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1683,
+      "name": "com.apple.CloudDocs.iCloudDriveFileProvider",
+      "cmdline": "/System/Library/PrivateFrameworks/CloudDocs.framework/PlugIns/com.apple.CloudDocs.iCloudDriveFileProvider.appex/Contents/MacOS/com.apple.CloudDocs.iCloudDriveFileProvider -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5DbG91ZERvY3MuaUNsb3VkRHJpdmVGaWxlUHJvdmlkZXIiLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1689,
+      "name": "TipsWidgetExtension",
+      "cmdline": "/System/Applications/Tips.app/Contents/PlugIns/TipsWidgetExtension.appex/Contents/MacOS/TipsWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUudGlwcy5XaWRnZXQiLCJ0eXBlIjoxfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1690,
+      "name": "PeopleWidget_macOSExtension",
+      "cmdline": "/System/Library/CoreServices/PeopleViewService.app/Contents/PlugIns/PeopleWidget_macOSExtension.appex/Contents/MacOS/PeopleWidget_macOSExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUuUGVvcGxlVmlld1NlcnZpY2UuUGVvcGxlV2lkZ2V0LW1hY09TIiwidHlwZSI6MX0=",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1693,
+      "name": "RemindersWidgetExtension",
+      "cmdline": "/System/Applications/Reminders.app/Contents/PlugIns/RemindersWidgetExtension.appex/Contents/MacOS/RemindersWidgetExtension -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUucmVtaW5kZXJzLldpZGdldEV4dGVuc2lvbiIsInR5cGUiOjF9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1702,
+      "name": "Ollama",
+      "cmdline": "/Applications/Ollama.app/Contents/MacOS/Ollama",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1703,
+      "name": "ollama",
+      "cmdline": "/Applications/Ollama.app/Contents/Resources/ollama serve",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1727,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_rmd"
+    },
+    {
+      "pid": 1729,
+      "name": "peopled",
+      "cmdline": "/System/Library/PrivateFrameworks/People.framework/peopled",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 1752,
+      "name": "SubmitDiagInfo",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 1756,
+      "name": "CrashReporterSup",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 1905,
+      "name": "spotlightknowledged",
+      "cmdline": "/System/Library/Frameworks/CoreSpotlight.framework/spotlightknowledged -x",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2194,
+      "name": "UserNotificationCenter",
+      "cmdline": "/System/Library/CoreServices/UserNotificationCenter.app/Contents/MacOS/UserNotificationCenter",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2334,
+      "name": "Gemini",
+      "cmdline": "/Applications/Gemini.app/Contents/MacOS/Gemini",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2337,
+      "name": "crashpad_handler",
+      "cmdline": "/Applications/Gemini.app/Contents/Helpers/crashpad_handler --database=/Users/pratyushkumarsahoo/Library/Application Support/com.google.GeminiMacOS/Crashpad --metrics-dir=/Users/pratyushkumarsahoo/Library/Application Support/com.google.GeminiMacOS/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=GdmJanus --annotation=ver=1.99.2.791 --handshake-fd=18",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2339,
+      "name": "com.apple.WebKit.Networking",
+      "cmdline": "/System/Library/Frameworks/WebKit.framework/Versions/A/XPCServices/com.apple.WebKit.Networking.xpc/Contents/MacOS/com.apple.WebKit.Networking",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2340,
+      "name": "GeminiAppLauncher",
+      "cmdline": "/Applications/Gemini.app/Contents/Helpers/GeminiAppLauncher.app/Contents/MacOS/GeminiAppLauncher",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2342,
+      "name": "crashpad_handler",
+      "cmdline": "/Applications/Gemini.app/Contents/Helpers/crashpad_handler --database=/Users/pratyushkumarsahoo/Library/Application Support/com.google.GeminiMacOS.launcher/Crashpad --metrics-dir=/Users/pratyushkumarsahoo/Library/Application Support/com.google.GeminiMacOS.launcher/Crashpad --url=https://clients2.google.com/cr/report --annotation=prod=GdmJanus --annotation=ver=1.99.02.0 --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260815-211339.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260817-085025.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260812-221458.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260814-111313.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260805-211424.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260729-120707.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-114751.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260805-114309.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/diagnostic20260827-153856-F36C.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260801-000920.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260807-213455.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260727-181931.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-204154.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260805-211355.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-114801.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260807-092910.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-001123.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260815-211303.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260813-131712.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-065540.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260805-114252.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/diagnostic20260828-095100-5F3F.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/restart_20260427-132011.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260827-083459.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260806-191056.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-204146.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260727-181937.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260813-131738.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260731-173440.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260731-092342.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260814-222515.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260821-084903.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/restart_20260821-112050.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260727-123738.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-135151.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260801-000957.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260815-102015.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260807-213437.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260801-000942.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260807-221011.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260731-173431.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260801-105209.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/diagnostic20260828-102339-5293.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260806-191037.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260817-174955.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260801-105142.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260817-174441.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260529-094851.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-223255.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260727-184116.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-135208.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260616-102004.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260827-083459.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260817-174511.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/launcher20260822-173437-829C.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-204128.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260731-173411.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260814-222523.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260817-085058.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260821-084921.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260815-102035.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260813-222747.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/diagnostic20260822-233745-FAF7.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/restart_20260502-144056.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260814-222456.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/launcher20260828-102340-CC90.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260801-105200.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260821-112108.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/launcher20260821-112202-E024.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/launcher20260827-153857-C355.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260703-104437.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260817-174502.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260813-222805.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-114729.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-223317.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-135214.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260813-222813.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260801-133835.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260814-111340.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/diagnostic20260822-173432-F816.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260817-085117.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-223328.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-001100.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260807-213503.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260731-092328.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260807-092927.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260729-120647.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/launcher20260822-233745-6576.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260814-111332.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-065610.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260812-221518.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260821-112103.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260806-191104.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260730-001117.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260815-211327.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/launcher20260828-095109-D370.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260817-174954.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260815-102043.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260727-184115.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260715-125410.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260805-114317.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260731-092306.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260807-221010.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260805-211416.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/restart_20260502-144226.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260727-181915.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260807-092934.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/install_20260801-133838.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260813-131731.log --attachment=/Users/pratyushkumarsahoo/Library/Caches/com.google.GeminiMacOS/Logs/preinstall_20260816-065601.log --handshake-fd=5",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2357,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2415,
+      "name": "promecefpluginhost (Renderer)",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/promecefpluginhost (Renderer).app/Contents/MacOS/promecefpluginhost (Renderer) --type=renderer --framework-dir-path=/Applications/wpsoffice.app/Contents/Frameworks/office6//addons/cef/Chromium Embedded Framework.framework --log-severity=disable --disable-pdf-extension --user-data-dir=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Application Support/CEF/User Data --no-sandbox --log-file=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Logs/wpsoffice_debug.log --enable-file-verify --js-flags=--jitless --base-bundle-id=2G98R5QYU5.wpsoffice --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=8 --launch-time-ticks=2178161478 --shared-files --field-trial-handle=1718379636,r,14944132721435708009,16231552336408483745,131072 --disable-features=BackForwardCache",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2416,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2423,
+      "name": "promecefpluginhost (Renderer)",
+      "cmdline": "/Applications/wpsoffice.app/Contents/SharedSupport/promecefpluginhost (Renderer).app/Contents/MacOS/promecefpluginhost (Renderer) --type=renderer --framework-dir-path=/Applications/wpsoffice.app/Contents/Frameworks/office6//addons/cef/Chromium Embedded Framework.framework --log-severity=disable --disable-pdf-extension --user-data-dir=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Application Support/CEF/User Data --no-sandbox --log-file=/Users/pratyushkumarsahoo/Library/Containers/com.kingsoft.wpsoffice.mac.global/Data/Library/Logs/wpsoffice_debug.log --enable-file-verify --js-flags=--jitless --base-bundle-id=2G98R5QYU5.wpsoffice --lang=en-US --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=10 --launch-time-ticks=2183529831 --shared-files --field-trial-handle=1718379636,r,14944132721435708009,16231552336408483745,131072 --disable-features=BackForwardCache",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 2737,
+      "name": "AppleSpell",
+      "cmdline": "/System/Library/Services/AppleSpell.service/Contents/MacOS/AppleSpell",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 3155,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_networkd"
+    },
+    {
+      "pid": 4021,
+      "name": "wifip2pd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 4758,
+      "name": "ContextStoreAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/CoreDuetContext.framework/Resources/ContextStoreAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 5684,
+      "name": "PowerChime",
+      "cmdline": "/System/Library/CoreServices/PowerChime.app/Contents/MacOS/PowerChime",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 5716,
+      "name": "PasswordBreachAgent",
+      "cmdline": "/System/Cryptexes/App/usr/libexec/PasswordBreachAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 5830,
+      "name": "com.apple.podcasts.SpotlightIndexExtension",
+      "cmdline": "/System/Applications/Podcasts.app/Contents/PlugIns/com.apple.podcasts.SpotlightIndexExtension.appex/Contents/MacOS/com.apple.podcasts.SpotlightIndexExtension -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 5882,
+      "name": "mbuseragent",
+      "cmdline": "/System/Library/CoreServices/Setup Assistant.app/Contents/Resources/mbuseragent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 6116,
+      "name": "mdwrite",
+      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdwrite",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 11096,
+      "name": "duetexpertd",
+      "cmdline": "/usr/libexec/duetexpertd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 11367,
+      "name": "assistantd",
+      "cmdline": "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistantd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 14611,
+      "name": "akd",
+      "cmdline": "/System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/Support/akd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 16104,
+      "name": "IMAutomaticHistoryDeletionAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/IMDPersistence.framework/IMAutomaticHistoryDeletionAgent.app/Contents/MacOS/IMAutomaticHistoryDeletionAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 16287,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_neuralengine"
+    },
+    {
+      "pid": 16662,
+      "name": "TGOnDeviceInfere",
+      "cmdline": "",
+      "user": "_modelmanagerd"
+    },
+    {
+      "pid": 16664,
+      "name": "distnoted",
+      "cmdline": "",
+      "user": "_modelmanagerd"
+    },
+    {
+      "pid": 16991,
+      "name": "audioaccessoryd",
+      "cmdline": "/System/Library/CoreServices/audioaccessoryd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 17038,
+      "name": "spotlightknowledged.updater",
+      "cmdline": "/usr/libexec/spotlightknowledged.updater -u",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 17627,
+      "name": "ScreenTimeAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/ScreenTimeCore.framework/Versions/A/ScreenTimeAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 20029,
+      "name": "suggestd",
+      "cmdline": "/System/Library/PrivateFrameworks/CoreSuggestions.framework/Versions/A/Support/suggestd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 20070,
+      "name": "routined",
+      "cmdline": "/usr/libexec/routined LAUNCHED_BY_LAUNCHD",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 21848,
+      "name": "com.apple.mail.SpotlightIndexExtension",
+      "cmdline": "/System/Applications/Mail.app/Contents/PlugIns/com.apple.mail.SpotlightIndexExtension.appex/Contents/MacOS/com.apple.mail.SpotlightIndexExtension -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 21878,
+      "name": "WhatsApp",
+      "cmdline": "/Applications/WhatsApp.app/Contents/MacOS/WhatsApp",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 21881,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 21942,
+      "name": "com.apple.Notes.SpotlightIndexExtension",
+      "cmdline": "/System/Applications/Notes.app/Contents/PlugIns/com.apple.Notes.SpotlightIndexExtension.appex/Contents/MacOS/com.apple.Notes.SpotlightIndexExtension -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 22787,
+      "name": "plugin-container",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -isForBrowser -prefsHandle 0:37751 -prefMapHandle 1:296455 -jsInitHandle 2:160936 -sbStartup -sbAppPath /Applications/Firefox.app -sbLevel 3 -parentBuildID 20260903215306 -ipcHandle 0 -initialChannelId {52e2f6de-20c9-41d1-b6b6-83a10f29d777} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 3 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -greomni /Applications/Firefox.app/Contents/Resources/omni.ja -appomni /Applications/Firefox.app/Contents/Resources/browser/omni.ja -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.1001368929 8 tab",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 22790,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 22794,
+      "name": "plugin-container",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -parentBuildID 20260903215306 -sandboxingKind 0 -prefsHandle 0:53990 -prefMapHandle 1:296455 -sbStartup -sbAppPath /Applications/Firefox.app -ipcHandle 0 -initialChannelId {a69f57fd-a77f-4554-b1fa-8762dffb7eab} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 2 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.1751999864 9 utility",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 22798,
+      "name": "plugin-container",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -isForBrowser -prefsHandle 0:50543 -prefMapHandle 1:296455 -jsInitHandle 2:160936 -sbStartup -sbAppPath /Applications/Firefox.app -sbLevel 3 -parentBuildID 20260903215306 -ipcHandle 0 -initialChannelId {5479defc-cd34-475d-97d1-c2090d6ba9e9} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 3 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -greomni /Applications/Firefox.app/Contents/Resources/omni.ja -appomni /Applications/Firefox.app/Contents/Resources/browser/omni.ja -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.731160760 10 tab",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 22815,
+      "name": "CharacterPalette",
+      "cmdline": "/System/Library/Input Methods/CharacterPalette.app/Contents/MacOS/CharacterPalette",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 22915,
+      "name": "containermanagerd",
+      "cmdline": "/usr/libexec/containermanagerd --runmode=agent --user-container-mode=current --bundle-container-mode=proxy --system-container-mode=none",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 22919,
+      "name": "tccd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 22977,
+      "name": "com.apple.appkit.xpc.openAndSavePanelService",
+      "cmdline": "/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 23570,
+      "name": "com.apple.appkit.xpc.openAndSavePanelService",
+      "cmdline": "/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/com.apple.appkit.xpc.openAndSavePanelService.xpc/Contents/MacOS/com.apple.appkit.xpc.openAndSavePanelService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 23827,
+      "name": "LinkedNotesUIService",
+      "cmdline": "/System/Library/Frameworks/PaperKit.framework/Contents/LinkedNotesUIService.app/Contents/MacOS/LinkedNotesUIService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 24593,
+      "name": "ScreenshotControls",
+      "cmdline": "/System/Applications/Utilities/Screenshot.app/Contents/PlugIns/ScreenshotControls.appex/Contents/MacOS/ScreenshotControls -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5jb250cm9scy5zY3JlZW5zaG90IiwidHlwZSI6MSwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2V9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 24601,
+      "name": "coreduetd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 24629,
+      "name": "CoreServicesUIAgent",
+      "cmdline": "/System/Library/CoreServices/CoreServicesUIAgent.app/Contents/MacOS/CoreServicesUIAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 25948,
+      "name": "audioanalyticsd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 26000,
+      "name": "heard",
+      "cmdline": "/System/Library/PrivateFrameworks/HearingCore.framework/heard",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26022,
+      "name": "nehelper",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 26030,
+      "name": "CoreLocationAgent",
+      "cmdline": "/System/Library/CoreServices/CoreLocationAgent.app/Contents/MacOS/CoreLocationAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26517,
+      "name": "wifivelocityd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 26574,
+      "name": "Brave Browser",
+      "cmdline": "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26578,
+      "name": "chrome_crashpad_handler",
+      "cmdline": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/153.1.95.101/Helpers/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/pratyushkumarsahoo/Library/Application Support/BraveSoftware/Brave-Browser/Crashpad --metrics-dir=/Users/pratyushkumarsahoo/Library/Application Support/BraveSoftware/Brave-Browser --url=https://cr.brave.com --annotation=plat=OS X --annotation=prod=Brave_Mac --annotation=ver=153.1.95.101 --handshake-fd=5",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26583,
+      "name": "Brave Browser Helper",
+      "cmdline": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/153.1.95.101/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=gpu-process --metrics-client-id=eb43af87-0673-450e-a711-3fe50d2729d0 --start-stack-profiler --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --metrics-shmem-handle=1752395122,r,4027966413700657037,9746677874262103192,262144 --field-trial-handle=1718379636,r,10644683234735999958,6097754144851186726,262144 --variations-seed-version=main@65f4dfa00d9f8a513c2617a7c22b40a322c6b544 --pseudonymization-salt-handle=1935764596,r,9933594295659123326,14892267030202653349,4 --trace-process-track-uuid=3190708988185955192 --seatbelt-client=23",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26584,
+      "name": "Brave Browser Helper",
+      "cmdline": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/153.1.95.101/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=network --metrics-client-id=eb43af87-0673-450e-a711-3fe50d2729d0 --start-stack-profiler --shared-files --metrics-shmem-handle=1752395122,r,2609674071204534248,7567877296537412486,524288 --field-trial-handle=1718379636,r,10644683234735999958,6097754144851186726,262144 --variations-seed-version=main@65f4dfa00d9f8a513c2617a7c22b40a322c6b544 --pseudonymization-salt-handle=1935764596,r,9933594295659123326,14892267030202653349,4 --trace-process-track-uuid=3190708989122997041 --seatbelt-client=23",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26585,
+      "name": "Brave Browser Helper",
+      "cmdline": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/153.1.95.101/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=service --metrics-client-id=eb43af87-0673-450e-a711-3fe50d2729d0 --shared-files --metrics-shmem-handle=1752395122,r,2609944632630470619,13519733261633106435,524288 --field-trial-handle=1718379636,r,10644683234735999958,6097754144851186726,262144 --variations-seed-version=main@65f4dfa00d9f8a513c2617a7c22b40a322c6b544 --pseudonymization-salt-handle=1935764596,r,9933594295659123326,14892267030202653349,4 --trace-process-track-uuid=3190708990060038890 --seatbelt-client=44",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26599,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26614,
+      "name": "Brave Browser Helper",
+      "cmdline": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/153.1.95.101/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=audio --message-loop-type-ui --metrics-client-id=eb43af87-0673-450e-a711-3fe50d2729d0 --shared-files --metrics-shmem-handle=1752395122,r,1651170089242506062,8878362045325106879,524288 --field-trial-handle=1718379636,r,10644683234735999958,6097754144851186726,262144 --variations-seed-version=main@65f4dfa00d9f8a513c2617a7c22b40a322c6b544 --pseudonymization-salt-handle=1935764596,r,9933594295659123326,14892267030202653349,4 --trace-process-track-uuid=3190708995682289984 --seatbelt-client=129",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26616,
+      "name": "Brave Browser Helper",
+      "cmdline": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/153.1.95.101/Helpers/Brave Browser Helper.app/Contents/MacOS/Brave Browser Helper --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --lang=en-GB --service-sandbox-type=none --message-loop-type-ui --metrics-client-id=eb43af87-0673-450e-a711-3fe50d2729d0 --shared-files --metrics-shmem-handle=1752395122,r,6567840394440032710,203318425246028691,524288 --field-trial-handle=1718379636,r,10644683234735999958,6097754144851186726,262144 --variations-seed-version=main@65f4dfa00d9f8a513c2617a7c22b40a322c6b544 --pseudonymization-salt-handle=1935764596,r,9933594295659123326,14892267030202653349,4 --trace-process-track-uuid=3190708996619331833",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26730,
+      "name": "swcd",
+      "cmdline": "/usr/libexec/swcd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26861,
+      "name": "Keychain Circle Notification",
+      "cmdline": "/System/Library/CoreServices/Keychain Circle Notification.app/Contents/MacOS/Keychain Circle Notification",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26871,
+      "name": "Siri",
+      "cmdline": "/System/Library/CoreServices/Siri.app/Contents/MacOS/Siri launchd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26887,
+      "name": "amsaccountsd",
+      "cmdline": "/System/Library/PrivateFrameworks/AppleMediaServices.framework/Resources/amsaccountsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26888,
+      "name": "homed",
+      "cmdline": "/System/Library/PrivateFrameworks/HomeKitDaemon.framework/Support/homed",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 26904,
+      "name": "SiriNCService",
+      "cmdline": "/System/Library/CoreServices/Siri.app/Contents/XPCServices/SiriNCService.xpc/Contents/MacOS/SiriNCService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27032,
+      "name": "proactived",
+      "cmdline": "/usr/libexec/proactived",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27049,
+      "name": "syncdefaultsd",
+      "cmdline": "/System/Library/PrivateFrameworks/SyncedDefaults.framework/Support/syncdefaultsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27076,
+      "name": "biomed",
+      "cmdline": "",
+      "user": "_biome"
+    },
+    {
+      "pid": 27101,
+      "name": "com.apple.hiservices-xpcservice",
+      "cmdline": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/XPCServices/com.apple.hiservices-xpcservice.xpc/Contents/MacOS/com.apple.hiservices-xpcservice",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27103,
+      "name": "contentlinkingd",
+      "cmdline": "/System/Library/PrivateFrameworks/Synapse.framework/Support/contentlinkingd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27107,
+      "name": "extensionkitservice",
+      "cmdline": "/System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/XPCServices/extensionkitservice.xpc/Contents/MacOS/extensionkitservice",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27109,
+      "name": "neagent",
+      "cmdline": "/usr/libexec/neagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27112,
+      "name": "systemstatusd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27131,
+      "name": "IntelligencePlatformComputeService",
+      "cmdline": "/System/Library/PrivateFrameworks/IntelligencePlatformCompute.framework/Versions/A/XPCServices/IntelligencePlatformComputeService.xpc/Contents/MacOS/IntelligencePlatformComputeService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27147,
+      "name": "inputanalyticsd",
+      "cmdline": "/usr/libexec/inputanalyticsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27155,
+      "name": "assistant_service",
+      "cmdline": "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27192,
+      "name": "AppSSOAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/AppSSO.framework/Support/AppSSOAgent.app/Contents/MacOS/AppSSOAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27245,
+      "name": "DockHelper",
+      "cmdline": "/System/Library/CoreServices/Dock.app/Contents/XPCServices/DockHelper.xpc/Contents/MacOS/DockHelper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27249,
+      "name": "intelligentroutingd",
+      "cmdline": "/usr/libexec/intelligentroutingd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27257,
+      "name": "GamePolicyAgent",
+      "cmdline": "/usr/libexec/GamePolicyAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27262,
+      "name": "intelligencecontextd",
+      "cmdline": "/System/Library/PrivateFrameworks/IntelligenceFlowContextRuntime.framework/Versions/A/intelligencecontextd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27268,
+      "name": "ThemeWidgetControlViewService",
+      "cmdline": "/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/ThemeWidgetControlViewService.xpc/Contents/MacOS/ThemeWidgetControlViewService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27578,
+      "name": "ThemeWidgetControlViewService",
+      "cmdline": "/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/ThemeWidgetControlViewService.xpc/Contents/MacOS/ThemeWidgetControlViewService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27593,
+      "name": "Brave Browser Helper (Renderer)",
+      "cmdline": "/Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/153.1.95.101/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=eb43af87-0673-450e-a711-3fe50d2729d0 --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=33 --launch-time-ticks=422116165494 --shared-files --metrics-shmem-handle=1752395122,r,12188282870088734594,2898077350756072464,1572864 --field-trial-handle=1718379636,r,10644683234735999958,6097754144851186726,262144 --variations-seed-version=main@65f4dfa00d9f8a513c2617a7c22b40a322c6b544 --pseudonymization-salt-handle=1935764596,r,9933594295659123326,14892267030202653349,4 --trace-process-track-uuid=3190709017234252511 --seatbelt-client=92",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27596,
+      "name": "TextInputSwitcher",
+      "cmdline": "/System/Library/CoreServices/TextInputSwitcher.app/Contents/MacOS/TextInputSwitcher",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27638,
+      "name": "nsattributedstringagent",
+      "cmdline": "/System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/MacOS/nsattributedstringagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27659,
+      "name": "mobileassetd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27672,
+      "name": "backupd-helper",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27695,
+      "name": "linkd",
+      "cmdline": "/usr/libexec/linkd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27697,
+      "name": "com.apple.geod",
+      "cmdline": "/System/Library/PrivateFrameworks/GeoServices.framework/Versions/A/XPCServices/com.apple.geod.xpc/Contents/MacOS/com.apple.geod",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27698,
+      "name": "secinitd",
+      "cmdline": "/usr/libexec/secinitd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27700,
+      "name": "com.apple.geod",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27719,
+      "name": "bird",
+      "cmdline": "/System/Library/PrivateFrameworks/iCloudDriveCore.framework/Versions/A/Support/bird",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27722,
+      "name": "tccd",
+      "cmdline": "/System/Library/PrivateFrameworks/TCC.framework/Support/tccd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27726,
+      "name": "siriactionsd",
+      "cmdline": "/System/Library/PrivateFrameworks/VoiceShortcuts.framework/Versions/A/Support/siriactionsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27729,
+      "name": "liveactivitiesd",
+      "cmdline": "/System/Library/PrivateFrameworks/SessionCore.framework/Support/liveactivitiesd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27738,
+      "name": "pkd",
+      "cmdline": "/usr/libexec/pkd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27743,
+      "name": "contactsd",
+      "cmdline": "/System/Library/Frameworks/Contacts.framework/Support/contactsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27755,
+      "name": "coreauthd",
+      "cmdline": "/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27756,
+      "name": "biometrickitd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27762,
+      "name": "sysmond",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27763,
+      "name": "siriknowledged",
+      "cmdline": "/usr/libexec/siriknowledged",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27764,
+      "name": "knowledge-agent",
+      "cmdline": "/usr/libexec/knowledge-agent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27766,
+      "name": "com.apple.CodeSi",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27767,
+      "name": "SetStoreUpdateService",
+      "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27780,
+      "name": "PowerUIAgent",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27787,
+      "name": "siriinferenced",
+      "cmdline": "/System/Library/PrivateFrameworks/SiriInference.framework/Versions/A/siriinferenced",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27788,
+      "name": "donotdisturbd",
+      "cmdline": "/System/Library/PrivateFrameworks/DoNotDisturbServer.framework/Support/donotdisturbd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27812,
+      "name": "networkserviceproxy",
+      "cmdline": "/usr/libexec/networkserviceproxy",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27814,
+      "name": "mobileactivation",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27839,
+      "name": "rtcreportingd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 27960,
+      "name": "ContextService",
+      "cmdline": "/System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27965,
+      "name": "ControlCenterHelper",
+      "cmdline": "/System/Library/CoreServices/ControlCenter.app/Contents/XPCServices/ControlCenterHelper.xpc/Contents/MacOS/ControlCenterHelper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 27998,
+      "name": "photolibraryd",
+      "cmdline": "/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28042,
+      "name": "coreautha",
+      "cmdline": "/System/Library/Frameworks/LocalAuthentication.framework/Support/coreautha.bundle/Contents/MacOS/coreautha",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28101,
+      "name": "com.apple.Safari.SafeBrowsing.Service",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28104,
+      "name": "triald",
+      "cmdline": "/usr/libexec/triald",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28116,
+      "name": "mediaanalysisd",
+      "cmdline": "/System/Library/PrivateFrameworks/MediaAnalysis.framework/Versions/A/mediaanalysisd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28135,
+      "name": "amsengagementd",
+      "cmdline": "/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28152,
+      "name": "itunescloudd",
+      "cmdline": "/System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28157,
+      "name": "WirelessRadioMan",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28160,
+      "name": "SoftwareUpdateNotificationManager",
+      "cmdline": "/System/Library/PrivateFrameworks/SoftwareUpdate.framework/Resources/SoftwareUpdateNotificationManager.app/Contents/MacOS/SoftwareUpdateNotificationManager",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28203,
+      "name": "nsattributedstringagent",
+      "cmdline": "/System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/XPCServices/nsattributedstringagent.xpc/Contents/MacOS/nsattributedstringagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28208,
+      "name": "AudioComponentRegistrar",
+      "cmdline": "/System/Library/Frameworks/AudioToolbox.framework/AudioComponentRegistrar",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28394,
+      "name": "PerfPowerService",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28398,
+      "name": "gamed",
+      "cmdline": "/usr/libexec/gamed",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28404,
+      "name": "XprotectService",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28417,
+      "name": "nesessionmanager",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28444,
+      "name": "netbiosd",
+      "cmdline": "",
+      "user": "_netbios"
+    },
+    {
+      "pid": 28485,
+      "name": "amfid",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28488,
+      "name": "dmd",
+      "cmdline": "/usr/libexec/dmd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28489,
+      "name": "CategoriesService",
+      "cmdline": "/System/Library/PrivateFrameworks/Categories.framework/Versions/A/XPCServices/CategoriesService.xpc/Contents/MacOS/CategoriesService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28490,
+      "name": "Google Chrome Helper (Renderer)",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --extension-process --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2673 --launch-time-ticks=426789056073 --shared-files --metrics-shmem-handle=1752395122,r,1451765651829728342,11143339841211388758,1572864 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190711491024733871 --seatbelt-client=91",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28492,
+      "name": "Google Chrome Helper (Renderer)",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --top-chrome-webui --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2675 --launch-time-ticks=426789874293 --shared-files --metrics-shmem-handle=1752395122,r,5944300385428165327,17857886930536850839,1572864 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190711492898817569 --seatbelt-client=134",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28493,
+      "name": "Google Chrome Helper (Renderer)",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2677 --launch-time-ticks=426789933633 --shared-files --metrics-shmem-handle=1752395122,r,4469146400700355730,11594341581072429614,1572864 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190711494772901267 --seatbelt-client=134",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28497,
+      "name": "CloudTelemetrySe",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28498,
+      "name": "XProtectBridgeSe",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28545,
+      "name": "ThemeWidgetControlViewService",
+      "cmdline": "/System/Library/Frameworks/AppKit.framework/Versions/C/XPCServices/ThemeWidgetControlViewService.xpc/Contents/MacOS/ThemeWidgetControlViewService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28564,
+      "name": "logd_helper",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28568,
+      "name": "QuickLookUIService",
+      "cmdline": "/System/Library/Frameworks/QuickLookUI.framework/Versions/A/XPCServices/QuickLookUIService.xpc/Contents/MacOS/QuickLookUIService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28569,
+      "name": "com.apple.quicklook.ThumbnailsAgent",
+      "cmdline": "/System/Library/Frameworks/QuickLookThumbnailing.framework/Support/com.apple.quicklook.ThumbnailsAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28572,
+      "name": "fskitd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28574,
+      "name": "ImageThumbnailExtension",
+      "cmdline": "/System/Library/ExtensionKit/Extensions/ImageThumbnailExtension.appex/Contents/MacOS/ImageThumbnailExtension -LaunchArguments eyJ0eXBlIjoxLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUucXVpY2tsb29rLnRodW1ibmFpbC5JbWFnZUV4dGVuc2lvbiJ9",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28583,
+      "name": "mobiletimerd",
+      "cmdline": "/System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28584,
+      "name": "aslmanager",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28628,
+      "name": "liquiddetectiond",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28652,
+      "name": "smd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28663,
+      "name": "Google Chrome Helper (Renderer)",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=2701 --launch-time-ticks=427330867686 --shared-files --metrics-shmem-handle=1752395122,r,18134266751933731466,3216167077477925562,1572864 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190711517261905643 --seatbelt-client=177",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28673,
+      "name": "assistant_cdmd",
+      "cmdline": "/System/Library/PrivateFrameworks/ContinuousDialogManagerService.framework/assistant_cdmd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28674,
+      "name": "ScopedBookmarkAgent",
+      "cmdline": "/System/Library/CoreServices/ScopedBookmarkAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28675,
+      "name": "iconservicesagent",
+      "cmdline": "/System/Library/CoreServices/iconservicesagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28676,
+      "name": "sandboxd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28677,
+      "name": "iconservicesd",
+      "cmdline": "",
+      "user": "_iconservices"
+    },
+    {
+      "pid": 28678,
+      "name": "parsecd",
+      "cmdline": "/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28679,
+      "name": "PlugInLibraryService",
+      "cmdline": "/System/Library/Frameworks/NetFS.framework/Versions/A/XPCServices/PlugInLibraryService.xpc/Contents/MacOS/PlugInLibraryService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28680,
+      "name": "parsec-fbf",
+      "cmdline": "/System/Library/PrivateFrameworks/CoreParsec.framework/parsec-fbf",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28681,
+      "name": "Electron",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/MacOS/Electron",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28682,
+      "name": "storekitagent",
+      "cmdline": "/System/Library/Frameworks/StoreKit.framework/Support/storekitagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28684,
+      "name": "chrome_crashpad_handler",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Electron Framework.framework/Helpers/chrome_crashpad_handler --no-rate-limit --monitor-self-annotation=ptype=crashpad-handler --database=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity IDE --annotation=_version=1.107.0 --annotation=plat=OS X --annotation=prod=Electron --annotation=ver=39.2.3 --handshake-fd=21",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28685,
+      "name": "Antigravity IDE Helper (GPU)",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper (GPU).app/Contents/MacOS/Antigravity IDE Helper (GPU) --type=gpu-process --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --gpu-preferences=SAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAwAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708988185955192 --seatbelt-client=33",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28686,
+      "name": "Antigravity IDE Helper",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper.app/Contents/MacOS/Antigravity IDE Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=network --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708989122997041 --seatbelt-client=33",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28687,
+      "name": "pbs",
+      "cmdline": "/System/Library/CoreServices/pbs",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28692,
+      "name": "language_server_macos_arm",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Resources/app/extensions/antigravity/bin/language_server_macos_arm --csrf_token 7109d383-02a6-42d6-a1a1-f28fb1cea6a4 --extension_server_port 64980 --extension_server_csrf_token 850b11bb-4632-4c69-ba4d-1f8bb520ffa1 --app_data_dir antigravity-ide --subclient_type ide --cloud_code_endpoint https://cloudcode-pa.googleapis.com",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28694,
+      "name": "node",
+      "cmdline": "npm exec chrome-devtools-mcp@latest --autoConnect --no-usage-statistics --no-performance-crux      ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28696,
+      "name": "Antigravity IDE Helper",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper.app/Contents/MacOS/Antigravity IDE Helper --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=audio --message-loop-type-ui --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708990997080739 --seatbelt-client=89",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28697,
+      "name": "Antigravity IDE Helper (Plugin)",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper (Plugin).app/Contents/MacOS/Antigravity IDE Helper (Plugin) --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --lang=en-GB --service-sandbox-type=none --message-loop-type-ui --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708991934122588",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28702,
+      "name": "MTLCompilerService",
+      "cmdline": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28703,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28704,
+      "name": "Antigravity IDE Helper",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper.app/Contents/MacOS/Antigravity IDE Helper --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708992871164437",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28706,
+      "name": "aneuserd",
+      "cmdline": "",
+      "user": "_neuralengine"
+    },
+    {
+      "pid": 28707,
+      "name": "Antigravity IDE Helper",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper.app/Contents/MacOS/Antigravity IDE Helper --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708995682289984",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28710,
+      "name": "maild",
+      "cmdline": "/System/Library/PrivateFrameworks/EmailDaemon.framework/Versions/A/maild",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28711,
+      "name": "MTLCompilerService",
+      "cmdline": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28735,
+      "name": "MTLAssetUpgraderD",
+      "cmdline": "/usr/libexec/MTLAssetUpgraderD",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28736,
+      "name": "MENotificationAgent",
+      "cmdline": "/System/Library/Frameworks/MediaExtension.framework/Versions/A/Helpers/MENotificationAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28737,
+      "name": "BackgroundTaskManagementAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Support/BackgroundTaskManagementAgent.app/Contents/MacOS/BackgroundTaskManagementAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28738,
+      "name": "SiriSuggestionsBookkeepingService",
+      "cmdline": "/System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28739,
+      "name": "backgroundtaskma",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 28757,
+      "name": "node",
+      "cmdline": "chrome-devtools-mcp    ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28794,
+      "name": "com.apple.siri.embeddedspeech",
+      "cmdline": "/System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/Versions/A/XPCServices/com.apple.siri.embeddedspeech.xpc/Contents/MacOS/com.apple.siri.embeddedspeech",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28796,
+      "name": "Antigravity IDE Helper (Renderer)",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper (Renderer).app/Contents/MacOS/Antigravity IDE Helper (Renderer) --type=renderer --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/Applications/Antigravity IDE.app/Contents/Resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=12 --time-ticks-at-unix-epoch=-1789069951298563 --launch-time-ticks=427473862433 --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708997556373682 --vscode-window-config=vscode:532a7fc6-20c5-4627-953d-085887caf539 --seatbelt-client=43",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28797,
+      "name": "axassetsd",
+      "cmdline": "/System/Library/PrivateFrameworks/AXAssetLoader.framework/Support/axassetsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28859,
+      "name": "Antigravity IDE Helper",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper.app/Contents/MacOS/Antigravity IDE Helper --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708998493415531",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28860,
+      "name": "Antigravity IDE Helper (Plugin)",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper (Plugin).app/Contents/MacOS/Antigravity IDE Helper (Plugin) --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-GB --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Antigravity IDE --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files --field-trial-handle=1718379636,r,13393580458455829525,6048846002736566517,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker,ScreenCaptureKitPickerScreen,ScreenCaptureKitStreamPickerSonoma --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,MacWebContentsOcclusion,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TimeoutHangingVideoCaptureStarts,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708999430457380",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28911,
+      "name": "zsh",
+      "cmdline": "/bin/zsh -il",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28974,
+      "name": "language_server_macos_arm",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Resources/app/extensions/antigravity/bin/language_server_macos_arm --enable_lsp --csrf_token 773c8b05-cebb-4ec1-890b-848f3ff9442e --extension_server_port 65092 --extension_server_csrf_token 6c54f82c-881a-4e69-8c54-5e65200515fa --cloud_code_endpoint https://daily-cloudcode-pa.googleapis.com --subclient_type ide --app_data_dir antigravity-ide --parent_pipe_path /var/folders/n4/mnnw997d725g7h1qhzqcclg80000gn/T/server_195f08bdbe970807",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28975,
+      "name": "VTEncoderXPCService",
+      "cmdline": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/XPCServices/VTEncoderXPCService.xpc/Contents/MacOS/VTEncoderXPCService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28976,
+      "name": "com.apple.audio.SandboxHelper",
+      "cmdline": "/System/Library/Frameworks/AudioToolbox.framework/XPCServices/com.apple.audio.SandboxHelper.xpc/Contents/MacOS/com.apple.audio.SandboxHelper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28980,
+      "name": "node",
+      "cmdline": "npm exec chrome-devtools-mcp@latest --autoConnect --no-usage-statistics --no-performance-crux      ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 28999,
+      "name": "node",
+      "cmdline": "chrome-devtools-mcp    ",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29001,
+      "name": "node",
+      "cmdline": "node /Users/pratyushkumarsahoo/.antigravity-ide/extensions/googlecloudtools.datacloud-0.9.1-universal/mcp_servers/cli/mcp_proxy_bundle.js dataAgentKit-antigravityide",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29002,
+      "name": "node",
+      "cmdline": "node /Users/pratyushkumarsahoo/.antigravity-ide/extensions/googlecloudtools.datacloud-0.9.1-universal/mcp_servers/cli/mcp_proxy_bundle.js notebooks-antigravityide",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29003,
+      "name": "node",
+      "cmdline": "node /Users/pratyushkumarsahoo/.antigravity-ide/extensions/googlecloudtools.datacloud-0.9.1-universal/mcp_servers/cli/mcp_proxy_bundle.js visualization-antigravityide",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29043,
+      "name": "zsh",
+      "cmdline": "/bin/zsh -i",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29131,
+      "name": "online-auth-agen",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 29132,
+      "name": "powerexperienced",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 29133,
+      "name": "analyticsagent",
+      "cmdline": "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29134,
+      "name": "Antigravity IDE Helper (Plugin)",
+      "cmdline": "/Applications/Antigravity IDE.app/Contents/Frameworks/Antigravity IDE Helper (Plugin).app/Contents/MacOS/Antigravity IDE Helper (Plugin) /Applications/Antigravity IDE.app/Contents/Resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=28860",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29140,
+      "name": "commerce",
+      "cmdline": "/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29146,
+      "name": "gamecontrollerd",
+      "cmdline": "",
+      "user": "_gamecontrollerd"
+    },
+    {
+      "pid": 29147,
+      "name": "gamecontrolleragentd",
+      "cmdline": "/usr/libexec/gamecontrolleragentd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29148,
+      "name": "assessmentagent",
+      "cmdline": "/usr/libexec/assessmentagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29149,
+      "name": "feedbackd",
+      "cmdline": "/usr/libexec/feedbackd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29150,
+      "name": "intelligenceflowd",
+      "cmdline": "/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29155,
+      "name": "replayd",
+      "cmdline": "/usr/libexec/replayd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29156,
+      "name": "nfcd",
+      "cmdline": "",
+      "user": "_applepay"
+    },
+    {
+      "pid": 29157,
+      "name": "NFStorageServer",
+      "cmdline": "",
+      "user": "_applepay"
+    },
+    {
+      "pid": 29158,
+      "name": "CommCenter",
+      "cmdline": "/System/Library/Frameworks/CoreTelephony.framework/Support/CommCenter -L",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29171,
+      "name": "securityd_system",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 29172,
+      "name": "ospredictiond",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 29225,
+      "name": "mdworker_shared",
+      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29243,
+      "name": "ZoomUpdater",
+      "cmdline": "/Applications/zoom.us.app/Contents/Library/LaunchAgents/ZoomUpdater.app/Contents/MacOS/ZoomUpdater --update",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 29244,
+      "name": "taskgated-helper",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 29249,
+      "name": "Python",
+      "cmdline": "/Library/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python orchestrator.py",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 36405,
+      "name": "DiskUnmountWatcher",
+      "cmdline": "/System/Library/PrivateFrameworks/KerberosHelper/Helpers/DiskUnmountWatcher",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 37582,
+      "name": "storeuid",
+      "cmdline": "/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/storeuid.app/Contents/MacOS/storeuid",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 37584,
+      "name": "appstoreagent",
+      "cmdline": "/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 38620,
+      "name": "WeatherWidget",
+      "cmdline": "/System/Applications/Weather.app/Contents/PlugIns/WeatherWidget.appex/Contents/MacOS/WeatherWidget -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20uYXBwbGUud2VhdGhlci53aWRnZXQiLCJ0eXBlIjoxfQ==",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 38727,
+      "name": "ServiceExtension",
+      "cmdline": "/Applications/WhatsApp.app/Contents/PlugIns/ServiceExtension.appex/Contents/MacOS/ServiceExtension -AppleLanguages (\"en-IN\")",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 55484,
+      "name": "backupd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 61764,
+      "name": "UsageTrackingAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 65130,
+      "name": "trustd",
+      "cmdline": "",
+      "user": "_trustd"
+    },
+    {
+      "pid": 68184,
+      "name": "GenerativeExperi",
+      "cmdline": "",
+      "user": "_modelmanagerd"
+    },
+    {
+      "pid": 68186,
+      "name": "TGOnDeviceInfere",
+      "cmdline": "",
+      "user": "_modelmanagerd"
+    },
+    {
+      "pid": 79753,
+      "name": "Google Chrome",
+      "cmdline": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 79755,
+      "name": "chrome_crashpad_handler",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --database=/Users/pratyushkumarsahoo/Library/Application Support/Google/Chrome/Crashpad --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=OS X --annotation=prod=Chrome_Mac --annotation=ver=153.0.8010.36 --handshake-fd=5",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 79760,
+      "name": "Google Chrome Helper",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=gpu-process --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --metrics-shmem-handle=1752395122,r,3983776778090943081,13613554328073460750,262144 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190708988185955192 --seatbelt-client=17",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 79761,
+      "name": "Google Chrome Helper",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=network --shared-files --metrics-shmem-handle=1752395122,r,700590644273719476,17735919033351645838,524288 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190708989122997041 --seatbelt-client=25",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 79762,
+      "name": "Google Chrome Helper",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=service --shared-files --metrics-shmem-handle=1752395122,r,10505605892337352650,17676232350866253828,524288 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190708990060038890 --seatbelt-client=28",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 79779,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 79976,
+      "name": "Google Chrome Helper",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=audio --message-loop-type-ui --shared-files --metrics-shmem-handle=1752395122,r,9640510857260329385,3008757954086129012,524288 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190709027541712850 --seatbelt-client=185",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 79977,
+      "name": "Google Chrome Helper",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/153.0.8010.36/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --lang=en-GB --service-sandbox-type=none --message-loop-type-ui --shared-files --metrics-shmem-handle=1752395122,r,14196876280982997912,10882847824015174155,524288 --field-trial-handle=1718379636,r,14737977474973359995,3718553582816223011,262144 --variations-seed-version=20260909-010034.541000-production --pseudonymization-salt-handle=1935764596,r,17530031322449770137,12822848283825964822,4 --trace-process-track-uuid=3190709028478754699",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 81977,
+      "name": "talagentd",
+      "cmdline": "/System/Library/CoreServices/talagentd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 82136,
+      "name": "FPCKService",
+      "cmdline": "/System/Library/PrivateFrameworks/FileProviderDaemon.framework/XPCServices/FPCKService.xpc/Contents/MacOS/FPCKService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87108,
+      "name": "ChatGPT",
+      "cmdline": "/Applications/ChatGPT.app/Contents/MacOS/ChatGPT",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87111,
+      "name": "browser_crashpad_handler",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/browser_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/Users/pratyushkumarsahoo/Library/Application Support/Codex/Crashpad --annotation=plat=OS X --annotation=prod=ChatGPT_Mac --annotation=ver=152.0.7977.64 --handshake-fd=5",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87113,
+      "name": "browser_crashpad_handler",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/browser_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/Users/pratyushkumarsahoo/Library/Application Support/Codex/Crashpad --annotation=plat=OS X --annotation=prod=ChatGPT_Mac --annotation=ver=152.0.7977.64 --handshake-fd=4",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87117,
+      "name": "Codex (Service)",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/Codex (Service).app/Contents/MacOS/Codex (Service) --type=gpu-process --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Codex --start-stack-profiler --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAADAAAAAAAAADgAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAoAAAAAAAAAAgAAAAAAAAADAAAAAEAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAA= --shared-files --metrics-shmem-handle=1752395122,r,7359996218256641949,7701719059437487134,262144 --field-trial-handle=1718379636,r,5948204737727203982,3825247910067188657,262144 --enable-features=ReportStuckThrottle --disable-features=DropInputEventsWhilePaintHolding,WebUIOmniboxAimPopup,WebUIOmniboxPopup --variations-seed-version --pseudonymization-salt-handle=1935764596,r,10471258907401419675,4323746739005009786,4 --trace-process-track-uuid=3190708988185955192 --seatbelt-client=40",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87118,
+      "name": "Codex (Service)",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/Codex (Service).app/Contents/MacOS/Codex (Service) --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=network --owl-scoped-user-agent-additional-hosts=openai.com,chatgpt.com,chatgpt.site,chatgpt-team.site --owl-scoped-user-agent-prefix=CodexBrowser --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Codex --standard-schemes=app,codex-sandbox --service-worker-schemes=codex-sandbox --secure-schemes=app,codex-sandbox,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,codex-sandbox,sentry-ipc --cors-schemes=codex-sandbox,sentry-ipc --streaming-schemes=app,codex-sandbox --start-stack-profiler --shared-files --metrics-shmem-handle=1752395122,r,10149757204591899502,9885668310415802343,524288 --field-trial-handle=1718379636,r,5948204737727203982,3825247910067188657,262144 --enable-features=ReportStuckThrottle --disable-features=DropInputEventsWhilePaintHolding,WebUIOmniboxAimPopup,WebUIOmniboxPopup --variations-seed-version --pseudonymization-salt-handle=1935764596,r,10471258907401419675,4323746739005009786,4 --trace-process-track-uuid=3190708989122997041 --seatbelt-client=33",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87120,
+      "name": "Codex (Service)",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/Codex (Service).app/Contents/MacOS/Codex (Service) --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=service --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Codex --standard-schemes=app,codex-sandbox --service-worker-schemes=codex-sandbox --secure-schemes=app,codex-sandbox,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,codex-sandbox,sentry-ipc --cors-schemes=codex-sandbox,sentry-ipc --streaming-schemes=app,codex-sandbox --shared-files --metrics-shmem-handle=1752395122,r,797406439310328359,6372090162771443432,524288 --field-trial-handle=1718379636,r,5948204737727203982,3825247910067188657,262144 --enable-features=ReportStuckThrottle --disable-features=DropInputEventsWhilePaintHolding,WebUIOmniboxAimPopup,WebUIOmniboxPopup --variations-seed-version --pseudonymization-salt-handle=1935764596,r,10471258907401419675,4323746739005009786,4 --trace-process-track-uuid=3190708990060038890 --seatbelt-client=52",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87128,
+      "name": "bare-modifier-monitor",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Resources/native/bare-modifier-monitor --key DoubleCommand --immediate",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87131,
+      "name": "codex",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Resources/codex -c features.code_mode_host=true app-server --analytics-default-enabled -c mcp_servers.codex_app={\"command\"=\"/Applications/ChatGPT.app/Contents/Resources/plugins/openai-bundled/plugins/codex-app-tools/scripts/launch_codex_app_tools_mcp\",\"args\"=[\"./server.mjs\"],\"cwd\"=\"/Applications/ChatGPT.app/Contents/Resources/plugins/openai-bundled/plugins/codex-app-tools\",\"enabled\"=true,\"default_tools_approval_mode\"=\"approve\",\"tools\"={\"automation_update\"={\"approval_mode\"=\"prompt\"},\"create_thread\"={\"approval_mode\"=\"prompt\"},\"send_message_to_thread\"={\"approval_mode\"=\"prompt\"},\"fork_thread\"={\"approval_mode\"=\"prompt\"},\"handoff_thread\"={\"approval_mode\"=\"prompt\"}},\"env_vars\"=[\"CODEX_APP_TOOLS_PIPE_PATH\",\"CODEX_MCP_NODE_PATH\",\"CODEX_BROWSER_USE_NODE_PATH\",\"CODEX_ELECTRON_RESOURCES_PATH\",\"CODEX_CLI_PATH\",\"XDG_CACHE_HOME\",\"HOME\",\"USERPROFILE\",\"LOCALAPPDATA\",\"PATH\"],\"startup_timeout_sec\"=10,\"tool_timeout_sec\"=3600,\"omit_tools_from\"=[\"deferred\"],\"env\"={\"CODEX_APP_TOOLS_PIPE_PATH\"=\"/tmp/codex-browser-use/3f54dd0c-eed1-4d98-b5c4-aafce486b801.sock\",\"CODEX_MCP_NODE_PATH\"=\"/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node\"}}",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87134,
+      "name": "Codex (Renderer)",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/Codex (Renderer).app/Contents/MacOS/Codex (Renderer) --type=renderer --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Codex --standard-schemes=app,codex-sandbox --service-worker-schemes=codex-sandbox --secure-schemes=app,codex-sandbox,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,codex-sandbox,sentry-ipc --cors-schemes=codex-sandbox,sentry-ipc --streaming-schemes=app,codex-sandbox --owl-scoped-user-agent-additional-hosts=openai.com,chatgpt.com,chatgpt.site,chatgpt-team.site --owl-scoped-user-agent-prefix=CodexBrowser --disable-blink-features=ReplacedNormalFlowStackingInlinePaint --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=5 --launch-time-ticks=279176718697 --shared-files --metrics-shmem-handle=1752395122,r,3532361128997322416,13067412592460723679,2097152 --field-trial-handle=1718379636,r,5948204737727203982,3825247910067188657,262144 --enable-features=ReportStuckThrottle --disable-features=DropInputEventsWhilePaintHolding,WebUIOmniboxAimPopup,WebUIOmniboxPopup --variations-seed-version --pseudonymization-salt-handle=1935764596,r,10471258907401419675,4323746739005009786,4 --trace-process-track-uuid=3190708990997080739 --seatbelt-client=175",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87144,
+      "name": "SkyComputerUseService",
+      "cmdline": "/Users/pratyushkumarsahoo/.codex/computer-use/Codex Computer Use.app/Contents/MacOS/SkyComputerUseService",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87162,
+      "name": "com.apple.SafariPlatformSupport.Helper",
+      "cmdline": "/System/Library/PrivateFrameworks/SafariPlatformSupport.framework/Versions/A/XPCServices/com.apple.SafariPlatformSupport.Helper.xpc/Contents/MacOS/com.apple.SafariPlatformSupport.Helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 87227,
+      "name": "Codex (Service)",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/Codex (Service).app/Contents/MacOS/Codex (Service) --type=utility --utility-sub-type=on_device_model.mojom.OnDeviceModelService --lang=en-GB --service-sandbox-type=on_device_model_execution --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Codex --standard-schemes=app,codex-sandbox --service-worker-schemes=codex-sandbox --secure-schemes=app,codex-sandbox,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,codex-sandbox,sentry-ipc --cors-schemes=codex-sandbox,sentry-ipc --streaming-schemes=app,codex-sandbox --shared-files --metrics-shmem-handle=1752395122,r,12353892008771100659,14043865519132444662,524288 --field-trial-handle=1718379636,r,5948204737727203982,3825247910067188657,262144 --enable-features=ReportStuckThrottle --disable-features=DropInputEventsWhilePaintHolding,WebUIOmniboxAimPopup,WebUIOmniboxPopup --variations-seed-version --pseudonymization-salt-handle=1935764596,r,10471258907401419675,4323746739005009786,4 --trace-process-track-uuid=3190708992871164437 --seatbelt-client=183",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 88036,
+      "name": "aned",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 89094,
+      "name": "Codex (Service)",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/Codex (Service).app/Contents/MacOS/Codex (Service) --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=audio --message-loop-type-ui --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Codex --standard-schemes=app,codex-sandbox --service-worker-schemes=codex-sandbox --secure-schemes=app,codex-sandbox,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,codex-sandbox,sentry-ipc --cors-schemes=codex-sandbox,sentry-ipc --streaming-schemes=app,codex-sandbox --shared-files --metrics-shmem-handle=1752395122,r,17196161889837424949,17973295470669975669,524288 --field-trial-handle=1718379636,r,5948204737727203982,3825247910067188657,262144 --enable-features=ReportStuckThrottle --disable-features=DropInputEventsWhilePaintHolding,WebUIOmniboxAimPopup,WebUIOmniboxPopup --variations-seed-version --pseudonymization-salt-handle=1935764596,r,10471258907401419675,4323746739005009786,4 --trace-process-track-uuid=3190708996619331833 --seatbelt-client=255",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 89095,
+      "name": "Codex (Service)",
+      "cmdline": "/Applications/ChatGPT.app/Contents/Frameworks/Codex Framework.framework/Versions/152.0.7977.64/Helpers/Codex (Service).app/Contents/MacOS/Codex (Service) --type=utility --utility-sub-type=video_capture.mojom.VideoCaptureService --lang=en-GB --service-sandbox-type=none --message-loop-type-ui --user-data-dir=/Users/pratyushkumarsahoo/Library/Application Support/Codex --standard-schemes=app,codex-sandbox --service-worker-schemes=codex-sandbox --secure-schemes=app,codex-sandbox,sentry-ipc --bypasscsp-schemes=sentry-ipc --fetch-schemes=app,codex-sandbox,sentry-ipc --cors-schemes=codex-sandbox,sentry-ipc --streaming-schemes=app,codex-sandbox --shared-files --metrics-shmem-handle=1752395122,r,5041361760940816951,10082355838128634226,524288 --field-trial-handle=1718379636,r,5948204737727203982,3825247910067188657,262144 --enable-features=ReportStuckThrottle --disable-features=DropInputEventsWhilePaintHolding,WebUIOmniboxAimPopup,WebUIOmniboxPopup --variations-seed-version --pseudonymization-salt-handle=1935764596,r,10471258907401419675,4323746739005009786,4 --trace-process-track-uuid=3190708997556373682",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 93991,
+      "name": "firefox",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/firefox",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 93995,
+      "name": "crashhelper",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/crashhelper 93991 gecko-crash-server-pipe.93991 /private/var/folders/n4/mnnw997d725g7h1qhzqcclg80000gn/T/TemporaryItems/ org.mozilla.crashhelper.16712882974129752978 20260903215306",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 93996,
+      "name": "Firefox GPU Helper",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/gpu-helper.app/Contents/MacOS/Firefox GPU Helper -parentBuildID 20260903215306 -prefsHandle 0:36298 -prefMapHandle 1:296455 -sbStartup -sbAppPath /Applications/Firefox.app -ipcHandle 0 -initialChannelId {7793d077-0b92-4d12-b350-c4994fd93c3b} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 2 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.363871009 1 gpu",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 93997,
+      "name": "plugin-container",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -parentBuildID 20260903215306 -prefsHandle 0:36365 -prefMapHandle 1:296455 -sbStartup -sbAppPath /Applications/Firefox.app -ipcHandle 0 -initialChannelId {2162435e-82a5-4cd0-8fb2-c74d92c661ac} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 2 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.2142976342 2 socket",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 93998,
+      "name": "plugin-container",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -isForBrowser -prefsHandle 0:36430 -prefMapHandle 1:296455 -jsInitHandle 2:160936 -sbStartup -sbAppPath /Applications/Firefox.app -sbLevel 3 -parentBuildID 20260903215306 -ipcHandle 0 -initialChannelId {44b0dcdc-a229-41d8-a601-500e6d4dbdf8} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 3 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -greomni /Applications/Firefox.app/Contents/Resources/omni.ja -appomni /Applications/Firefox.app/Contents/Resources/browser/omni.ja -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.1425609064 3 tab",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 93999,
+      "name": "plugin-container",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -parentBuildID 20260903215306 -prefsHandle 0:36430 -prefMapHandle 1:296455 -sbStartup -sbAppPath /Applications/Firefox.app -ipcHandle 0 -initialChannelId {570c585f-0b6d-42d0-999c-03d262a942ef} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 2 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.858241879 4 rdd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 94002,
+      "name": "plugin-container",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -isForBrowser -prefsHandle 0:33099 -prefMapHandle 1:296455 -jsInitHandle 2:160936 -sbStartup -sbAppPath /Applications/Firefox.app -sbLevel 3 -parentBuildID 20260903215306 -ipcHandle 0 -initialChannelId {4bc95ebb-7403-4294-8483-5ba77140deb2} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 3 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -greomni /Applications/Firefox.app/Contents/Resources/omni.ja -appomni /Applications/Firefox.app/Contents/Resources/browser/omni.ja -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.455023817 6 tab",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 94003,
+      "name": "plugin-container",
+      "cmdline": "/Applications/Firefox.app/Contents/MacOS/plugin-container.app/Contents/MacOS/plugin-container -isForBrowser -prefsHandle 0:33099 -prefMapHandle 1:296455 -jsInitHandle 2:160936 -sbStartup -sbAppPath /Applications/Firefox.app -sbLevel 3 -parentBuildID 20260903215306 -ipcHandle 0 -initialChannelId {647bfdde-7363-4874-8d1e-7ec9e09b0f3f} -parentPid 93991 -crashHelperPid 93995 -crashHelperSend 3 -crashHelperRecv 0 -crashReporter gecko-crash-server-pipe.93991 -greomni /Applications/Firefox.app/Contents/Resources/omni.ja -appomni /Applications/Firefox.app/Contents/Resources/browser/omni.ja -appDir /Applications/Firefox.app/Contents/Resources/browser -profile /Users/pratyushkumarsahoo/Library/Application Support/Firefox/Profiles/i8gfa691.default-release org.mozilla.machname.1104797038 7 tab",
+      "user": "pratyushkumarsahoo"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Autopsy Forensic Ingest Report - Ransomdet Case</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0B0F19; color: #E2E8F0; padding: 2rem; }
+        h1 { color: #00F2FE; border-bottom: 2px solid #1E293B; padding-bottom: 0.5rem; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1.5rem; background: #131B2E; border-radius: 8px; overflow: hidden; }
+        th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid #1E293B; font-size: 0.85rem; }
+        th { background: #1E293B; color: #94A3B8; text-transform: uppercase; font-size: 0.75rem; }
+        code { font-family: monospace; color: #38BDF8; }
+        .box { background: #1E293B; padding: 1rem; border-radius: 8px; margin-top: 1rem; border-left: 4px solid #00F2FE; }
+    </style>
+</head>
+<body>
+    <h1>Autopsy Digital Forensics Ingest Report</h1>
+    <div class="box">
+        <p><strong>Case Name:</strong> Ransomdet_Forensic_Case | <strong>Case Number:</strong> CASE-2024-WANNACRY-001</p>
+        <p><strong>Examiner:</strong> Lead DFIR Investigator | <strong>Generated:</strong> 2026/10/13 13:55:58 (UTC)</p>
+        <p><strong>Data Source:</strong> Logical Files (evidence_disk_image/) | <strong>TSK Bodyfile:</strong> tsk_bodyfile.txt</p>
+    </div>
+
+    <h2>Identified Evidence Artifacts</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Artifact File Name</th>
+                <th>Classification</th>
+                <th>MD5 Hash</th>
+                <th>File Size</th>
+                <th>Last Modified (UTC)</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td><code>volatile_memory.raw</code></td>
+            <td><span style="color: #10B981;">[CLEAN/NOTE]</span></td>
+            <td><code>d9a5545f49b850d11ce0995dc43c2c34</code></td>
+            <td>4503 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        <tr>
+            <td><code>@Please_Read_Me@.txt</code></td>
+            <td><span style="color: #10B981;">[CLEAN/NOTE]</span></td>
+            <td><code>9a647637d3c1bfa960791d23224408bc</code></td>
+            <td>1021 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        <tr>
+            <td><code>decryption_key.log</code></td>
+            <td><span style="color: #10B981;">[CLEAN/NOTE]</span></td>
+            <td><code>d0ff0bd5176130abceac359c7d8b7064</code></td>
+            <td>44 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        <tr>
+            <td><code>employee_roster.txt.locked</code></td>
+            <td><span style="color: #EF4444; font-weight: bold;">[ENCRYPTED]</span></td>
+            <td><code>374dfae20becc6f1d1f76046d2361eca</code></td>
+            <td>292 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        <tr>
+            <td><code>financial_q4.csv.locked</code></td>
+            <td><span style="color: #EF4444; font-weight: bold;">[ENCRYPTED]</span></td>
+            <td><code>e98ac16806bc818ddd02f44affe65a9f</code></td>
+            <td>292 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        <tr>
+            <td><code>project_roadmap.docx.locked</code></td>
+            <td><span style="color: #EF4444; font-weight: bold;">[ENCRYPTED]</span></td>
+            <td><code>6fffb0dd3eff413225f32069f761eb67</code></td>
+            <td>292 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        <tr>
+            <td><code>patient_records.xml.locked</code></td>
+            <td><span style="color: #EF4444; font-weight: bold;">[ENCRYPTED]</span></td>
+            <td><code>439d509d7e500ca37173e78f78401d12</code></td>
+            <td>460 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        <tr>
+            <td><code>confidential_keys.json.locked</code></td>
+            <td><span style="color: #EF4444; font-weight: bold;">[ENCRYPTED]</span></td>
+            <td><code>e8f33a4a879a0c5e48b14dd5a938ccf1</code></td>
+            <td>292 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        <tr>
+            <td><code>READ_ME_RANSOM.txt</code></td>
+            <td><span style="color: #10B981;">[CLEAN/NOTE]</span></td>
+            <td><code>9a647637d3c1bfa960791d23224408bc</code></td>
+            <td>1021 B</td>
+            <td>2026-10-13T13:47:42</td>
+        </tr>
+        
+        </tbody>
+    </table>
+
+    <div class="box" style="margin-top: 2rem;">
+        <h3>How to Load in Autopsy GUI:</h3>
+        <ol>
+            <li>Launch <strong>Autopsy</strong> on Windows or Kali Linux.</li>
+            <li>Click <strong>Open Case</strong> and select <code>Ransomdet_Forensic_Case.aut</code> (or <strong>Add Data Source</strong> -> <strong>Logical Files</strong> -> select <code>evidence_disk_image/</code>).</li>
+            <li>Enable Ingest Modules: <em>File Type Identification, Encryption Detection, Keyword Search</em>.</li>
+        </ol>
+    </div>
+</body>
+</html>

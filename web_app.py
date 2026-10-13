@@ -67,10 +67,16 @@ class ForensicWebHandler(SimpleHTTPRequestHandler):
             self.handle_api_file_json(YARA_ANALYSIS_FILE)
         elif url_path == "/api/correlation":
             self.handle_api_file_json(CORRELATION_FILE)
+        elif url_path == "/api/autopsy":
+            self.handle_api_autopsy_report()
         elif url_path == "/api/download/pcap":
             self.handle_download_pcap()
         elif url_path == "/api/download/report":
             self.handle_download_report()
+        elif url_path == "/api/download/bodyfile":
+            self.handle_download_file(PROJECT_ROOT / "acquisition" / "autopsy_case" / "tsk_bodyfile.txt", "text/plain", "tsk_bodyfile.txt")
+        elif url_path == "/api/download/aut":
+            self.handle_download_file(PROJECT_ROOT / "acquisition" / "autopsy_case" / "Ransomdet_Forensic_Case.aut", "application/xml", "Ransomdet_Forensic_Case.aut")
         else:
             if url_path == "/" or url_path == "":
                 self.path = "/index.html"
@@ -168,10 +174,34 @@ class ForensicWebHandler(SimpleHTTPRequestHandler):
             self.send_header("Access-Control-Allow-Origin", "*")
             self.end_headers()
             self.wfile.write(report_bytes)
+    def handle_api_autopsy_report(self):
+        autopsy_report = PROJECT_ROOT / "acquisition" / "autopsy_case" / "Autopsy_Forensic_Report.html"
+        content = "<h3>Autopsy report not generated yet.</h3>"
+        if autopsy_report.exists():
+            with open(autopsy_report, "r", encoding="utf-8") as f:
+                content = f.read()
+        self.send_response(200)
+        self.send_header("Content-Type", "text/html; charset=utf-8")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(content.encode("utf-8"))
+
+    def handle_download_file(self, file_path, content_type, filename):
+        path = Path(file_path)
+        if path.exists():
+            with open(path, "rb") as f:
+                content = f.read()
+            self.send_response(200)
+            self.send_header("Content-Type", content_type)
+            self.send_header("Content-Disposition", f'attachment; filename="{filename}"')
+            self.send_header("Content-Length", str(len(content)))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            self.wfile.write(content)
         else:
             self.send_response(404)
             self.end_headers()
-            self.wfile.write(b"Report not yet generated.")
+            self.wfile.write(b"File not found.")
 
     def send_json_response(self, data):
         json_bytes = json.dumps(data, indent=2).encode("utf-8")

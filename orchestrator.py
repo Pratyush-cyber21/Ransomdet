@@ -37,6 +37,7 @@ from acquisition.disk_imaging import acquire_forensic_disk_image
 from acquisition.pcap_capture import capture_network_activity
 from analysis.memory_analyzer import analyze_memory
 from analysis.disk_analyzer import analyze_disk_artifacts
+from analysis.autopsy_exporter import export_autopsy_case
 from analysis.network_analyzer import analyze_pcap
 from analysis.yara_analyzer import scan_evidence
 from correlation.ioc_correlator import perform_threat_correlation
@@ -88,6 +89,9 @@ def run_end_to_end_pipeline():
 
     disk_report = analyze_disk_artifacts()
     coc.add_evidence_record("DISK_ANALYSIS_COMPLETED", "disk_analysis.json", notes=f"Shannon entropy computed; Recovery Rate: {disk_report.get('recovery_rate_pct')}%")
+
+    autopsy_data = export_autopsy_case()
+    coc.add_evidence_record("AUTOPSY_CASE_EXPORTED", "acquisition/autopsy_case/", notes="Autopsy .aut case file and Sleuth Kit bodyfile generated")
 
     net_report = analyze_pcap()
     coc.add_evidence_record("NETWORK_ANALYSIS_COMPLETED", "network_analysis.json", notes=f"CVE-2017-0144 exploit packets & Killswitch DNS confirmed")

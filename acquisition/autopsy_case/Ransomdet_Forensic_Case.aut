@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>5.0</SchemaVersion>
+  <CreatedDate>2026/10/13 13:55:58 (UTC)</CreatedDate>
+  <ModifiedDate>2026/10/13 13:55:58 (UTC)</ModifiedDate>
+  <CreatedBy>Antigravity DFIR Automated Orchestrator</CreatedBy>
+  <Case>
+    <Name>Ransomdet_Forensic_Case</Name>
+    <Number>CASE-2024-WANNACRY-001</Number>
+    <Examiner>Lead DFIR Investigator</Examiner>
+    <CaseType>Single-user case</CaseType>
+    <Database>autopsy.db</Database>
+    <CaseRootImageDir>/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/evidence_disk_image</CaseRootImageDir>
+  </Case>
+  <DataSources>
+    <DataSource>
+      <Name>evidence_disk_image</Name>
+      <Type>Logical Directory</Type>
+      <Path>/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/evidence_disk_image</Path>
+      <DeviceID>DEV_001</DeviceID>
+      <Timezone>UTC</Timezone>
+    </DataSource>
+  </DataSources>
+</AutopsyCase>

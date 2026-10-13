@@ -723,6 +723,7 @@
                 <button class="tab-btn" onclick="switchTab('diskTab')"><i class="fa-solid fa-hard-drive"></i> Disk Entropy &amp; Recovery</button>
                 <button class="tab-btn" onclick="switchTab('yaraTab')"><i class="fa-solid fa-code"></i> YARA Signatures</button>
                 <button class="tab-btn" onclick="switchTab('custodyTab')"><i class="fa-solid fa-link"></i> Chain of Custody (Ic=100%)</button>
+                <button class="tab-btn" onclick="switchTab('autopsyTab')"><i class="fa-solid fa-magnifying-glass-chart"></i> Autopsy &amp; Sleuth Kit</button>
                 <button class="tab-btn" onclick="switchTab('reportTab')"><i class="fa-solid fa-file-contract"></i> Forensic Legal Report</button>
             </div>
 
@@ -878,6 +879,64 @@
                     </thead>
                     <tbody id="custodyTableBody">
                         <tr><td colspan="6" style="text-align: center; color: var(--text-muted);">Loading chain of custody...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tab: Autopsy & Sleuth Kit Integration -->
+            <div id="autopsyTab" class="tab-content">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.75rem;">
+                    <div>
+                        <h3 style="font-size: 1rem; color: #FFFFFF;">Autopsy Case Exporter &amp; Sleuth Kit (TSK) Integration</h3>
+                        <p style="font-size: 0.78rem; color: var(--text-muted);">Generates native Autopsy .aut case metadata, TSK bodyfile timeline, and Ingest HTML report.</p>
+                    </div>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        <a href="/api/download/aut" class="btn-download"><i class="fa-solid fa-file-code"></i> Download .aut Case</a>
+                        <a href="/api/download/bodyfile" class="btn-download"><i class="fa-solid fa-timeline"></i> Download TSK Bodyfile</a>
+                        <a href="/api/autopsy" target="_blank" class="btn-download"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Ingest Report</a>
+                    </div>
+                </div>
+
+                <div class="key-box" style="border-color: var(--primary-cyan); margin-bottom: 1.25rem;">
+                    <div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Direct Desktop Autopsy Ingestion Instructions</div>
+                        <div style="font-size: 0.88rem; color: #E2E8F0; margin-top: 0.25rem; line-height: 1.5;">
+                            1. Open <strong>Autopsy</strong> on Windows / Kali Linux VM.<br>
+                            2. Click <strong>Open Case</strong> and select <code>Ransomdet_Forensic_Case.aut</code> (or <strong>Add Data Source</strong> &rarr; <strong>Logical Files</strong> &rarr; select <code>evidence_disk_image/</code>).<br>
+                            3. Run Ingest Modules: <em>File Type Identification, Encryption Detection, Keyword Search</em> to inspect the ransomware artifacts visually.
+                        </div>
+                    </div>
+                    <span class="file-badge badge-key"><i class="fa-solid fa-check"></i> Autopsy Ready</span>
+                </div>
+
+                <table class="forensic-table">
+                    <thead>
+                        <tr>
+                            <th>Generated Autopsy File</th>
+                            <th>Forensic Format</th>
+                            <th>Function &amp; Compatibility</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>Ransomdet_Forensic_Case.aut</code></td>
+                            <td>Autopsy XML Schema 5.0</td>
+                            <td>Primary case configuration file for direct desktop loading</td>
+                            <td><a href="/api/download/aut" class="btn-download" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td><code>tsk_bodyfile.txt</code></td>
+                            <td>Sleuth Kit (TSK) Format</td>
+                            <td>Cryptographic MD5 hash &amp; MACB inode timeline for mactime parser</td>
+                            <td><a href="/api/download/bodyfile" class="btn-download" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td><code>Autopsy_Forensic_Report.html</code></td>
+                            <td>HTML5 Case Ingest Report</td>
+                            <td>Standalone formatted investigative dossier of all imaged evidence</td>
+                            <td><a href="/api/autopsy" target="_blank" class="btn-download" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;">View</a></td>
+                        </tr>
                     </tbody>
                 </table>
             </div>

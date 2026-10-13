@@ -1,7 +1,7 @@
 # DIGITAL FORENSIC INCIDENT INVESTIGATION REPORT
 **Project Title**: Integrated Digital Forensic Response to Ransomware Threats  
 **Reference Paper**: Patil, S.P., Kamalesh, V.N., & Bamane, K.D. (2024), *Vascular and Endovascular Review*, 7(2), 180–189.  
-**Report Generated**: 2026-10-13 13:47:43 UTC  
+**Report Generated**: 2026-10-13 14:59:42 UTC  
 **Classification**: CONFIDENTIAL // FORENSIC EVIDENCE (LEGAL ADMISSIBILITY LEVEL 1)  
 **Lead Investigator / System**: Antigravity DFIR Automated Orchestrator  
 
@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary
 
-On **2026-10-13T13:47:42.994413**, an automated digital forensic response framework intercepted and investigated an active ransomware outbreak in the monitored endpoint environment. The incident exhibited rapid burst file encryption, deployment of extortion notes, volatile memory residency, attempted resolution of a known killswitch domain, and network lateral propagation exploiting **CVE-2017-0144 (EternalBlue / SMBv1)**.
+On **2026-10-13T14:59:41.209390**, an automated digital forensic response framework intercepted and investigated an active ransomware outbreak in the monitored endpoint environment. The incident exhibited rapid burst file encryption, deployment of extortion notes, volatile memory residency, attempted resolution of a known killswitch domain, and network lateral propagation exploiting **CVE-2017-0144 (EternalBlue / SMBv1)**.
 
 Following the paper's 5-layer methodology (**Detection → Acquisition → Analysis → Correlation → Reporting**), the engine preserved volatile RAM state, captured binary network PCAPs, imaged disk artifacts with SHA-256 integrity, extracted in-memory decryption keys, and achieved **100% automated data recovery** without paying extortion demands.
 
@@ -64,7 +64,7 @@ Following the paper's 5-layer methodology (**Detection → Acquisition → Analy
 
 ### 4.2 Volatile Memory Forensics & Key Carving (Volatility Engine)
 - **Memory Artifacts Scanned**: `volatile_memory.raw`
-- **Carved Plaintext Encryption Key(s)**: `0f5m2QU7Npb9uRi25RpsBCd5yzNYW7e5x4PmsGNSdeM=`
+- **Carved Plaintext Encryption Key(s)**: `poBrlC0RfDhLK8AUP2fA7Zt78BeX4ljKCOVSSN81ME8=`
 - **Active Mutex Discovered**: `Global\MsWinZonesCacheCounterMutexA` (WannaCry runtime mutex)
 - **Process Lineage Reconstructed (`windows.pslist`)**:
   - `services.exe` (PID 1024) $\rightarrow$ `mssecsvc.exe` (PID 2384) $\rightarrow$ `tasksche.exe` (PID 3840)
@@ -77,11 +77,11 @@ Forensic disk inspection measured file-level Shannon entropy ($H(X)$ from 0.0 to
 | :--- | :--- | :--- | :--- |
 | `volatile_memory.raw` | `4503 B` | `0.95` | **PLAINTEXT / STRUCTURED** |
 | `@Please_Read_Me@.txt` | `1021 B` | `4.87` | **PLAINTEXT / STRUCTURED** |
-| `decryption_key.log` | `44 B` | `4.81` | **PLAINTEXT / STRUCTURED** |
-| `employee_roster.txt.locked` | `292 B` | `5.86` | **ENCRYPTED (High Entropy)** |
-| `financial_q4.csv.locked` | `292 B` | `5.84` | **ENCRYPTED (High Entropy)** |
+| `decryption_key.log` | `44 B` | `4.91` | **PLAINTEXT / STRUCTURED** |
+| `employee_roster.txt.locked` | `292 B` | `5.82` | **ENCRYPTED (High Entropy)** |
+| `financial_q4.csv.locked` | `292 B` | `5.88` | **ENCRYPTED (High Entropy)** |
 | `project_roadmap.docx.locked` | `292 B` | `5.83` | **ENCRYPTED (High Entropy)** |
-| `patient_records.xml.locked` | `460 B` | `5.89` | **ENCRYPTED (High Entropy)** |
+| `patient_records.xml.locked` | `460 B` | `5.92` | **ENCRYPTED (High Entropy)** |
 | `confidential_keys.json.locked` | `292 B` | `5.81` | **ENCRYPTED (High Entropy)** |
 | `READ_ME_RANSOM.txt` | `1021 B` | `4.87` | **PLAINTEXT / STRUCTURED** |
 

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T13:47:43.078309",
+  "timestamp": "2026-10-13T14:59:41.308235",
   "pcap_target": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/traffic.pcap",
   "total_packets_parsed": 10,
   "protocols_detected": {

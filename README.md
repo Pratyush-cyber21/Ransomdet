@@ -121,3 +121,22 @@ Open your browser and navigate to: **`http://localhost:8080`**
 * **Disk Entropy**: View Shannon entropy distribution per file ($0.0 - 8.0$) and verified recovery state.
 * **Chain of Custody Ledger**: Audit the immutable cryptographic hash chain ($I_C = 100\%$).
 * **Legal Dossier Export**: View and download the GDPR Article 33 and Budapest Convention compliant investigation report.
+
+---
+
+### Step 4: Autopsy Digital Forensics GUI Demonstration
+
+The pipeline natively exports case data and Sleuth Kit artifacts for Autopsy (`.aut` case schema and `tsk_bodyfile.txt` timeline format).
+
+#### Inspecting the Evidence in Autopsy GUI:
+1. Open the **Autopsy** application.
+2. Click **"Open Case"** $\rightarrow$ Navigate to:
+   ```text
+   acquisition/autopsy_case/Ransomdet_Forensic_Case.aut
+   ```
+   *(Or click **"New Case"** $\rightarrow$ Add Data Source $\rightarrow$ **Logical Files** $\rightarrow$ Select `acquisition/evidence_disk_image/`)*.
+3. **What to inspect in the Autopsy GUI**:
+   - **Encrypted Evidence & High Shannon Entropy**: Under `Data Sources` $\rightarrow$ `evidence_disk_image`, click on `.locked` files (`corporate_financials.xlsx.locked`, `customer_records.db.locked`) and inspect the **Hex View** showing pseudo-random encrypted byte distribution ($H \approx 7.989 / 8.0$).
+   - **Ransom Notes & Threat Attribution**: View `READ_ME_RANSOM.txt` and `@Please_Read_Me@.txt` containing the extortion note and BTC wallet address (`115p7UMMngoj1pMvkpHijcRdfJNXj6LrLn`), mapped to Lazarus Group (APT38) MITRE ATT&CK T1486.
+   - **Volatile RAM Dump**: View `volatile_memory.raw`, where the pipeline extracts the live plaintext AES-256 key (`R4nS0m_K3y_32_Byt3s_S3cur1ty!!2024`) for zero-data-loss decryption.
+   - **Forensic HTML Ingest Report**: Open `acquisition/autopsy_case/Autopsy_Forensic_Report.html` for an executive summary of evidence ingested.

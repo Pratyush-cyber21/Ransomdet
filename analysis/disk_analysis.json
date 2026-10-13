@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-10-13T13:40:44.568764",
+  "timestamp": "2026-10-13T13:47:43.068422",
   "total_files_inspected": 9,
   "files_analyzed": [
     {
       "filename": "volatile_memory.raw",
       "size_bytes": 4503,
-      "shannon_entropy": 0.9501,
+      "shannon_entropy": 0.9532,
       "classification": "PLAINTEXT / STRUCTURED",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.974175",
-        "accessed": "2026-10-13T13:40:44.558811",
-        "changed": "2026-10-13T13:40:44.558864",
-        "birth": "2026-10-13T13:40:43.974175"
+        "modified": "2026-10-13T13:47:42.475357",
+        "accessed": "2026-10-13T13:47:43.053660",
+        "changed": "2026-10-13T13:47:43.053722",
+        "birth": "2026-10-13T13:47:42.475357"
       }
     },
     {
@@ -20,82 +20,82 @@
       "shannon_entropy": 4.8685,
       "classification": "PLAINTEXT / STRUCTURED",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.973822",
-        "accessed": "2026-10-13T13:40:44.559467",
-        "changed": "2026-10-13T13:40:44.559512",
-        "birth": "2026-10-13T13:40:43.973822"
+        "modified": "2026-10-13T13:47:42.474834",
+        "accessed": "2026-10-13T13:47:43.054187",
+        "changed": "2026-10-13T13:47:43.054354",
+        "birth": "2026-10-13T13:47:42.474834"
       }
     },
     {
       "filename": "decryption_key.log",
       "size_bytes": 44,
-      "shannon_entropy": 4.7716,
+      "shannon_entropy": 4.8059,
       "classification": "PLAINTEXT / STRUCTURED",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.963452",
-        "accessed": "2026-10-13T13:40:44.559857",
-        "changed": "2026-10-13T13:40:44.559911",
-        "birth": "2026-10-13T13:40:43.963452"
+        "modified": "2026-10-13T13:47:42.449384",
+        "accessed": "2026-10-13T13:47:43.054775",
+        "changed": "2026-10-13T13:47:43.054822",
+        "birth": "2026-10-13T13:47:42.449384"
       }
     },
     {
       "filename": "employee_roster.txt.locked",
       "size_bytes": 292,
-      "shannon_entropy": 5.8316,
+      "shannon_entropy": 5.8623,
       "classification": "ENCRYPTED (High Entropy)",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.972395",
-        "accessed": "2026-10-13T13:40:44.560253",
-        "changed": "2026-10-13T13:40:44.560292",
-        "birth": "2026-10-13T13:40:43.972395"
+        "modified": "2026-10-13T13:47:42.473184",
+        "accessed": "2026-10-13T13:47:43.055283",
+        "changed": "2026-10-13T13:47:43.055430",
+        "birth": "2026-10-13T13:47:42.473184"
       }
     },
     {
       "filename": "financial_q4.csv.locked",
       "size_bytes": 292,
-      "shannon_entropy": 5.818,
+      "shannon_entropy": 5.8364,
       "classification": "ENCRYPTED (High Entropy)",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.969006",
-        "accessed": "2026-10-13T13:40:44.560574",
-        "changed": "2026-10-13T13:40:44.560613",
-        "birth": "2026-10-13T13:40:43.969006"
+        "modified": "2026-10-13T13:47:42.470463",
+        "accessed": "2026-10-13T13:47:43.055895",
+        "changed": "2026-10-13T13:47:43.056006",
+        "birth": "2026-10-13T13:47:42.470463"
       }
     },
     {
       "filename": "project_roadmap.docx.locked",
       "size_bytes": 292,
-      "shannon_entropy": 5.8094,
+      "shannon_entropy": 5.825,
       "classification": "ENCRYPTED (High Entropy)",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.970402",
-        "accessed": "2026-10-13T13:40:44.560915",
-        "changed": "2026-10-13T13:40:44.560981",
-        "birth": "2026-10-13T13:40:43.970402"
+        "modified": "2026-10-13T13:47:42.471474",
+        "accessed": "2026-10-13T13:47:43.056423",
+        "changed": "2026-10-13T13:47:43.056470",
+        "birth": "2026-10-13T13:47:42.471474"
       }
     },
     {
       "filename": "patient_records.xml.locked",
       "size_bytes": 460,
-      "shannon_entropy": 5.9251,
+      "shannon_entropy": 5.89,
       "classification": "ENCRYPTED (High Entropy)",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.973081",
-        "accessed": "2026-10-13T13:40:44.561264",
-        "changed": "2026-10-13T13:40:44.561304",
-        "birth": "2026-10-13T13:40:43.973081"
+        "modified": "2026-10-13T13:47:42.474093",
+        "accessed": "2026-10-13T13:47:43.056875",
+        "changed": "2026-10-13T13:47:43.056922",
+        "birth": "2026-10-13T13:47:42.474093"
       }
     },
     {
       "filename": "confidential_keys.json.locked",
       "size_bytes": 292,
-      "shannon_entropy": 5.8132,
+      "shannon_entropy": 5.8146,
       "classification": "ENCRYPTED (High Entropy)",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.971678",
-        "accessed": "2026-10-13T13:40:44.561613",
-        "changed": "2026-10-13T13:40:44.561649",
-        "birth": "2026-10-13T13:40:43.971678"
+        "modified": "2026-10-13T13:47:42.472487",
+        "accessed": "2026-10-13T13:47:43.057318",
+        "changed": "2026-10-13T13:47:43.057361",
+        "birth": "2026-10-13T13:47:42.472487"
       }
     },
     {
@@ -104,10 +104,10 @@
       "shannon_entropy": 4.8685,
       "classification": "PLAINTEXT / STRUCTURED",
       "macb_timeline": {
-        "modified": "2026-10-13T13:40:43.973516",
-        "accessed": "2026-10-13T13:40:44.561909",
-        "changed": "2026-10-13T13:40:44.561945",
-        "birth": "2026-10-13T13:40:43.973516"
+        "modified": "2026-10-13T13:47:42.474547",
+        "accessed": "2026-10-13T13:47:43.057905",
+        "changed": "2026-10-13T13:47:43.057951",
+        "birth": "2026-10-13T13:47:42.474547"
       }
     }
   ],

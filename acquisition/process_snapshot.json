@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-13T13:40:44.489366",
-  "total_processes_captured": 631,
+  "timestamp": "2026-10-13T13:47:42.997911",
+  "total_processes_captured": 559,
   "suspicious_processes": [
     {
-      "pid": 50379,
+      "pid": 50506,
       "name": "Python",
-      "cmdline": "/Library/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python -c \nimport urllib.request, json\n# Test orchestrator directly first\nfrom orchestrator import run_end_to_end_pipeline\nmetrics = run_end_to_end_pipeline()\nprint('Direct Orchestrator Run Success:', metrics)\n",
+      "cmdline": "/Library/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python web_app.py",
       "user": "pratyushkumarsahoo"
     }
   ],
@@ -2117,12 +2117,6 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 42263,
-      "name": "securityd_system",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
       "pid": 42274,
       "name": "searchpartyuseragent",
       "cmdline": "/usr/libexec/searchpartyuseragent",
@@ -2186,12 +2180,6 @@
       "pid": 42579,
       "name": "UsageTrackingAgent",
       "cmdline": "/System/Library/PrivateFrameworks/UsageTracking.framework/Versions/A/UsageTrackingAgent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 42582,
-      "name": "appleaccountd",
-      "cmdline": "/usr/libexec/appleaccountd",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -2321,12 +2309,6 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 46903,
-      "name": "devicecheckd",
-      "cmdline": "/System/Library/PrivateFrameworks/DeviceCheckInternal.framework/devicecheckd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 46934,
       "name": "ChatGPT",
       "cmdline": "/Applications/ChatGPT.app/Contents/MacOS/ChatGPT",
@@ -2441,12 +2423,6 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 47422,
-      "name": "rtcreportingd",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
       "pid": 47445,
       "name": "nehelper",
       "cmdline": "",
@@ -2477,18 +2453,6 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 47693,
-      "name": "AppleCredentialM",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 47694,
-      "name": "biometrickitd",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
       "pid": 47704,
       "name": "system_installd",
       "cmdline": "",
@@ -2507,46 +2471,16 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 47740,
-      "name": "AuthenticationServicesAgent",
-      "cmdline": "/System/Cryptexes/App/usr/libexec/AuthenticationServicesAgent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 47758,
       "name": "AppSSODaemon",
       "cmdline": "",
       "user": "root"
     },
     {
-      "pid": 47769,
-      "name": "audioanalyticsd",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 47777,
-      "name": "generativeexperiencesd",
-      "cmdline": "/System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/Versions/A/generativeexperiencesd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 47778,
       "name": "modelcatalogd",
       "cmdline": "",
       "user": "root"
-    },
-    {
-      "pid": 47779,
-      "name": "FeatureAccessAgent",
-      "cmdline": "/System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/FeatureAccessAgent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 47783,
-      "name": "commerce",
-      "cmdline": "/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce",
-      "user": "pratyushkumarsahoo"
     },
     {
       "pid": 47784,
@@ -2585,12 +2519,6 @@
       "user": "_networkd"
     },
     {
-      "pid": 47810,
-      "name": "communicationtrustd",
-      "cmdline": "/System/Library/PrivateFrameworks/CommunicationTrust.framework/Support/communicationtrustd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 47812,
       "name": "familycircled",
       "cmdline": "/System/Library/PrivateFrameworks/FamilyCircle.framework/Versions/A/Resources/familycircled",
@@ -2603,20 +2531,8 @@
       "user": "_networkd"
     },
     {
-      "pid": 47818,
-      "name": "ctkd",
-      "cmdline": "/System/Library/Frameworks/CryptoTokenKit.framework/ctkd -tw",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 47819,
       "name": "sandboxd",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 47820,
-      "name": "ospredictiond",
       "cmdline": "",
       "user": "root"
     },
@@ -2639,20 +2555,8 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 47867,
-      "name": "mobileactivation",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
       "pid": 47874,
       "name": "PowerUIAgent",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 47879,
-      "name": "containermanager",
       "cmdline": "",
       "user": "root"
     },
@@ -2667,36 +2571,6 @@
       "name": "ContextService",
       "cmdline": "/System/Library/PrivateFrameworks/ContextKit.framework/Versions/A/XPCServices/ContextService.xpc/Contents/MacOS/ContextService",
       "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 47907,
-      "name": "powerdatad",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 47942,
-      "name": "mlhostd",
-      "cmdline": "/usr/libexec/mlhostd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 47943,
-      "name": "filevaultd",
-      "cmdline": "/usr/libexec/filevaultd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 47944,
-      "name": "TrustedPeersHelper",
-      "cmdline": "/System/Library/Frameworks/Security.framework/Versions/A/XPCServices/TrustedPeersHelper.xpc/Contents/MacOS/TrustedPeersHelper",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 47947,
-      "name": "storagekitd",
-      "cmdline": "",
-      "user": "root"
     },
     {
       "pid": 47948,
@@ -2735,27 +2609,9 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 48031,
-      "name": "online-auth-agen",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 48032,
-      "name": "seputil",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
       "pid": 48035,
       "name": "photolibraryd",
       "cmdline": "/System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48037,
-      "name": "photoanalysisd",
-      "cmdline": "/System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -2771,27 +2627,9 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 48072,
-      "name": "recentsd",
-      "cmdline": "/System/Library/PrivateFrameworks/CoreRecents.framework/Versions/A/Support/recentsd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 48075,
       "name": "siriknowledged",
       "cmdline": "/usr/libexec/siriknowledged",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48076,
-      "name": "IMDPersistenceAgent",
-      "cmdline": "/System/Library/PrivateFrameworks/IMDPersistence.framework/XPCServices/IMDPersistenceAgent.xpc/Contents/MacOS/IMDPersistenceAgent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48077,
-      "name": "SetStoreUpdateService",
-      "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -2801,39 +2639,9 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 48140,
-      "name": "jetpackassetd",
-      "cmdline": "/System/Library/PrivateFrameworks/JetCore.framework/Support/jetpackassetd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 48145,
       "name": "amsengagementd",
       "cmdline": "/System/Library/PrivateFrameworks/AppleMediaServicesUI.framework/amsengagementd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48150,
-      "name": "cdpd",
-      "cmdline": "/System/Library/PrivateFrameworks/CoreCDP.framework/Versions/A/Resources/cdpd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48158,
-      "name": "appstoreagent",
-      "cmdline": "/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstoreagent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48167,
-      "name": "appstored",
-      "cmdline": "",
-      "user": "_appstore"
-    },
-    {
-      "pid": 48172,
-      "name": "promotedcontentd",
-      "cmdline": "/usr/libexec/promotedcontentd",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -2841,18 +2649,6 @@
       "name": "ScreenTimeSettingsAgent",
       "cmdline": "/System/Library/PrivateFrameworks/ScreenTimeSettingsFoundation.framework/Versions/A/ScreenTimeSettingsAgent -com.apple.CoreData.ConcurrencyDebug 1",
       "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48202,
-      "name": "dmd",
-      "cmdline": "/usr/libexec/dmd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48215,
-      "name": "symptomsd-diag",
-      "cmdline": "",
-      "user": "root"
     },
     {
       "pid": 48267,
@@ -2864,54 +2660,6 @@
       "pid": 48277,
       "name": "analyticsagent",
       "cmdline": "/System/Library/PrivateFrameworks/CoreAnalytics.framework/Support/analyticsagent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48311,
-      "name": "EscrowSecurityAlert",
-      "cmdline": "/System/Library/CoreServices/EscrowSecurityAlert.app/Contents/MacOS/EscrowSecurityAlert",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48314,
-      "name": "com.apple.sbd",
-      "cmdline": "/System/Library/PrivateFrameworks/CloudServices.framework/Helpers/com.apple.sbd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48319,
-      "name": "assistant_service",
-      "cmdline": "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/Support/assistant_service",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48325,
-      "name": "amsondevicestoraged",
-      "cmdline": "/System/Library/PrivateFrameworks/OnDeviceStorage.framework/Support/amsondevicestoraged",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48328,
-      "name": "iCloudNotificationAgent",
-      "cmdline": "/System/Library/PrivateFrameworks/iCloudNotification.framework/iCloudNotificationAgent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48353,
-      "name": "dataaccessd",
-      "cmdline": "/System/Library/PrivateFrameworks/DataAccess.framework/Support/dataaccessd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48485,
-      "name": "managedappdistri",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 48486,
-      "name": "managedappdistributionagent",
-      "cmdline": "/System/Library/Frameworks/ManagedAppDistribution.framework/Support/managedappdistributionagent",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -2927,27 +2675,9 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 48582,
-      "name": "liquiddetectiond",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 48586,
-      "name": "intelligencetasksd",
-      "cmdline": "/System/Library/PrivateFrameworks/IntelligenceTasksEngine.framework/Support/intelligencetasksd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 48589,
       "name": "parsecd",
       "cmdline": "/System/Library/PrivateFrameworks/CoreParsec.framework/parsecd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48593,
-      "name": "itunescloudd",
-      "cmdline": "/System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -2955,18 +2685,6 @@
       "name": "aneuserd",
       "cmdline": "",
       "user": "_neuralengine"
-    },
-    {
-      "pid": 48616,
-      "name": "tipsd",
-      "cmdline": "/usr/libexec/tipsd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48619,
-      "name": "ProtectedCloudKeySyncing",
-      "cmdline": "/System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Helpers/ProtectedCloudKeySyncing",
-      "user": "pratyushkumarsahoo"
     },
     {
       "pid": 48651,
@@ -2999,40 +2717,10 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 48669,
-      "name": "media-indexer",
-      "cmdline": "/System/Library/PrivateFrameworks/AssistantServices.framework/Versions/A/XPCServices/media-indexer.xpc/Contents/MacOS/media-indexer",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48670,
-      "name": "TrialArchivingService",
-      "cmdline": "/System/Library/PrivateFrameworks/TrialServer.framework/Versions/A/XPCServices/TrialArchivingService.xpc/Contents/MacOS/TrialArchivingService",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48672,
-      "name": "com.apple.BKAgentService",
-      "cmdline": "/System/Library/PrivateFrameworks/BookKit.framework/Versions/A/XPCServices/com.apple.BKAgentService.xpc/Contents/MacOS/com.apple.BKAgentService",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 48675,
       "name": "AMPArtworkAgent",
       "cmdline": "/System/Library/PrivateFrameworks/AMPLibrary.framework/Versions/A/Support/AMPArtworkAgent --launchd",
       "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48676,
-      "name": "MTLAssetUpgraderD",
-      "cmdline": "/usr/libexec/MTLAssetUpgraderD",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48704,
-      "name": "iconservicesd",
-      "cmdline": "",
-      "user": "_iconservices"
     },
     {
       "pid": 48711,
@@ -3041,46 +2729,10 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 48721,
-      "name": "iconservicesagent",
-      "cmdline": "/System/Library/CoreServices/iconservicesagent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 48734,
       "name": "logd_helper",
       "cmdline": "",
       "user": "root"
-    },
-    {
-      "pid": 48740,
-      "name": "appleaccounttransparencyd",
-      "cmdline": "/System/Library/PrivateFrameworks/AppleAccountTransparency.framework/Versions/A/Resources/appleaccounttransparencyd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48742,
-      "name": "intelligentroutingd",
-      "cmdline": "/usr/libexec/intelligentroutingd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48762,
-      "name": "com.apple.CloudPhotosConfiguration",
-      "cmdline": "/System/Library/PrivateFrameworks/CloudPhotoServices.framework/Versions/A/XPCServices/com.apple.CloudPhotosConfiguration.xpc/Contents/MacOS/com.apple.CloudPhotosConfiguration",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48766,
-      "name": "intelligenceflowd",
-      "cmdline": "/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48772,
-      "name": "siriappintentsd",
-      "cmdline": "/System/Library/PrivateFrameworks/SiriAppIntentsRuntime.framework/siriappintentsd",
-      "user": "pratyushkumarsahoo"
     },
     {
       "pid": 48775,
@@ -3095,27 +2747,9 @@
       "user": "root"
     },
     {
-      "pid": 48785,
-      "name": "speechmaintenanced",
-      "cmdline": "/System/Library/PrivateFrameworks/CoreEmbeddedSpeechRecognition.framework/speechmaintenanced",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 48790,
       "name": "contentlinkingd",
       "cmdline": "/System/Library/PrivateFrameworks/Synapse.framework/Support/contentlinkingd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48793,
-      "name": "inputanalyticsd",
-      "cmdline": "/usr/libexec/inputanalyticsd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48794,
-      "name": "keychainsharingmessagingd",
-      "cmdline": "/usr/libexec/keychainsharingmessagingd",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -3143,21 +2777,9 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 48804,
-      "name": "SetStoreUpdateService",
-      "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 48808,
       "name": "homeenergyd",
       "cmdline": "/System/iOSSupport/System/Library/PrivateFrameworks/HomeEnergyDaemon.framework/Support/homeenergyd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 48809,
-      "name": "SetStoreUpdateService",
-      "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -3167,32 +2789,8 @@
       "user": "_locationd"
     },
     {
-      "pid": 48812,
-      "name": "cfprefsd",
-      "cmdline": "",
-      "user": "_locationd"
-    },
-    {
-      "pid": 48822,
-      "name": "containermanager",
-      "cmdline": "",
-      "user": "_locationd"
-    },
-    {
       "pid": 48824,
       "name": "com.apple.geod",
-      "cmdline": "",
-      "user": "_cmiodalassistants"
-    },
-    {
-      "pid": 48826,
-      "name": "cfprefsd",
-      "cmdline": "",
-      "user": "_cmiodalassistants"
-    },
-    {
-      "pid": 48828,
-      "name": "containermanager",
       "cmdline": "",
       "user": "_cmiodalassistants"
     },
@@ -3219,18 +2817,6 @@
       "name": "amfid",
       "cmdline": "",
       "user": "root"
-    },
-    {
-      "pid": 48846,
-      "name": "XProtectBridgeSe",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 48847,
-      "name": "storekitagent",
-      "cmdline": "/System/Library/Frameworks/StoreKit.framework/Support/storekitagent",
-      "user": "pratyushkumarsahoo"
     },
     {
       "pid": 48849,
@@ -3401,34 +2987,10 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 49134,
-      "name": "com.apple.CMExtensionBroker",
-      "cmdline": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/XPCServices/com.apple.CMExtensionBroker.xpc/Contents/MacOS/com.apple.CMExtensionBroker",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49135,
-      "name": "SetStoreUpdateService",
-      "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 49137,
       "name": "TextThumbnailExtension",
       "cmdline": "/System/Library/ExtensionKit/Extensions/TextThumbnailExtension.appex/Contents/MacOS/TextThumbnailExtension -BSServiceDomains {\"XPCService\":{\"Services\":{\"MainService\":{}}}} -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5xdWlja2xvb2sudGh1bWJuYWlsLlRleHRFeHRlbnNpb24iLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
       "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49144,
-      "name": "naturallanguaged",
-      "cmdline": "/usr/libexec/naturallanguaged",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49145,
-      "name": "MTLCompilerServi",
-      "cmdline": "",
-      "user": "root"
     },
     {
       "pid": 49146,
@@ -3443,12 +3005,6 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 49151,
-      "name": "smd",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
       "pid": 49152,
       "name": "SetStoreUpdateService",
       "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
@@ -3458,42 +3014,6 @@
       "pid": 49157,
       "name": "com.apple.Safari.SafeBrowsing.Service",
       "cmdline": "/System/Library/PrivateFrameworks/SafariSafeBrowsing.framework/com.apple.Safari.SafeBrowsing.Service",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49174,
-      "name": "SAExtensionOrchestrator",
-      "cmdline": "/System/Library/PrivateFrameworks/SiriAnalytics.framework/Versions/A/XPCServices/SAExtensionOrchestrator.xpc/Contents/MacOS/SAExtensionOrchestrator",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49175,
-      "name": "IFTranscriptSELFIngestor",
-      "cmdline": "/System/Library/ExtensionKit/Extensions/IFTranscriptSELFIngestor.appex/Contents/MacOS/IFTranscriptSELFIngestor -BSServiceDomains {\"XPCService\":{\"Services\":{\"MainService\":{}}}} -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5saWdodGhvdXNlLklGVHJhbnNjcmlwdFNFTEZJbmdlc3RvciIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlfQ==",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49176,
-      "name": "IFTelemetrySELFIngestor",
-      "cmdline": "/System/Library/ExtensionKit/Extensions/IFTelemetrySELFIngestor.appex/Contents/MacOS/IFTelemetrySELFIngestor -BSServiceDomains {\"XPCService\":{\"Services\":{\"MainService\":{}}}} -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5saWdodGhvdXNlLklGVGVsZW1ldHJ5U0VMRkluZ2VzdG9yIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2UsInR5cGUiOjF9",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49177,
-      "name": "BiomeSELFIngestor",
-      "cmdline": "/System/Library/ExtensionKit/Extensions/BiomeSELFIngestor.appex/Contents/MacOS/BiomeSELFIngestor -BSServiceDomains {\"XPCService\":{\"Services\":{\"MainService\":{}}}} -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5saWdodGhvdXNlLkJpb21lU0VMRkluZ2VzdG9yIiwiZW5oYW5jZWRTZWN1cml0eSI6ZmFsc2UsInR5cGUiOjF9",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49178,
-      "name": "AppleIntelligenceReportingSELFIngestor",
-      "cmdline": "/System/Library/ExtensionKit/Extensions/AppleIntelligenceReportingSELFIngestor.appex/Contents/MacOS/AppleIntelligenceReportingSELFIngestor -BSServiceDomains {\"XPCService\":{\"Services\":{\"MainService\":{}}}} -LaunchArguments eyJ0eXBlIjoxLCJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5wcm9hY3RpdmUuQXBwbGVJbnRlbGxpZ2VuY2VSZXBvcnRpbmdTRUxGSW5nZXN0b3IiLCJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZX0=",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49179,
-      "name": "GMSSELFIngestor",
-      "cmdline": "/System/Library/ExtensionKit/Extensions/GMSSELFIngestor.appex/Contents/MacOS/GMSSELFIngestor -BSServiceDomains {\"XPCService\":{\"Services\":{\"MainService\":{}}}} -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5zaXJpLkdNU1NFTEZJbmdlc3RvciIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlLCJ0eXBlIjoxfQ==",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -3509,57 +3029,9 @@
       "user": "root"
     },
     {
-      "pid": 49375,
-      "name": "MTLCompilerService",
-      "cmdline": "/System/Library/Frameworks/Metal.framework/Versions/A/XPCServices/MTLCompilerService.xpc/Contents/MacOS/MTLCompilerService",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49396,
-      "name": "com.apple.DictionaryServiceHelper",
-      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49404,
-      "name": "XprotectService",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 49405,
-      "name": "ReportCrash",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 49492,
-      "name": "MENotificationAgent",
-      "cmdline": "/System/Library/Frameworks/MediaExtension.framework/Versions/A/Helpers/MENotificationAgent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 49493,
       "name": "BackgroundTaskManagementAgent",
       "cmdline": "/System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Support/BackgroundTaskManagementAgent.app/Contents/MacOS/BackgroundTaskManagementAgent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49502,
-      "name": "SiriSuggestionsBookkeepingService",
-      "cmdline": "/System/Library/PrivateFrameworks/SiriSuggestionsSupport.framework/Versions/A/XPCServices/SiriSuggestionsBookkeepingService.xpc/Contents/MacOS/SiriSuggestionsBookkeepingService",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49513,
-      "name": "colorsync.useragent",
-      "cmdline": "/System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49521,
-      "name": "hybridsearchd",
-      "cmdline": "/usr/libexec/hybridsearchd",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -3572,18 +3044,6 @@
       "pid": 49529,
       "name": "com.apple.fskit.msdos",
       "cmdline": "/System/Library/ExtensionKit/Extensions/com.apple.fskit.msdos.appex/Contents/MacOS/com.apple.fskit.msdos -BSServiceDomains {\"XPCService\":{\"Services\":{\"MainService\":{}}}} -LaunchArguments eyJzZXJ2aWNlTmFtZSI6ImNvbS5hcHBsZS5mc2tpdC5tc2RvcyIsImVuaGFuY2VkU2VjdXJpdHkiOmZhbHNlLCJ0eXBlIjoxfQ==",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49530,
-      "name": "fskit_helper",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 49632,
-      "name": "SetStoreUpdateService",
-      "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
       "user": "pratyushkumarsahoo"
     },
     {
@@ -3611,48 +3071,6 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 49913,
-      "name": "com.apple.CMExtensionBroker",
-      "cmdline": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/XPCServices/com.apple.CMExtensionBroker.xpc/Contents/MacOS/com.apple.CMExtensionBroker",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49914,
-      "name": "SetStoreUpdateService",
-      "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49916,
-      "name": "countryd",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 49928,
-      "name": "SetStoreUpdateService",
-      "cmdline": "/System/Library/PrivateFrameworks/CascadeSets.framework/Versions/A/XPCServices/SetStoreUpdateService.xpc/Contents/MacOS/SetStoreUpdateService",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 49995,
-      "name": "ReportCrash",
-      "cmdline": "/System/Library/CoreServices/ReportCrash agent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 50044,
-      "name": "peakpowermanager",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 50059,
-      "name": "mobiletimerd",
-      "cmdline": "/System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
       "pid": 50062,
       "name": "cloudtelemetryd",
       "cmdline": "",
@@ -3665,58 +3083,10 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 50081,
-      "name": "assessmentagent",
-      "cmdline": "/usr/libexec/assessmentagent",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 50086,
-      "name": "ReportSystemMemo",
-      "cmdline": "",
-      "user": "_reportsystemmemory"
-    },
-    {
-      "pid": 50089,
-      "name": "osanalyticshelpe",
-      "cmdline": "",
-      "user": "root"
-    },
-    {
-      "pid": 50091,
-      "name": "nfcd",
-      "cmdline": "",
-      "user": "_applepay"
-    },
-    {
-      "pid": 50092,
-      "name": "NFStorageServer",
-      "cmdline": "",
-      "user": "_applepay"
-    },
-    {
       "pid": 50093,
       "name": "spotlightknowledged.updater",
       "cmdline": "/usr/libexec/spotlightknowledged.updater -u",
       "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 50096,
-      "name": "Google Chrome Helper",
-      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/154.0.8037.99/Helpers/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-GB --service-sandbox-type=service --shared-files --metrics-shmem-handle=1752395122,r,1943918409453683600,10537807605382412574,524288 --field-trial-handle=1718379636,r,795817527777470891,7147157096095291472,262144 --variations-seed-version=20261011-030035.864000-production --pseudonymization-salt-handle=1935764596,r,686325449918467959,10329679095509861134,4 --trace-process-track-uuid=3190709547599939045 --seatbelt-client=219",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 50104,
-      "name": "feedbackd",
-      "cmdline": "/usr/libexec/feedbackd",
-      "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 50122,
-      "name": "powerexperienced",
-      "cmdline": "",
-      "user": "root"
     },
     {
       "pid": 50130,
@@ -3735,12 +3105,6 @@
       "name": "ManagedSettingsAgent",
       "cmdline": "/System/Library/Frameworks/ManagedSettings.framework/Versions/A/ManagedSettingsAgent",
       "user": "pratyushkumarsahoo"
-    },
-    {
-      "pid": 50214,
-      "name": "keybagd",
-      "cmdline": "",
-      "user": "root"
     },
     {
       "pid": 50239,
@@ -3785,15 +3149,219 @@
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 50365,
+      "pid": 50390,
+      "name": "geodMachServiceBridge",
+      "cmdline": "/System/Library/PrivateFrameworks/GeoServices.framework/geodMachServiceBridge",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50391,
+      "name": "AssetCache",
+      "cmdline": "",
+      "user": "_assetcache"
+    },
+    {
+      "pid": 50393,
+      "name": "cloudd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50395,
+      "name": "AssetCacheTether",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50397,
+      "name": "AssetCacheLocatorService",
+      "cmdline": "/System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/XPCServices/AssetCacheLocatorService.xpc/Contents/MacOS/AssetCacheLocatorService -a",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50426,
+      "name": "intents_helper",
+      "cmdline": "/System/Library/Frameworks/Intents.framework/XPCServices/intents_helper.xpc/Contents/MacOS/intents_helper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50446,
+      "name": "countryd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50449,
+      "name": "FeatureAccessAgent",
+      "cmdline": "/System/Library/PrivateFrameworks/CloudSubscriptionFeatures.framework/FeatureAccessAgent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50460,
+      "name": "commerce",
+      "cmdline": "/System/Library/PrivateFrameworks/CommerceKit.framework/Versions/A/Resources/commerce",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50471,
+      "name": "intelligenceflowd",
+      "cmdline": "/System/Library/PrivateFrameworks/IntelligenceFlowRuntime.framework/Versions/A/intelligenceflowd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50473,
+      "name": "siriappintentsd",
+      "cmdline": "/System/Library/PrivateFrameworks/SiriAppIntentsRuntime.framework/siriappintentsd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50475,
+      "name": "generativeexperiencesd",
+      "cmdline": "/System/Library/PrivateFrameworks/GenerativeExperiencesRuntime.framework/Versions/A/generativeexperiencesd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50485,
+      "name": "ospredictiond",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50486,
+      "name": "assessmentagent",
+      "cmdline": "/usr/libexec/assessmentagent",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50495,
+      "name": "feedbackd",
+      "cmdline": "/usr/libexec/feedbackd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50499,
+      "name": "nfcd",
+      "cmdline": "",
+      "user": "_applepay"
+    },
+    {
+      "pid": 50500,
+      "name": "NFStorageServer",
+      "cmdline": "",
+      "user": "_applepay"
+    },
+    {
+      "pid": 50501,
+      "name": "powerexperienced",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50503,
+      "name": "powerdatad",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50504,
+      "name": "audioanalyticsd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50505,
+      "name": "rtcreportingd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50506,
+      "name": "Python",
+      "cmdline": "/Library/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python web_app.py",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50551,
+      "name": "Google Chrome Helper (Renderer)",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/154.0.8037.99/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=650 --launch-time-ticks=150333083942 --shared-files --metrics-shmem-handle=1752395122,r,4881460813351856130,14824676745672229717,1572864 --field-trial-handle=1718379636,r,795817527777470891,7147157096095291472,262144 --variations-seed-version=20261011-030035.864000-production --pseudonymization-salt-handle=1935764596,r,686325449918467959,10329679095509861134,4 --trace-process-track-uuid=3190709595389073344 --seatbelt-client=185",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50552,
+      "name": "Google Chrome Helper (Renderer)",
+      "cmdline": "/Applications/Google Chrome.app/Contents/Frameworks/Google Chrome Framework.framework/Versions/154.0.8037.99/Helpers/Google Chrome Helper (Renderer).app/Contents/MacOS/Google Chrome Helper (Renderer) --type=renderer --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=652 --launch-time-ticks=150333312687 --shared-files --metrics-shmem-handle=1752395122,r,4160278656629607403,18118747685395128940,1572864 --field-trial-handle=1718379636,r,795817527777470891,7147157096095291472,262144 --variations-seed-version=20261011-030035.864000-production --pseudonymization-salt-handle=1935764596,r,686325449918467959,10329679095509861134,4 --trace-process-track-uuid=3190709597263157042 --seatbelt-client=163",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50555,
       "name": "mdworker_shared",
       "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared",
       "user": "pratyushkumarsahoo"
     },
     {
-      "pid": 50379,
-      "name": "Python",
-      "cmdline": "/Library/Frameworks/Python.framework/Versions/3.13/Resources/Python.app/Contents/MacOS/Python -c \nimport urllib.request, json\n# Test orchestrator directly first\nfrom orchestrator import run_end_to_end_pipeline\nmetrics = run_end_to_end_pipeline()\nprint('Direct Orchestrator Run Success:', metrics)\n",
+      "pid": 50562,
+      "name": "com.apple.DictionaryServiceHelper",
+      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/XPCServices/com.apple.DictionaryServiceHelper.xpc/Contents/MacOS/com.apple.DictionaryServiceHelper",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50563,
+      "name": "securityd_system",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50566,
+      "name": "mdworker_shared",
+      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50571,
+      "name": "mdworker_shared",
+      "cmdline": "",
+      "user": "_spotlight"
+    },
+    {
+      "pid": 50572,
+      "name": "liquiddetectiond",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50573,
+      "name": "accessoryupdater",
+      "cmdline": "",
+      "user": "_accessoryupdater"
+    },
+    {
+      "pid": 50574,
+      "name": "UARPUpdaterServi",
+      "cmdline": "",
+      "user": "_accessoryupdater"
+    },
+    {
+      "pid": 50576,
+      "name": "biometrickitd",
+      "cmdline": "",
+      "user": "root"
+    },
+    {
+      "pid": 50577,
+      "name": "mobiletimerd",
+      "cmdline": "/System/Library/PrivateFrameworks/MobileTimer.framework/Executables/mobiletimerd",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50578,
+      "name": "mdworker_shared",
+      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared",
+      "user": "pratyushkumarsahoo"
+    },
+    {
+      "pid": 50579,
+      "name": "mdworker_shared",
+      "cmdline": "/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared",
       "user": "pratyushkumarsahoo"
     }
   ]

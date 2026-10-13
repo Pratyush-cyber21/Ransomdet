@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T13:40:44.567573",
+  "timestamp": "2026-10-13T13:47:43.067053",
   "memory_artifacts_scanned": [
     {
       "filename": "volatile_memory.raw",
@@ -7,7 +7,7 @@
     }
   ],
   "recovered_encryption_keys": [
-    "RoYzdEGLLS3fcTQlb2TRRjfKKN5zTdrQfoWe_tiaEew="
+    "0f5m2QU7Npb9uRi25RpsBCd5yzNYW7e5x4PmsGNSdeM="
   ],
   "identified_malware_processes": [
     "mssecsvc.exe"

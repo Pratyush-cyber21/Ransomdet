@@ -10,7 +10,7 @@
   "ransom_notes_found": [
     "READ_ME_RANSOM.txt"
   ],
-  "detection_timestamp": "2026-10-13T13:40:44.486637",
+  "detection_timestamp": "2026-10-13T13:47:42.994413",
   "total_events_logged": 9,
   "status": "ALERT_RANSOMWARE_BEHAVIOR_DETECTED"
 }

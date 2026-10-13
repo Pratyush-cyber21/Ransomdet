@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<hospital_db>
+  <patient id="701"><name>John Doe</name><diagnosis>Cardiovascular Monitoring</diagnosis><ward>ICU-B</ward></patient>
+  <patient id="702"><name>Jane Roe</name><diagnosis>Endovascular Screening</diagnosis><ward>Ward-4</ward></patient>
+</hospital_db>

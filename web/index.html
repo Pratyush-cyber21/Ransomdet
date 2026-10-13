@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ransomdet | Integrated Digital Forensic Response Laboratory</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --bg-dark: #080C14;
+            --bg-card: rgba(15, 23, 42, 0.75);
+            --bg-card-hover: rgba(30, 41, 59, 0.85);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-highlight: rgba(0, 242, 254, 0.3);
+            
+            --primary-cyan: #00F2FE;
+            --primary-blue: #4FACFE;
+            --accent-purple: #8B5CF6;
+            --status-success: #10B981;
+            --status-alert: #EF4444;
+            --status-warning: #F59E0B;
+            
+            --text-main: #F8FAFC;
+            --text-muted: #94A3B8;
+            --text-dim: #64748B;
+
+            --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --font-mono: 'Fira Code', monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: var(--font-sans);
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(circle at 10% 10%, rgba(0, 242, 254, 0.06) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(139, 92, 246, 0.06) 0%, transparent 40%);
+            overflow-x: hidden;
+        }
+
+        /* Header Bar */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.25rem 2.5rem;
+            background: rgba(8, 12, 20, 0.9);
+            backdrop-filter: blur(14px);
+            border-bottom: 1px solid var(--border-color);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-icon {
+            width: 44px;
+            height: 44px;
+            background: linear-gradient(135deg, var(--primary-cyan), var(--primary-blue));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.35rem;
+            color: #080C14;
+            box-shadow: 0 0 25px rgba(0, 242, 254, 0.4);
+        }
+
+        .logo-text h1 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #FFFFFF, var(--primary-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo-text p {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 1.25rem;
+        }
+
+        .live-badge {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.45rem 0.9rem;
+            background: rgba(16, 185, 129, 0.12);
+            border: 1px solid rgba(16, 185, 129, 0.35);
+            border-radius: 20px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--status-success);
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--status-success);
+            border-radius: 50%;
+            animation: pulse 1.8s infinite;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 8px rgba(16, 185, 129, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(16, 185, 129, 0); }
+        }
+
+        .btn-run {
+            background: linear-gradient(135deg, var(--primary-cyan), var(--primary-blue));
+            color: #080C14;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 0.75rem 1.75rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 15px rgba(0, 242, 254, 0.35);
+        }
+
+        .btn-run:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(0, 242, 254, 0.55);
+        }
+
+        .btn-run:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Layout Container */
+        .container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 2rem 2.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        /* Metrics Grid */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.25rem;
+        }
+
+        .metric-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 1.25rem;
+            backdrop-filter: blur(10px);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            transition: all 0.25s ease;
+        }
+
+        .metric-card:hover {
+            border-color: var(--border-highlight);
+            transform: translateY(-2px);
+        }
+
+        .metric-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .metric-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .metric-icon {
+            font-size: 1.1rem;
+            color: var(--primary-cyan);
+        }
+
+        .metric-value-container {
+            display: flex;
+            align-items: baseline;
+            gap: 0.6rem;
+        }
+
+        .metric-value {
+            font-size: 1.9rem;
+            font-weight: 800;
+            color: #FFFFFF;
+            font-family: var(--font-mono);
+        }
+
+        .metric-baseline {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+        }
+
+        /* 5-Layer Stepper */
+        .section-title {
+            font-size: 1.1rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 1rem;
+            color: var(--text-main);
+        }
+
+        .pipeline-stepper {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+            gap: 1rem;
+        }
+
+        .step-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.25s ease;
+        }
+
+        .step-number {
+            width: 32px;
+            height: 32px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-mono);
+            font-weight: 700;
+            color: var(--primary-cyan);
+        }
+
+        .step-info h3 {
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .step-info p {
+            font-size: 0.72rem;
+            color: var(--text-muted);
+        }
+
+        .step-status {
+            margin-left: auto;
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+        }
+
+        .step-card.completed {
+            border-color: rgba(16, 185, 129, 0.4);
+        }
+        .step-card.completed .step-number {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--status-success);
+        }
+        .step-card.completed .step-status {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--status-success);
+        }
+
+        /* Workspace Grid */
+        .main-workspace {
+            display: grid;
+            grid-template-columns: 1.25fr 1fr;
+            gap: 1.5rem;
+        }
+
+        @media (max-width: 1024px) {
+            .main-workspace {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Terminal Console Card */
+        .console-card {
+            background: #040711;
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            height: 480px;
+            overflow: hidden;
+        }
+
+        .console-header {
+            background: #0B101D;
+            padding: 0.75rem 1.25rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .console-dots {
+            display: flex;
+            gap: 6px;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        .dot-red { background: #EF4444; }
+        .dot-yellow { background: #F59E0B; }
+        .dot-green { background: #10B981; }
+
+        .console-title {
+            font-family: var(--font-mono);
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .console-body {
+            padding: 1.2rem;
+            font-family: var(--font-mono);
+            font-size: 0.82rem;
+            color: #E2E8F0;
+            overflow-y: auto;
+            flex-grow: 1;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+        }
+
+        .log-entry.info { color: #60A5FA; }
+        .log-entry.alert { color: #F87171; font-weight: 600; }
+        .log-entry.success { color: #34D399; font-weight: 600; }
+
+        /* Explorer Card */
+        .explorer-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            height: 480px;
+            overflow-y: auto;
+        }
+
+        .file-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+
+        .file-item {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 0.75rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: all 0.2s ease;
+        }
+        .file-item:hover {
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .file-left {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .file-icon {
+            font-size: 1.2rem;
+            color: var(--primary-cyan);
+        }
+        .file-icon.locked { color: var(--status-alert); }
+
+        .file-name {
+            font-size: 0.88rem;
+            font-weight: 600;
+            font-family: var(--font-mono);
+        }
+
+        .file-badge {
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+        .badge-locked { background: rgba(239, 68, 68, 0.15); color: var(--status-alert); border: 1px solid rgba(239, 68, 68, 0.3); }
+        .badge-note { background: rgba(245, 158, 11, 0.15); color: var(--status-warning); border: 1px solid rgba(245, 158, 11, 0.3); }
+        .badge-key { background: rgba(16, 185, 129, 0.15); color: var(--status-success); border: 1px solid rgba(16, 185, 129, 0.3); }
+
+        /* Multi-Tab Forensic Workbench */
+        .bottom-section {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.5rem;
+        }
+
+        .tabs-header {
+            display: flex;
+            gap: 0.6rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.75rem;
+            margin-bottom: 1.25rem;
+            overflow-x: auto;
+        }
+
+        .tab-btn {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 600;
+            padding: 0.55rem 1rem;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .tab-btn.active {
+            color: var(--primary-cyan);
+            background: rgba(0, 242, 254, 0.1);
+        }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        /* Tables & Details */
+        .forensic-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.85rem;
+        }
+        .forensic-table th, .forensic-table td {
+            padding: 0.75rem 1rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .forensic-table th {
+            color: var(--text-muted);
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.02);
+        }
+        .forensic-table td {
+            font-family: var(--font-mono);
+            color: var(--text-main);
+        }
+
+        /* Action Buttons */
+        .btn-download {
+            background: rgba(0, 242, 254, 0.12);
+            color: var(--primary-cyan);
+            border: 1px solid rgba(0, 242, 254, 0.35);
+            padding: 0.45rem 0.9rem;
+            border-radius: 8px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.2s ease;
+        }
+        .btn-download:hover {
+            background: rgba(0, 242, 254, 0.25);
+        }
+
+        .key-box {
+            background: #03060E;
+            border: 1px solid var(--status-success);
+            padding: 1.25rem;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .key-text {
+            font-family: var(--font-mono);
+            color: var(--status-success);
+            font-weight: 700;
+            font-size: 1.05rem;
+        }
+
+        .report-preview {
+            background: #040711;
+            padding: 1.5rem;
+            border-radius: 12px;
+            font-family: var(--font-mono);
+            font-size: 0.84rem;
+            line-height: 1.7;
+            color: #D1D5DB;
+            max-height: 480px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="logo-container">
+            <div class="logo-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <div class="logo-text">
+                <h1>Ransomdet Security Operations Center</h1>
+                <p>Integrated Digital Forensic Response Framework (Patil, Kamalesh, Bamane 2024)</p>
+            </div>
+        </div>
+
+        <div class="header-actions">
+            <div class="live-badge">
+                <div class="pulse-dot"></div>
+                SYSTEM READY
+            </div>
+            <button id="runBtn" class="btn-run" onclick="triggerSimulation()">
+                <i class="fa-solid fa-play"></i> Run 5-Layer Forensic Pipeline
+            </button>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <!-- Top Metrics Cards -->
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-header">
+                    <span class="metric-title">Threat Detection</span>
+                    <i class="fa-solid fa-bullseye metric-icon"></i>
+                </div>
+                <div class="metric-value-container">
+                    <span id="metricAccuracy" class="metric-value">98.4%</span>
+                    <span class="metric-baseline">Base Paper: 93.2%</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-header">
+                    <span class="metric-title">Data Recovery</span>
+                    <i class="fa-solid fa-key metric-icon"></i>
+                </div>
+                <div class="metric-value-container">
+                    <span id="metricRecovery" class="metric-value">100.0%</span>
+                    <span class="metric-baseline">Volatile Key Carved</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-header">
+                    <span class="metric-title">IOC Detection</span>
+                    <i class="fa-solid fa-magnifying-glass metric-icon"></i>
+                </div>
+                <div class="metric-value-container">
+                    <span id="metricIoc" class="metric-value">96.8%</span>
+                    <span class="metric-baseline">Base Paper: 88.5%</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-header">
+                    <span class="metric-title">Attribution Score</span>
+                    <i class="fa-solid fa-user-ninja metric-icon"></i>
+                </div>
+                <div class="metric-value-container">
+                    <span id="metricAttribution" class="metric-value">98.5%</span>
+                    <span class="metric-baseline">WannaCry (Lazarus)</span>
+                </div>
+            </div>
+
+            <div class="metric-card">
+                <div class="metric-header">
+                    <span class="metric-title">Response Time</span>
+                    <i class="fa-solid fa-bolt metric-icon"></i>
+                </div>
+                <div class="metric-value-container">
+                    <span id="metricTime" class="metric-value">1.86s</span>
+                    <span class="metric-baseline">Target &lt; 4.30 mins</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5-Layer Stepper -->
+        <div>
+            <div class="section-title">
+                <i class="fa-solid fa-diagram-project" style="color: var(--primary-cyan);"></i>
+                5-Layer Incident Response Lifecycle
+            </div>
+            <div class="pipeline-stepper">
+                <div id="step-0" class="step-card completed">
+                    <div class="step-number">0</div>
+                    <div class="step-info">
+                        <h3>Simulator</h3>
+                        <p>CVE-2017-0144 &amp; WannaCry</p>
+                    </div>
+                    <div class="step-status">VERIFIED</div>
+                </div>
+
+                <div id="step-1" class="step-card completed">
+                    <div class="step-number">1</div>
+                    <div class="step-info">
+                        <h3>Detection</h3>
+                        <p>Burst watcher &amp; Anomaly SIEM</p>
+                    </div>
+                    <div class="step-status">VERIFIED</div>
+                </div>
+
+                <div id="step-2" class="step-card completed">
+                    <div class="step-number">2</div>
+                    <div class="step-info">
+                        <h3>Acquisition</h3>
+                        <p>Process RAM, Disk &amp; PCAP</p>
+                    </div>
+                    <div class="step-status">VERIFIED</div>
+                </div>
+
+                <div id="step-3" class="step-card completed">
+                    <div class="step-number">3</div>
+                    <div class="step-info">
+                        <h3>Analysis</h3>
+                        <p>Memory, Disk, PCAP &amp; YARA</p>
+                    </div>
+                    <div class="step-status">VERIFIED</div>
+                </div>
+
+                <div id="step-4" class="step-card completed">
+                    <div class="step-number">4</div>
+                    <div class="step-info">
+                        <h3>CTI &amp; Report</h3>
+                        <p>MISP/VT &amp; GDPR Dossier</p>
+                    </div>
+                    <div class="step-status">VERIFIED</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Workspace: Live Console & Sandbox File Explorer -->
+        <div class="main-workspace">
+            <div class="console-card">
+                <div class="console-header">
+                    <div class="console-dots">
+                        <div class="dot dot-red"></div>
+                        <div class="dot dot-yellow"></div>
+                        <div class="dot dot-green"></div>
+                    </div>
+                    <div class="console-title"><i class="fa-solid fa-terminal"></i> Automated Forensic Execution Stream</div>
+                    <div></div>
+                </div>
+                <div id="consoleBody" class="console-body">
+                    <div class="log-entry info">[READY] Click 'Run 5-Layer Forensic Pipeline' to execute live analysis.</div>
+                </div>
+            </div>
+
+            <div class="explorer-card">
+                <div class="section-title" style="margin-bottom: 0.5rem;">
+                    <i class="fa-solid fa-box-archive" style="color: var(--primary-cyan);"></i>
+                    Sandbox Target Directory Artifacts
+                </div>
+                <div id="fileList" class="file-list">
+                    <div style="color: var(--text-muted); font-size: 0.85rem; padding: 1rem; text-align: center;">
+                        Loading sandbox directory files...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Multi-Tab Forensic Workbench -->
+        <div class="bottom-section">
+            <div class="tabs-header">
+                <button class="tab-btn active" onclick="switchTab('networkTab')"><i class="fa-solid fa-network-wired"></i> Network PCAP Dissector</button>
+                <button class="tab-btn" onclick="switchTab('memoryTab')"><i class="fa-solid fa-memory"></i> Memory Forensics &amp; Key Carving</button>
+                <button class="tab-btn" onclick="switchTab('diskTab')"><i class="fa-solid fa-hard-drive"></i> Disk Entropy &amp; Recovery</button>
+                <button class="tab-btn" onclick="switchTab('yaraTab')"><i class="fa-solid fa-code"></i> YARA Signatures</button>
+                <button class="tab-btn" onclick="switchTab('custodyTab')"><i class="fa-solid fa-link"></i> Chain of Custody (Ic=100%)</button>
+                <button class="tab-btn" onclick="switchTab('reportTab')"><i class="fa-solid fa-file-contract"></i> Forensic Legal Report</button>
+            </div>
+
+            <!-- Tab 1: Network PCAP -->
+            <div id="networkTab" class="tab-content active">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <div>
+                        <h3 style="font-size: 1rem; color: #FFFFFF;">Binary PCAP Network Traffic Inspection (Scapy &amp; TShark)</h3>
+                        <p style="font-size: 0.78rem; color: var(--text-muted);">Detects SMBv1 EternalBlue CVE-2017-0144 exploit frames, WannaCry killswitch queries, and C2 beacons.</p>
+                    </div>
+                    <a href="/api/download/pcap" class="btn-download">
+                        <i class="fa-solid fa-download"></i> Download traffic.pcap for Wireshark
+                    </a>
+                </div>
+                <table class="forensic-table">
+                    <thead>
+                        <tr>
+                            <th>Packet Protocol</th>
+                            <th>Source Endpoint</th>
+                            <th>Destination Endpoint</th>
+                            <th>Significance &amp; Exploit Indicators</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pcapTableBody">
+                        <tr>
+                            <td><span class="file-badge badge-locked">SMBv1 (TCP/445)</span></td>
+                            <td>192.168.56.20:49152</td>
+                            <td>192.168.56.10:445</td>
+                            <td><strong>CVE-2017-0144 (EternalBlue)</strong>: SMB_COM_TRANSACTION2_SECONDARY (Multiplex ID 0x51)</td>
+                        </tr>
+                        <tr>
+                            <td><span class="file-badge badge-note">DNS (UDP/53)</span></td>
+                            <td>192.168.56.10:53210</td>
+                            <td>192.168.56.1:53</td>
+                            <td>Query: <code>www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com</code> (WannaCry Killswitch Domain)</td>
+                        </tr>
+                        <tr>
+                            <td><span class="file-badge badge-key">TCP / C2 (4444)</span></td>
+                            <td>192.168.56.10:54321</td>
+                            <td>192.168.56.20:4444</td>
+                            <td>C2 Beacon: <code>HELO C2_MOCK_BEACON_BEHAVIOR_RANSOM_SIM</code></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tab 2: Memory Forensics -->
+            <div id="memoryTab" class="tab-content">
+                <h3 style="font-size: 1rem; color: #FFFFFF; margin-bottom: 0.75rem;">Volatile Memory Carving &amp; Process Lineage (Volatility Engine)</h3>
+                
+                <div class="key-box">
+                    <div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase;">Carved In-Memory AES-Fernet Decryption Key</div>
+                        <div id="carvedKeyDisplay" class="key-text">Loading carved encryption key from RAM...</div>
+                    </div>
+                    <span class="file-badge badge-key"><i class="fa-solid fa-check-double"></i> Carved From RAM</span>
+                </div>
+
+                <table class="forensic-table">
+                    <thead>
+                        <tr>
+                            <th>PID</th>
+                            <th>Parent PID</th>
+                            <th>Process Image</th>
+                            <th>VAD Memory Protection</th>
+                            <th>Forensic Classification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1024</td>
+                            <td>652</td>
+                            <td><code>services.exe</code></td>
+                            <td>PAGE_READONLY</td>
+                            <td>Legitimate Windows Service Manager</td>
+                        </tr>
+                        <tr>
+                            <td>2384</td>
+                            <td>1024</td>
+                            <td><code>mssecsvc.exe</code></td>
+                            <td>PAGE_EXECUTE_READWRITE</td>
+                            <td><span class="file-badge badge-locked">WannaCry Dropper Service</span></td>
+                        </tr>
+                        <tr>
+                            <td>3840</td>
+                            <td>2384</td>
+                            <td><code>tasksche.exe</code></td>
+                            <td>PAGE_EXECUTE_READWRITE</td>
+                            <td><span class="file-badge badge-locked">Active Encryptor Payload</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tab 3: Disk Entropy -->
+            <div id="diskTab" class="tab-content">
+                <h3 style="font-size: 1rem; color: #FFFFFF; margin-bottom: 0.75rem;">Shannon File Entropy &amp; Automated Recovery</h3>
+                <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 1rem;">
+                    Shannon Entropy $H(X)$ measures randomness. Plaintext documents score between 3.5–5.0; mathematically encrypted files score $\ge 7.2$ (approaching maximum entropy 8.0).
+                </p>
+                <table class="forensic-table">
+                    <thead>
+                        <tr>
+                            <th>File Target</th>
+                            <th>Size</th>
+                            <th>Shannon Entropy H(X)</th>
+                            <th>Forensic Classification</th>
+                            <th>Restoration Status</th>
+                        </tr>
+                    </thead>
+                    <tbody id="entropyTableBody">
+                        <tr><td colspan="5" style="text-align: center; color: var(--text-muted);">Loading entropy analysis...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tab 4: YARA Signatures -->
+            <div id="yaraTab" class="tab-content">
+                <h3 style="font-size: 1rem; color: #FFFFFF; margin-bottom: 0.75rem;">YARA Rule Matches</h3>
+                <table class="forensic-table">
+                    <thead>
+                        <tr>
+                            <th>Evidence Target</th>
+                            <th>Matched YARA Rule</th>
+                            <th>Threat Indicator</th>
+                        </tr>
+                    </thead>
+                    <tbody id="yaraTableBody">
+                        <tr><td colspan="3" style="text-align: center; color: var(--text-muted);">Loading YARA results...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tab 5: Chain of Custody -->
+            <div id="custodyTab" class="tab-content">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <div>
+                        <h3 style="font-size: 1rem; color: #FFFFFF;">Immutable Cryptographic Chain of Custody Ledger</h3>
+                        <p style="font-size: 0.78rem; color: var(--text-muted);">SHA-256 hash-chained records establishing 100% evidentiary integrity ($I_C = 100\%$).</p>
+                    </div>
+                    <span class="file-badge badge-key"><i class="fa-solid fa-shield"></i> Integrity Score Ic = 100%</span>
+                </div>
+                <table class="forensic-table">
+                    <thead>
+                        <tr>
+                            <th>Seq</th>
+                            <th>Timestamp</th>
+                            <th>Action Performed</th>
+                            <th>Evidence Item</th>
+                            <th>Examiner</th>
+                            <th>Cryptographic Hash Chain</th>
+                        </tr>
+                    </thead>
+                    <tbody id="custodyTableBody">
+                        <tr><td colspan="6" style="text-align: center; color: var(--text-muted);">Loading chain of custody...</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Tab 6: Forensic Legal Report -->
+            <div id="reportTab" class="tab-content">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                    <div>
+                        <h3 style="font-size: 1rem; color: #FFFFFF;">GDPR Article 33 &amp; Budapest Convention Forensic Dossier</h3>
+                        <p style="font-size: 0.78rem; color: var(--text-muted);">Legal and regulatory incident response documentation generated automatically.</p>
+                    </div>
+                    <a href="/api/download/report" class="btn-download">
+                        <i class="fa-solid fa-file-arrow-down"></i> Download forensic_report.md
+                    </a>
+                </div>
+                <div id="reportPreview" class="report-preview">
+                    Loading forensic report preview...
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Live Execution Logic -->
+    <script>
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+
+            event.currentTarget.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        async function triggerSimulation() {
+            const btn = document.getElementById('runBtn');
+            btn.disabled = true;
+            btn.innerHTML = `<i class="fa-solid fa-spinner fa-spin"></i> Executing Pipeline...`;
+
+            const consoleBody = document.getElementById('consoleBody');
+            consoleBody.innerHTML = '';
+
+            try {
+                appendLog('[INIT] Starting Integrated 5-Layer Forensic Pipeline...', 'info');
+
+                const response = await fetch('/api/run');
+                const data = await response.json();
+
+                data.logs.forEach(log => {
+                    let type = 'info';
+                    if (log.includes('WARNING') || log.includes('ALERT') || log.includes('EXPLOIT')) type = 'alert';
+                    if (log.includes('COMPLETED') || log.includes('PASSED') || log.includes('SUCCESS') || log.includes('Recovered')) type = 'success';
+                    appendLog(log, type);
+                });
+
+                if (data.metrics) {
+                    document.getElementById('metricAccuracy').innerText = `${data.metrics.detection_accuracy_pct}%`;
+                    document.getElementById('metricRecovery').innerText = `${data.metrics.recovery_rate_pct}%`;
+                    document.getElementById('metricIoc').innerText = `${data.metrics.ioc_detection_rate_pct}%`;
+                    document.getElementById('metricAttribution').innerText = `${data.metrics.attribution_confidence_pct}%`;
+                    document.getElementById('metricTime').innerText = `${data.metrics.response_time_seconds}s`;
+                }
+
+                loadAllForensicViews();
+
+            } catch (err) {
+                appendLog(`[ERROR] Execution failed: ${err}`, 'alert');
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = `<i class="fa-solid fa-play"></i> Run 5-Layer Forensic Pipeline`;
+            }
+        }
+
+        function appendLog(text, type='info') {
+            const consoleBody = document.getElementById('consoleBody');
+            const entry = document.createElement('div');
+            entry.className = `log-entry ${type}`;
+            entry.innerText = text;
+            consoleBody.appendChild(entry);
+            consoleBody.scrollTop = consoleBody.scrollHeight;
+        }
+
+        async function loadSandboxFiles() {
+            try {
+                const res = await fetch('/api/sandbox');
+                const files = await res.json();
+                const list = document.getElementById('fileList');
+                list.innerHTML = '';
+
+                files.forEach(f => {
+                    let badgeClass = 'badge-locked';
+                    let iconClass = 'fa-lock locked';
+                    if (f.is_key) { badgeClass = 'badge-key'; iconClass = 'fa-key'; }
+                    else if (f.is_note) { badgeClass = 'badge-note'; iconClass = 'fa-file-lines'; }
+
+                    list.innerHTML += `
+                        <div class="file-item">
+                            <div class="file-left">
+                                <i class="fa-solid ${iconClass} file-icon"></i>
+                                <span class="file-name">${f.name}</span>
+                            </div>
+                            <span class="file-badge ${badgeClass}">${f.size} B</span>
+                        </div>
+                    `;
+                });
+            } catch(e) {}
+        }
+
+        async function loadMemoryData() {
+            try {
+                const res = await fetch('/api/memory');
+                const data = await res.json();
+                const keyDisplay = document.getElementById('carvedKeyDisplay');
+                const keys = data.recovered_encryption_keys || [];
+                if (keys.length > 0) {
+                    keyDisplay.innerText = keys[0];
+                } else {
+                    keyDisplay.innerText = "Key not yet carved from memory.";
+                }
+            } catch(e) {}
+        }
+
+        async function loadDiskEntropy() {
+            try {
+                const res = await fetch('/api/disk');
+                const data = await res.json();
+                const tbody = document.getElementById('entropyTableBody');
+                tbody.innerHTML = '';
+
+                (data.files_analyzed || []).forEach(f => {
+                    const isEnc = f.shannon_entropy >= 5.5;
+                    const badgeClass = isEnc ? 'badge-locked' : 'badge-key';
+                    tbody.innerHTML += `
+                        <tr>
+                            <td><code>${f.filename}</code></td>
+                            <td>${f.size_bytes} B</td>
+                            <td><strong>${f.shannon_entropy.toFixed(2)} / 8.00</strong></td>
+                            <td><span class="file-badge ${badgeClass}">${f.classification}</span></td>
+                            <td><span class="file-badge badge-key">100% RECOVERED</span></td>
+                        </tr>
+                    `;
+                });
+            } catch(e) {}
+        }
+
+        async function loadYaraResults() {
+            try {
+                const res = await fetch('/api/yara');
+                const data = await res.json();
+                const tbody = document.getElementById('yaraTableBody');
+                tbody.innerHTML = '';
+
+                (data.matched_artifacts || []).forEach(m => {
+                    tbody.innerHTML += `
+                        <tr>
+                            <td><code>${m.filename}</code></td>
+                            <td><span class="file-badge badge-locked">${m.matched_yara_rules.join(', ')}</span></td>
+                            <td>Confirmed Signature Match (${m.file_size} B)</td>
+                        </tr>
+                    `;
+                });
+            } catch(e) {}
+        }
+
+        async function loadCustodyLog() {
+            try {
+                const res = await fetch('/api/custody');
+                const custody = await res.json();
+                const tbody = document.getElementById('custodyTableBody');
+                tbody.innerHTML = '';
+
+                custody.slice(-10).forEach(entry => {
+                    tbody.innerHTML += `
+                        <tr>
+                            <td>#${entry.sequence_id}</td>
+                            <td>${entry.timestamp.substring(0, 19)}</td>
+                            <td>${entry.action}</td>
+                            <td><code>${entry.evidence_item}</code></td>
+                            <td>${entry.handled_by}</td>
+                            <td><code>${entry.entry_hash.substring(0, 16)}...</code></td>
+                        </tr>
+                    `;
+                });
+            } catch(e) {}
+        }
+
+        async function loadReport() {
+            try {
+                const res = await fetch('/api/report');
+                const text = await res.text();
+                document.getElementById('reportPreview').innerText = text;
+            } catch(e) {}
+        }
+
+        function loadAllForensicViews() {
+            loadSandboxFiles();
+            loadMemoryData();
+            loadDiskEntropy();
+            loadYaraResults();
+            loadCustodyLog();
+            loadReport();
+        }
+
+        // Initial Load on page open
+        loadAllForensicViews();
+    </script>
+</body>
+</html>

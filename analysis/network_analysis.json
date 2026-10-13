@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-10-13T13:40:44.572412",
+  "pcap_target": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/traffic.pcap",
+  "total_packets_parsed": 10,
+  "protocols_detected": {
+    "DNS (UDP/53)": 2,
+    "SMBv1 (TCP/445)": 5,
+    "C2-BEACON (TCP/4444)": 3
+  },
+  "cve_exploits_detected": [],
+  "dns_killswitch_queries": [
+    {
+      "packet_num": 1,
+      "domain": "www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com",
+      "significance": "WannaCry Killswitch Domain Query",
+      "result": "NXDOMAIN"
+    },
+    {
+      "packet_num": 2,
+      "domain": "www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com",
+      "significance": "WannaCry Killswitch Domain Query",
+      "result": "NXDOMAIN"
+    }
+  ],
+  "c2_beacons_detected": [
+    {
+      "packet_num": 10,
+      "target": "192.168.56.20:4444",
+      "src": "192.168.56.10:54321",
+      "payload": "HELO C2_MOCK_BEACON_BEHAVIOR_RANSOM_SIM WANNACRY_STAGE1"
+    }
+  ],
+  "tshark_summary": [
+    "1\tDNS\tStandard query 0x0000 A www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com",
+    "2\tDNS\tStandard query response 0x0000 No such name A www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com",
+    "3\tTCP\t49152 \u2192 445 [SYN] Seq=0 Win=8192 Len=0",
+    "4\tTCP\t445 \u2192 49152 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0",
+    "5\tTCP\t49152 \u2192 445 [ACK] Seq=1 Ack=1 Win=8192 Len=0",
+    "6\tNBSS\tSession message",
+    "7\tTCP\t[TCP Previous segment not captured] 49152 \u2192 445 [PSH, ACK] Seq=71 Ack=1 Win=8192 Len=100NBSS Continuation Message",
+    "8\tTCP\t54321 \u2192 4444 [SYN] Seq=0 Win=8192 Len=0",
+    "9\tTCP\t4444 \u2192 54321 [SYN, ACK] Seq=0 Ack=1 Win=8192 Len=0",
+    "10\tTCP\t54321 \u2192 4444 [PSH, ACK] Seq=1 Ack=1 Win=8192 Len=56"
+  ]
+}

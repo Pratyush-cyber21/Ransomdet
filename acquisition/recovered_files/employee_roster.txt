@@ -1,0 +1,4 @@
+EMP_ID,FULL_NAME,DEPARTMENT,CLEARANCE
+101,Alice Smith,Digital Forensics,Level-3
+102,Bob Jones,SOC Analyst,Level-2
+103,Dr. Patil,Chief Investigator,Level-5

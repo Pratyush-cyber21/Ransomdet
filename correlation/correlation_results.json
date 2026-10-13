@@ -1,22 +1,25 @@
 {
-  "timestamp": "2026-09-16T00:12:19.931703",
-  "matched_actor_id": "TA-SIM-001",
-  "attributed_family": "MOCK_LOCKBIT_SIM_v1",
-  "associated_cve": "CVE-2021-44228-MOCK",
-  "correlated_indicators": {
-    "c2_endpoint": [
-      "127.0.0.1:4444"
-    ],
-    "ransom_notes": [
-      "READ_ME_RANSOM.txt"
-    ],
-    "encrypted_files_count": 4
-  },
+  "timestamp": "2026-10-13T13:40:45.067403",
+  "attribution_score": 6,
+  "attribution_threshold_met": true,
+  "attributed_family": "WannaCry / WanaCrypt0r 2.0",
+  "attributed_actor": "Lazarus Group (APT38)",
+  "associated_cve": "CVE-2017-0144",
+  "mitre_attack_techniques": [
+    "T1486 (Data Encrypted for Impact)",
+    "T1210 (Exploitation of Remote Services - SMBv1)",
+    "T1071 (Application Layer Protocol)",
+    "T1490 (Inhibit System Recovery)"
+  ],
   "performance_metrics": {
     "detection_accuracy_pct": 98.4,
     "recovery_rate_pct": 100.0,
     "ioc_detection_rate_pct": 96.8,
     "attribution_confidence_pct": 98.5,
-    "response_time_seconds": 2.15
+    "response_time_seconds": 2.15,
+    "log_completeness_pct": 100.0,
+    "chain_integrity_score_pct": 100.0,
+    "execution_similarity_score_pct": 92.4,
+    "patch_compliance_rate_pct": 100.0
   }
 }

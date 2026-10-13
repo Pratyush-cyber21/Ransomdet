@@ -1,0 +1,6 @@
+{
+  "environment": "production",
+  "api_token": "mock-sec-tok-9841-f8a12",
+  "db_auth": "internal_vault_secret",
+  "compliance": "GDPR-Article-33"
+}

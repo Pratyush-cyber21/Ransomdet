@@ -1,0 +1,160 @@
+{
+  "timestamp": "2026-10-13T13:40:44.568764",
+  "total_files_inspected": 9,
+  "files_analyzed": [
+    {
+      "filename": "volatile_memory.raw",
+      "size_bytes": 4503,
+      "shannon_entropy": 0.9501,
+      "classification": "PLAINTEXT / STRUCTURED",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.974175",
+        "accessed": "2026-10-13T13:40:44.558811",
+        "changed": "2026-10-13T13:40:44.558864",
+        "birth": "2026-10-13T13:40:43.974175"
+      }
+    },
+    {
+      "filename": "@Please_Read_Me@.txt",
+      "size_bytes": 1021,
+      "shannon_entropy": 4.8685,
+      "classification": "PLAINTEXT / STRUCTURED",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.973822",
+        "accessed": "2026-10-13T13:40:44.559467",
+        "changed": "2026-10-13T13:40:44.559512",
+        "birth": "2026-10-13T13:40:43.973822"
+      }
+    },
+    {
+      "filename": "decryption_key.log",
+      "size_bytes": 44,
+      "shannon_entropy": 4.7716,
+      "classification": "PLAINTEXT / STRUCTURED",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.963452",
+        "accessed": "2026-10-13T13:40:44.559857",
+        "changed": "2026-10-13T13:40:44.559911",
+        "birth": "2026-10-13T13:40:43.963452"
+      }
+    },
+    {
+      "filename": "employee_roster.txt.locked",
+      "size_bytes": 292,
+      "shannon_entropy": 5.8316,
+      "classification": "ENCRYPTED (High Entropy)",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.972395",
+        "accessed": "2026-10-13T13:40:44.560253",
+        "changed": "2026-10-13T13:40:44.560292",
+        "birth": "2026-10-13T13:40:43.972395"
+      }
+    },
+    {
+      "filename": "financial_q4.csv.locked",
+      "size_bytes": 292,
+      "shannon_entropy": 5.818,
+      "classification": "ENCRYPTED (High Entropy)",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.969006",
+        "accessed": "2026-10-13T13:40:44.560574",
+        "changed": "2026-10-13T13:40:44.560613",
+        "birth": "2026-10-13T13:40:43.969006"
+      }
+    },
+    {
+      "filename": "project_roadmap.docx.locked",
+      "size_bytes": 292,
+      "shannon_entropy": 5.8094,
+      "classification": "ENCRYPTED (High Entropy)",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.970402",
+        "accessed": "2026-10-13T13:40:44.560915",
+        "changed": "2026-10-13T13:40:44.560981",
+        "birth": "2026-10-13T13:40:43.970402"
+      }
+    },
+    {
+      "filename": "patient_records.xml.locked",
+      "size_bytes": 460,
+      "shannon_entropy": 5.9251,
+      "classification": "ENCRYPTED (High Entropy)",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.973081",
+        "accessed": "2026-10-13T13:40:44.561264",
+        "changed": "2026-10-13T13:40:44.561304",
+        "birth": "2026-10-13T13:40:43.973081"
+      }
+    },
+    {
+      "filename": "confidential_keys.json.locked",
+      "size_bytes": 292,
+      "shannon_entropy": 5.8132,
+      "classification": "ENCRYPTED (High Entropy)",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.971678",
+        "accessed": "2026-10-13T13:40:44.561613",
+        "changed": "2026-10-13T13:40:44.561649",
+        "birth": "2026-10-13T13:40:43.971678"
+      }
+    },
+    {
+      "filename": "READ_ME_RANSOM.txt",
+      "size_bytes": 1021,
+      "shannon_entropy": 4.8685,
+      "classification": "PLAINTEXT / STRUCTURED",
+      "macb_timeline": {
+        "modified": "2026-10-13T13:40:43.973516",
+        "accessed": "2026-10-13T13:40:44.561909",
+        "changed": "2026-10-13T13:40:44.561945",
+        "birth": "2026-10-13T13:40:43.973516"
+      }
+    }
+  ],
+  "encrypted_files_identified": [
+    "employee_roster.txt.locked",
+    "financial_q4.csv.locked",
+    "project_roadmap.docx.locked",
+    "patient_records.xml.locked",
+    "confidential_keys.json.locked"
+  ],
+  "plaintext_files_identified": [
+    "volatile_memory.raw",
+    "@Please_Read_Me@.txt",
+    "decryption_key.log",
+    "READ_ME_RANSOM.txt"
+  ],
+  "recovery_rate_pct": 100.0,
+  "recovered_files": [
+    {
+      "original_filename": "employee_roster.txt",
+      "recovered_path": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/recovered_files/employee_roster.txt",
+      "original_size": 154,
+      "restored_entropy": 5.1553
+    },
+    {
+      "original_filename": "financial_q4.csv",
+      "recovered_path": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/recovered_files/financial_q4.csv",
+      "original_size": 151,
+      "restored_entropy": 3.8174
+    },
+    {
+      "original_filename": "project_roadmap.docx",
+      "recovered_path": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/recovered_files/project_roadmap.docx",
+      "original_size": 157,
+      "restored_entropy": 4.6591
+    },
+    {
+      "original_filename": "patient_records.xml",
+      "recovered_path": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/recovered_files/patient_records.xml",
+      "original_size": 284,
+      "restored_entropy": 4.8409
+    },
+    {
+      "original_filename": "confidential_keys.json",
+      "recovered_path": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/recovered_files/confidential_keys.json",
+      "original_size": 148,
+      "restored_entropy": 4.7979
+    }
+  ]
+}

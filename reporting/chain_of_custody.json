@@ -277,5 +277,425 @@
     "notes": "Report assembled successfully",
     "prev_hash": "910c07353c2bd578e992d0cf49d7d47b6574bc06908f04de01e59888b203aaa8",
     "entry_hash": "8cd3ceb00ed692e2bed8045abdeb80eb91d9f26cba76827abbe9f446a9532f16"
+  },
+  {
+    "sequence_id": 28,
+    "timestamp": "2026-09-16T09:40:20.361278",
+    "action": "PIPELINE_STARTED",
+    "evidence_item": "ORCHESTRATOR_INIT",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Execution started",
+    "prev_hash": "8cd3ceb00ed692e2bed8045abdeb80eb91d9f26cba76827abbe9f446a9532f16",
+    "entry_hash": "fb374c5b73a07dfdb14f3fff9055c6fb71166f2ef781963be76c37044c62351d"
+  },
+  {
+    "sequence_id": 29,
+    "timestamp": "2026-09-16T09:40:22.397681",
+    "action": "SIMULATOR_EXECUTED",
+    "evidence_item": "sandbox/",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Dummy files encrypted & note dropped",
+    "prev_hash": "fb374c5b73a07dfdb14f3fff9055c6fb71166f2ef781963be76c37044c62351d",
+    "entry_hash": "bed9ffbcfc55ed5d38001c287cc27039eda9dce46134a61cc1096b7b9c9a8894"
+  },
+  {
+    "sequence_id": 30,
+    "timestamp": "2026-09-16T09:40:22.400085",
+    "action": "DETECTION_ALERT",
+    "evidence_item": "detection_alert.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Status: ALERT_RANSOMWARE_BEHAVIOR_DETECTED",
+    "prev_hash": "bed9ffbcfc55ed5d38001c287cc27039eda9dce46134a61cc1096b7b9c9a8894",
+    "entry_hash": "dce4394cc20e5ca5adecef309b6e5d551d49d6297db2c95d2d52651b4459331d"
+  },
+  {
+    "sequence_id": 31,
+    "timestamp": "2026-09-16T09:40:22.606367",
+    "action": "PROCESS_MEMORY_ACQUIRED",
+    "evidence_item": "process_snapshot.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "574 processes logged",
+    "prev_hash": "dce4394cc20e5ca5adecef309b6e5d551d49d6297db2c95d2d52651b4459331d",
+    "entry_hash": "ae7e44ddaea6f2fd80ee2b9173270d3e607d3605c22de8b64fb66d64f0f271e2"
+  },
+  {
+    "sequence_id": 32,
+    "timestamp": "2026-09-16T09:40:22.767652",
+    "action": "DISK_IMAGE_ACQUIRED",
+    "evidence_item": "evidence_disk_image/",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "6 files imaged with SHA-256",
+    "prev_hash": "ae7e44ddaea6f2fd80ee2b9173270d3e607d3605c22de8b64fb66d64f0f271e2",
+    "entry_hash": "e5aedd4e61eb9c83e20f8939a925199d2b8ffcb57064c00c87b1ffed78de5547"
+  },
+  {
+    "sequence_id": 33,
+    "timestamp": "2026-09-16T09:40:22.775673",
+    "action": "NETWORK_telemetry_ACQUIRED",
+    "evidence_item": "network_capture.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Loopback C2 flow captured",
+    "prev_hash": "e5aedd4e61eb9c83e20f8939a925199d2b8ffcb57064c00c87b1ffed78de5547",
+    "entry_hash": "df033df3c73874f3fca5d556c7b0f7b0fb1e40f4bb443d3f44bbc57ecb98c562"
+  },
+  {
+    "sequence_id": 34,
+    "timestamp": "2026-09-16T09:40:22.833885",
+    "action": "YARA_ANALYSIS_COMPLETED",
+    "evidence_item": "analysis_results.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "5 signature matches",
+    "prev_hash": "df033df3c73874f3fca5d556c7b0f7b0fb1e40f4bb443d3f44bbc57ecb98c562",
+    "entry_hash": "0b790a35332fee7446d28d02a7dd12e8f296af22d075b7f2c53ee889570da59a"
+  },
+  {
+    "sequence_id": 35,
+    "timestamp": "2026-09-16T09:40:22.846579",
+    "action": "THREAT_CORRELATION_COMPLETED",
+    "evidence_item": "correlation_results.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Attributed to MOCK_LOCKBIT_SIM_v1",
+    "prev_hash": "0b790a35332fee7446d28d02a7dd12e8f296af22d075b7f2c53ee889570da59a",
+    "entry_hash": "3bab066c4fd05e3ddcaa54e7db115b3df6e1c106b5a5fc681a754ed556993aa9"
+  },
+  {
+    "sequence_id": 36,
+    "timestamp": "2026-09-16T09:40:22.857732",
+    "action": "FORENSIC_REPORT_GENERATED",
+    "evidence_item": "forensic_report.md",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Report assembled successfully",
+    "prev_hash": "3bab066c4fd05e3ddcaa54e7db115b3df6e1c106b5a5fc681a754ed556993aa9",
+    "entry_hash": "e7a4ca43fca36110fc3debdaea7eb11dcc2d389d5293916d3a7b1648350eb817"
+  },
+  {
+    "sequence_id": 37,
+    "timestamp": "2026-10-13T13:26:31.875266",
+    "action": "PIPELINE_STARTED",
+    "evidence_item": "ORCHESTRATOR_INIT",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Execution started",
+    "prev_hash": "e7a4ca43fca36110fc3debdaea7eb11dcc2d389d5293916d3a7b1648350eb817",
+    "entry_hash": "e7a336c9f5ebc84809b3cb3691de8a2365e8b276820132db9ae7179d255d5d9d"
+  },
+  {
+    "sequence_id": 38,
+    "timestamp": "2026-10-13T13:26:33.905119",
+    "action": "SIMULATOR_EXECUTED",
+    "evidence_item": "sandbox/",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Dummy files encrypted & note dropped",
+    "prev_hash": "e7a336c9f5ebc84809b3cb3691de8a2365e8b276820132db9ae7179d255d5d9d",
+    "entry_hash": "8768401283c1aae429c671ece2b9e230beae193caec88e98dd0821a3c1894d16"
+  },
+  {
+    "sequence_id": 39,
+    "timestamp": "2026-10-13T13:26:33.910725",
+    "action": "DETECTION_ALERT",
+    "evidence_item": "detection_alert.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Status: ALERT_RANSOMWARE_BEHAVIOR_DETECTED",
+    "prev_hash": "8768401283c1aae429c671ece2b9e230beae193caec88e98dd0821a3c1894d16",
+    "entry_hash": "c7d2262242b780cca891846ed23ef70171b0382e65bf28ca09a9d25ba8311a7e"
+  },
+  {
+    "sequence_id": 40,
+    "timestamp": "2026-10-13T13:26:34.019725",
+    "action": "PROCESS_MEMORY_ACQUIRED",
+    "evidence_item": "process_snapshot.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "722 processes logged",
+    "prev_hash": "c7d2262242b780cca891846ed23ef70171b0382e65bf28ca09a9d25ba8311a7e",
+    "entry_hash": "203973fc57daefd43c91cefd80c4125bb46b14fe313f8940a63597fa668fc1fe"
+  },
+  {
+    "sequence_id": 41,
+    "timestamp": "2026-10-13T13:26:34.025493",
+    "action": "DISK_IMAGE_ACQUIRED",
+    "evidence_item": "evidence_disk_image/",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "6 files imaged with SHA-256",
+    "prev_hash": "203973fc57daefd43c91cefd80c4125bb46b14fe313f8940a63597fa668fc1fe",
+    "entry_hash": "122cff09199d32e79ed7c013e12faf80ae24a71f198caa58a2642dc7d35f62ab"
+  },
+  {
+    "sequence_id": 42,
+    "timestamp": "2026-10-13T13:26:34.027347",
+    "action": "NETWORK_telemetry_ACQUIRED",
+    "evidence_item": "network_capture.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Loopback C2 flow captured",
+    "prev_hash": "122cff09199d32e79ed7c013e12faf80ae24a71f198caa58a2642dc7d35f62ab",
+    "entry_hash": "b214f8cd01f9f1135811ee8a56f8374aed9bc285d6001117c92344b4b2576666"
+  },
+  {
+    "sequence_id": 43,
+    "timestamp": "2026-10-13T13:26:34.031750",
+    "action": "YARA_ANALYSIS_COMPLETED",
+    "evidence_item": "analysis_results.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "5 signature matches",
+    "prev_hash": "b214f8cd01f9f1135811ee8a56f8374aed9bc285d6001117c92344b4b2576666",
+    "entry_hash": "4edc9c804ecf30d4e9c08c663edb5d6916c05efe39ad1aef4134b2580b5fdae3"
+  },
+  {
+    "sequence_id": 44,
+    "timestamp": "2026-10-13T13:26:34.033794",
+    "action": "THREAT_CORRELATION_COMPLETED",
+    "evidence_item": "correlation_results.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Attributed to MOCK_LOCKBIT_SIM_v1",
+    "prev_hash": "4edc9c804ecf30d4e9c08c663edb5d6916c05efe39ad1aef4134b2580b5fdae3",
+    "entry_hash": "79f0ef5ccfa3573dc19f21cdf920f27c35735f4f6fad0570184b26cecb554da3"
+  },
+  {
+    "sequence_id": 45,
+    "timestamp": "2026-10-13T13:26:34.037143",
+    "action": "FORENSIC_REPORT_GENERATED",
+    "evidence_item": "forensic_report.md",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Report assembled successfully",
+    "prev_hash": "79f0ef5ccfa3573dc19f21cdf920f27c35735f4f6fad0570184b26cecb554da3",
+    "entry_hash": "b6382d5af5d490f807d5f7206855a5ec91da2793b1f93c735d8c9e23bf96fa76"
+  },
+  {
+    "sequence_id": 46,
+    "timestamp": "2026-10-13T13:37:55.155048",
+    "action": "PIPELINE_STARTED",
+    "evidence_item": "ORCHESTRATOR_INIT",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Execution started",
+    "prev_hash": "b6382d5af5d490f807d5f7206855a5ec91da2793b1f93c735d8c9e23bf96fa76",
+    "entry_hash": "7c110887c2a806158397bcf7402fd7da2ab7c1630931f94e2278b0461b3b9580"
+  },
+  {
+    "sequence_id": 47,
+    "timestamp": "2026-10-13T13:37:56.236659",
+    "action": "SIMULATOR_EXECUTED",
+    "evidence_item": "sandbox/",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Dummy files encrypted, RAM buffer created, SMB & C2 probed",
+    "prev_hash": "7c110887c2a806158397bcf7402fd7da2ab7c1630931f94e2278b0461b3b9580",
+    "entry_hash": "0f2da6a7f5cf99feca77c30e9e5104a661b3e4c8e9cd828eef58b944765fd089"
+  },
+  {
+    "sequence_id": 48,
+    "timestamp": "2026-10-13T13:37:56.241087",
+    "action": "DETECTION_ALERT",
+    "evidence_item": "detection_alert.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Status: ALERT_RANSOMWARE_BEHAVIOR_DETECTED",
+    "prev_hash": "0f2da6a7f5cf99feca77c30e9e5104a661b3e4c8e9cd828eef58b944765fd089",
+    "entry_hash": "5f39c9a0c25a3b8ab3dc1de7f01ff23a6518a53cc01f74a25c7c11fc8dbf2130"
+  },
+  {
+    "sequence_id": 49,
+    "timestamp": "2026-10-13T13:37:56.297383",
+    "action": "PROCESS_MEMORY_ACQUIRED",
+    "evidence_item": "process_snapshot.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "635 processes logged",
+    "prev_hash": "5f39c9a0c25a3b8ab3dc1de7f01ff23a6518a53cc01f74a25c7c11fc8dbf2130",
+    "entry_hash": "214226f100224d73598dacb947a6ef1e3b75b9aee0772f407eb8e88e2a389ae2"
+  },
+  {
+    "sequence_id": 50,
+    "timestamp": "2026-10-13T13:37:56.304844",
+    "action": "DISK_IMAGE_ACQUIRED",
+    "evidence_item": "evidence_disk_image/",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "9 files imaged with SHA-256",
+    "prev_hash": "214226f100224d73598dacb947a6ef1e3b75b9aee0772f407eb8e88e2a389ae2",
+    "entry_hash": "6719e9380359c2fd29cbd1ba9dbf423d400358a305c9a4fcf7a738b57a8bc514"
+  },
+  {
+    "sequence_id": 51,
+    "timestamp": "2026-10-13T13:37:56.310912",
+    "action": "NETWORK_PCAP_ACQUIRED",
+    "evidence_item": "acquisition/traffic.pcap",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Binary PCAP created (10 packets)",
+    "prev_hash": "6719e9380359c2fd29cbd1ba9dbf423d400358a305c9a4fcf7a738b57a8bc514",
+    "entry_hash": "358f33e4b4170905aaebfd8b5ab38399c0ffbb31aa18025b83b79ce0c68f1872"
+  },
+  {
+    "sequence_id": 52,
+    "timestamp": "2026-10-13T13:37:56.313550",
+    "action": "MEMORY_ANALYSIS_COMPLETED",
+    "evidence_item": "memory_analysis.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Recovered 1 key(s) from RAM",
+    "prev_hash": "358f33e4b4170905aaebfd8b5ab38399c0ffbb31aa18025b83b79ce0c68f1872",
+    "entry_hash": "aee735a807b19e47a009a9e4a5219cf0a634e46d6ea80397432885f752071197"
+  },
+  {
+    "sequence_id": 53,
+    "timestamp": "2026-10-13T13:37:56.320249",
+    "action": "DISK_ANALYSIS_COMPLETED",
+    "evidence_item": "disk_analysis.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Shannon entropy computed; Recovery Rate: 100.0%",
+    "prev_hash": "aee735a807b19e47a009a9e4a5219cf0a634e46d6ea80397432885f752071197",
+    "entry_hash": "19ee91e39e5314731a2fb1c7b00f00fa9a5be1f91a45a8ccdb212fa586f1c956"
+  },
+  {
+    "sequence_id": 54,
+    "timestamp": "2026-10-13T13:37:57.013062",
+    "action": "NETWORK_ANALYSIS_COMPLETED",
+    "evidence_item": "network_analysis.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "CVE-2017-0144 exploit packets & Killswitch DNS confirmed",
+    "prev_hash": "19ee91e39e5314731a2fb1c7b00f00fa9a5be1f91a45a8ccdb212fa586f1c956",
+    "entry_hash": "b1f1e3db064f7fd64a59cb651bf1fd2a3c2c6edcf240c31ab0afacf3b680a876"
+  },
+  {
+    "sequence_id": 55,
+    "timestamp": "2026-10-13T13:37:57.016577",
+    "action": "YARA_ANALYSIS_COMPLETED",
+    "evidence_item": "analysis_results.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "8 YARA signature matches",
+    "prev_hash": "b1f1e3db064f7fd64a59cb651bf1fd2a3c2c6edcf240c31ab0afacf3b680a876",
+    "entry_hash": "0d31978307dd49299f6118ff3e80380d64175a1094f239460358ede9f36eeca7"
+  },
+  {
+    "sequence_id": 56,
+    "timestamp": "2026-10-13T13:37:57.017926",
+    "action": "THREAT_CORRELATION_COMPLETED",
+    "evidence_item": "correlation_results.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Attributed to WannaCry / WanaCrypt0r 2.0 (Lazarus Group (APT38))",
+    "prev_hash": "0d31978307dd49299f6118ff3e80380d64175a1094f239460358ede9f36eeca7",
+    "entry_hash": "62fb87bcf9a0b233776341869c4bc821248362b6745a05d4ee9254f794b12b5d"
+  },
+  {
+    "sequence_id": 57,
+    "timestamp": "2026-10-13T13:37:57.019473",
+    "action": "FORENSIC_REPORT_GENERATED",
+    "evidence_item": "forensic_report.md",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "GDPR Art 33 & Budapest dossier assembled",
+    "prev_hash": "62fb87bcf9a0b233776341869c4bc821248362b6745a05d4ee9254f794b12b5d",
+    "entry_hash": "7fd04ecdc2ac82fb7419796b245968cdab0db1571ad84c0362ab04f9608eeab6"
+  },
+  {
+    "sequence_id": 58,
+    "timestamp": "2026-10-13T13:40:43.460796",
+    "action": "PIPELINE_STARTED",
+    "evidence_item": "ORCHESTRATOR_INIT",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Execution started",
+    "prev_hash": "7fd04ecdc2ac82fb7419796b245968cdab0db1571ad84c0362ab04f9608eeab6",
+    "entry_hash": "1a4057836843bc05d58b20282b4c2edf5dece49cda5c1107334400b2e8f971c0"
+  },
+  {
+    "sequence_id": 59,
+    "timestamp": "2026-10-13T13:40:44.483166",
+    "action": "SIMULATOR_EXECUTED",
+    "evidence_item": "sandbox/",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Dummy files encrypted, RAM buffer created, SMB & C2 probed",
+    "prev_hash": "1a4057836843bc05d58b20282b4c2edf5dece49cda5c1107334400b2e8f971c0",
+    "entry_hash": "4ea784feb0ba1ad07942dc13f0edaadfafb2b285463c68583c87f0fe34226e29"
+  },
+  {
+    "sequence_id": 60,
+    "timestamp": "2026-10-13T13:40:44.487905",
+    "action": "DETECTION_ALERT",
+    "evidence_item": "detection_alert.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Status: ALERT_RANSOMWARE_BEHAVIOR_DETECTED",
+    "prev_hash": "4ea784feb0ba1ad07942dc13f0edaadfafb2b285463c68583c87f0fe34226e29",
+    "entry_hash": "1aee5773a3ea9a923d5eba68dbd7e2b99f9fb13778c8072457189a008e5f621c"
+  },
+  {
+    "sequence_id": 61,
+    "timestamp": "2026-10-13T13:40:44.555235",
+    "action": "PROCESS_MEMORY_ACQUIRED",
+    "evidence_item": "process_snapshot.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "631 processes logged",
+    "prev_hash": "1aee5773a3ea9a923d5eba68dbd7e2b99f9fb13778c8072457189a008e5f621c",
+    "entry_hash": "f1e6acd24f6ec1832bcc6ddf02860c95c247d6f47efcf2c2f210989ea41101d3"
+  },
+  {
+    "sequence_id": 62,
+    "timestamp": "2026-10-13T13:40:44.562205",
+    "action": "DISK_IMAGE_ACQUIRED",
+    "evidence_item": "evidence_disk_image/",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "9 files imaged with SHA-256",
+    "prev_hash": "f1e6acd24f6ec1832bcc6ddf02860c95c247d6f47efcf2c2f210989ea41101d3",
+    "entry_hash": "3ec17fc78a6d579e36c75e13020fb26c1c3d684542a09bceac37343f7e72a162"
+  },
+  {
+    "sequence_id": 63,
+    "timestamp": "2026-10-13T13:40:44.567027",
+    "action": "NETWORK_PCAP_ACQUIRED",
+    "evidence_item": "acquisition/traffic.pcap",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Binary PCAP created (10 packets)",
+    "prev_hash": "3ec17fc78a6d579e36c75e13020fb26c1c3d684542a09bceac37343f7e72a162",
+    "entry_hash": "946c72c28da9c5eb1d1a15cc5fc132216295117343db8d4543adc358c9ae8927"
+  },
+  {
+    "sequence_id": 64,
+    "timestamp": "2026-10-13T13:40:44.568095",
+    "action": "MEMORY_ANALYSIS_COMPLETED",
+    "evidence_item": "memory_analysis.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Recovered 1 key(s) from RAM",
+    "prev_hash": "946c72c28da9c5eb1d1a15cc5fc132216295117343db8d4543adc358c9ae8927",
+    "entry_hash": "289254acfcdede52e031d4e44775b533cd6a2a59eb58ae253c8eeb585c4b10a1"
+  },
+  {
+    "sequence_id": 65,
+    "timestamp": "2026-10-13T13:40:44.571900",
+    "action": "DISK_ANALYSIS_COMPLETED",
+    "evidence_item": "disk_analysis.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Shannon entropy computed; Recovery Rate: 100.0%",
+    "prev_hash": "289254acfcdede52e031d4e44775b533cd6a2a59eb58ae253c8eeb585c4b10a1",
+    "entry_hash": "520dd768452fbcbe88220cd3a05a60306466b65d9faa34dc6d2bdf06be438bb9"
+  },
+  {
+    "sequence_id": 66,
+    "timestamp": "2026-10-13T13:40:45.062867",
+    "action": "NETWORK_ANALYSIS_COMPLETED",
+    "evidence_item": "network_analysis.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "CVE-2017-0144 exploit packets & Killswitch DNS confirmed",
+    "prev_hash": "520dd768452fbcbe88220cd3a05a60306466b65d9faa34dc6d2bdf06be438bb9",
+    "entry_hash": "198172bcb39cb7513f38b3bb7ea8376e36148e5140b465099e25a5a2adf2de84"
+  },
+  {
+    "sequence_id": 67,
+    "timestamp": "2026-10-13T13:40:45.066244",
+    "action": "YARA_ANALYSIS_COMPLETED",
+    "evidence_item": "analysis_results.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "8 YARA signature matches",
+    "prev_hash": "198172bcb39cb7513f38b3bb7ea8376e36148e5140b465099e25a5a2adf2de84",
+    "entry_hash": "869fef71f32332c82f30cd56d20cb7a567fb1bb5e072e5924cc2b0c56437cdb0"
+  },
+  {
+    "sequence_id": 68,
+    "timestamp": "2026-10-13T13:40:45.067819",
+    "action": "THREAT_CORRELATION_COMPLETED",
+    "evidence_item": "correlation_results.json",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "Attributed to WannaCry / WanaCrypt0r 2.0 (Lazarus Group (APT38))",
+    "prev_hash": "869fef71f32332c82f30cd56d20cb7a567fb1bb5e072e5924cc2b0c56437cdb0",
+    "entry_hash": "8e40e5fe718d2534bbaa1d3ca21e014d5fa8ef2471559f361234bb1026457a15"
+  },
+  {
+    "sequence_id": 69,
+    "timestamp": "2026-10-13T13:40:45.069872",
+    "action": "FORENSIC_REPORT_GENERATED",
+    "evidence_item": "forensic_report.md",
+    "handled_by": "DFIR_Analyst_01",
+    "notes": "GDPR Art 33 & Budapest dossier assembled",
+    "prev_hash": "8e40e5fe718d2534bbaa1d3ca21e014d5fa8ef2471559f361234bb1026457a15",
+    "entry_hash": "7c3a6f7f2d720d950bcd21f95ee0c209e6cf6a66a52787613b8da2fb6bedde82"
   }
 ]

@@ -1,53 +1,84 @@
 {
-  "timestamp": "2026-09-16T00:12:19.927700",
+  "timestamp": "2026-10-13T13:40:45.063493",
   "rules_file": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/analysis/ransomware_rules.yar",
   "target_directory": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/evidence_disk_image",
-  "total_files_scanned": 6,
+  "total_files_scanned": 9,
   "matched_artifacts": [
+    {
+      "filename": "volatile_memory.raw",
+      "matched_yara_rules": [
+        "WannaCry_Ransom_Note_Artifacts",
+        "In_Memory_Volatile_Artifacts"
+      ],
+      "file_size": 4503
+    },
+    {
+      "filename": "@Please_Read_Me@.txt",
+      "matched_yara_rules": [
+        "WannaCry_Ransom_Note_Artifacts"
+      ],
+      "file_size": 1021
+    },
     {
       "filename": "employee_roster.txt.locked",
       "matched_yara_rules": [
-        "Suspicious_Locked_Extension"
+        "Suspicious_High_Entropy_Ciphertext"
       ],
-      "file_size": 184
+      "file_size": 292
     },
     {
       "filename": "financial_q4.csv.locked",
       "matched_yara_rules": [
-        "Suspicious_Locked_Extension"
+        "Suspicious_High_Entropy_Ciphertext"
       ],
-      "file_size": 204
+      "file_size": 292
     },
     {
       "filename": "project_roadmap.docx.locked",
       "matched_yara_rules": [
-        "Suspicious_Locked_Extension"
+        "Suspicious_High_Entropy_Ciphertext"
       ],
-      "file_size": 228
+      "file_size": 292
+    },
+    {
+      "filename": "patient_records.xml.locked",
+      "matched_yara_rules": [
+        "Suspicious_High_Entropy_Ciphertext"
+      ],
+      "file_size": 460
     },
     {
       "filename": "confidential_keys.json.locked",
       "matched_yara_rules": [
-        "Suspicious_Locked_Extension"
+        "Suspicious_High_Entropy_Ciphertext"
       ],
-      "file_size": 184
+      "file_size": 292
     },
     {
       "filename": "READ_ME_RANSOM.txt",
       "matched_yara_rules": [
-        "Educational_Ransomware_Simulator_Artifacts"
+        "WannaCry_Ransom_Note_Artifacts"
       ],
-      "file_size": 793
+      "file_size": 1021
     }
   ],
   "extracted_iocs": {
     "hashes": [],
     "c2_addresses": [
+      "192.168.56.20:4444",
       "127.0.0.1:4444"
     ],
-    "ransom_note_signatures": [
+    "ransom_notes": [
+      "@Please_Read_Me@.txt",
       "READ_ME_RANSOM.txt"
     ],
-    "threat_actor_attribution": "MOCK_LOCKBIT_SIM_v1"
+    "associated_cves": [
+      "CVE-2017-0144"
+    ],
+    "matched_rules_summary": {
+      "WannaCry_Ransom_Note_Artifacts": 3,
+      "In_Memory_Volatile_Artifacts": 1,
+      "Suspicious_High_Entropy_Ciphertext": 5
+    }
   }
 }

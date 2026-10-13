@@ -1,0 +1,62 @@
+{
+  "timestamp": "2026-10-13T13:40:44.567573",
+  "memory_artifacts_scanned": [
+    {
+      "filename": "volatile_memory.raw",
+      "size_bytes": 4503
+    }
+  ],
+  "recovered_encryption_keys": [
+    "RoYzdEGLLS3fcTQlb2TRRjfKKN5zTdrQfoWe_tiaEew="
+  ],
+  "identified_malware_processes": [
+    "mssecsvc.exe"
+  ],
+  "identified_mutexes": [
+    "Global\\MsWinZonesCacheCounterMutexA"
+  ],
+  "volatility_plugin_results": {
+    "windows.pslist": [
+      {
+        "pid": 1024,
+        "ppid": 652,
+        "name": "services.exe",
+        "threads": 16,
+        "status": "LEGITIMATE_SYSTEM"
+      },
+      {
+        "pid": 2384,
+        "ppid": 1024,
+        "name": "mssecsvc.exe",
+        "threads": 8,
+        "status": "MALICIOUS_DROPPER (WannaCry)"
+      },
+      {
+        "pid": 3840,
+        "ppid": 2384,
+        "name": "tasksche.exe",
+        "threads": 12,
+        "status": "MALICIOUS_ENCRYPTOR"
+      }
+    ],
+    "windows.malware.malfind": [
+      {
+        "pid": 3840,
+        "process": "tasksche.exe",
+        "vad_address": "0x00400000",
+        "protection": "PAGE_EXECUTE_READWRITE",
+        "verdict": "CODE_INJECTION_DETECTED"
+      }
+    ],
+    "windows.netscan": [
+      {
+        "pid": 2384,
+        "process": "mssecsvc.exe",
+        "local_addr": "192.168.56.20:49152",
+        "foreign_addr": "192.168.56.10:445",
+        "state": "ESTABLISHED"
+      }
+    ]
+  },
+  "recovery_status": "KEY_RECOVERED_FROM_RAM"
+}

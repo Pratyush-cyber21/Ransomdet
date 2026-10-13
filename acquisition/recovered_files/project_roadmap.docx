@@ -1,0 +1,6 @@
+Ransomdet Engineering Specification
+Phase 1: Detection & EDR
+Phase 2: Acquisition & PCAP
+Phase 3: Analysis & YARA
+Phase 4: CTI Correlation
+Phase 5: Reporting

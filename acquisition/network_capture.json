@@ -1,16 +1,28 @@
 {
-  "timestamp": "2026-09-16T00:12:19.926316",
-  "target_interface": "lo0 / 127.0.0.1",
+  "timestamp": "2026-10-13T13:40:44.566705",
+  "pcap_file": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/traffic.pcap",
+  "total_packets": 10,
   "captured_flows": [
     {
-      "src_ip": "127.0.0.1",
-      "src_port": 51234,
-      "dst_ip": "127.0.0.1",
-      "dst_port": 4444,
+      "protocol": "DNS",
+      "src": "192.168.56.10:53210",
+      "dst": "192.168.56.1:53",
+      "details": "Query: www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com -> NXDOMAIN",
+      "indicator": "WannaCry Killswitch Domain Attempt"
+    },
+    {
+      "protocol": "SMBv1 (TCP)",
+      "src": "192.168.56.20:49152",
+      "dst": "192.168.56.10:445",
+      "details": "SMB_COM_TRANSACTION2_SECONDARY (Multiplex ID 0x51)",
+      "indicator": "CVE-2017-0144 (EternalBlue) Exploitation Attempt"
+    },
+    {
       "protocol": "TCP",
-      "payload_snippet": "HELO C2_MOCK_BEACON_BEHAVIOR_RANSOM_SIM",
-      "status": "BEACON_DETECTED"
+      "src": "192.168.56.10:54321",
+      "dst": "192.168.56.20:4444",
+      "details": "C2 Beacon: HELO C2_MOCK_BEACON_BEHAVIOR_RANSOM_SIM",
+      "indicator": "Ransomware Command & Control Beaconing"
     }
-  ],
-  "total_flows": 1
+  ]
 }

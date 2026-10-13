@@ -1,44 +1,62 @@
 {
-  "timestamp": "2026-09-16T00:12:19.922584",
+  "timestamp": "2026-10-13T13:40:44.557927",
   "source_directory": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/sandbox",
   "target_image_directory": "/Users/pratyushkumarsahoo/.gemini/antigravity-ide/scratch/ransomware-forensics-lab/acquisition/evidence_disk_image",
-  "total_files_acquired": 6,
+  "total_files_acquired": 9,
   "files": [
+    {
+      "filename": "volatile_memory.raw",
+      "size_bytes": 4503,
+      "sha256": "b1e6aa7fa7c6769e9cec82a3d2cd870ba07cb62320532be0c41f6e2dbd297676",
+      "acquisition_time": "2026-10-13T13:40:44.558945"
+    },
+    {
+      "filename": "@Please_Read_Me@.txt",
+      "size_bytes": 1021,
+      "sha256": "0c79365f1692741bbeb62aba3bc60cb9a6557940b986862d624f1f50262ef719",
+      "acquisition_time": "2026-10-13T13:40:44.559560"
+    },
     {
       "filename": "decryption_key.log",
       "size_bytes": 44,
-      "sha256": "dca9afd4061c3130b3cb84898af60a2baa3c161a889f2ac0e9e24ae4e403444b",
-      "acquisition_time": "2026-09-16T00:12:19.923221"
+      "sha256": "da1baf0a098cfeb78ba04c7bcd2d41b6ecfb72099d607c090927aea6abae0f9d",
+      "acquisition_time": "2026-10-13T13:40:44.559968"
     },
     {
       "filename": "employee_roster.txt.locked",
-      "size_bytes": 184,
-      "sha256": "6f4b977ab4894f30389f67cfadba4464c4aa3e5262c20ed89b063b67cdd798a3",
-      "acquisition_time": "2026-09-16T00:12:19.923709"
+      "size_bytes": 292,
+      "sha256": "c9a336ae8281b62944a2717c5557c5edc92f2a72fc389e7f4b711695a17dddf2",
+      "acquisition_time": "2026-10-13T13:40:44.560330"
     },
     {
       "filename": "financial_q4.csv.locked",
-      "size_bytes": 204,
-      "sha256": "39af8c35eb508d8521e92fb0b288b12cd8472481a44c2ab183cf17efe72611c9",
-      "acquisition_time": "2026-09-16T00:12:19.924136"
+      "size_bytes": 292,
+      "sha256": "de60181c1d9167603afbba9eb1ea05e5fe7004caff0226cc8f5115a9b3f33bcd",
+      "acquisition_time": "2026-10-13T13:40:44.560650"
     },
     {
       "filename": "project_roadmap.docx.locked",
-      "size_bytes": 228,
-      "sha256": "fa6f9fd5694183f74f50e249a80c7e643143371a7c01fa156ac55c91bd1a9d68",
-      "acquisition_time": "2026-09-16T00:12:19.924652"
+      "size_bytes": 292,
+      "sha256": "0352821004b31e768a076ee362d56199fb8bde1468a5d063b3bbf708bf21f439",
+      "acquisition_time": "2026-10-13T13:40:44.561019"
+    },
+    {
+      "filename": "patient_records.xml.locked",
+      "size_bytes": 460,
+      "sha256": "f3ab6a92ece88ba6d6c4681b9d728fdae337a59eeee8e265cd2e7e1c867e6089",
+      "acquisition_time": "2026-10-13T13:40:44.561347"
     },
     {
       "filename": "confidential_keys.json.locked",
-      "size_bytes": 184,
-      "sha256": "e647821e0348200a87dd3a8aa5f8c0da90abc86a0b34930e2ebf9a1c47c87a73",
-      "acquisition_time": "2026-09-16T00:12:19.925065"
+      "size_bytes": 292,
+      "sha256": "80b40509b54ad0868323e51254b5fab363cacfaf0904ecde3ce78e1437cf0995",
+      "acquisition_time": "2026-10-13T13:40:44.561682"
     },
     {
       "filename": "READ_ME_RANSOM.txt",
-      "size_bytes": 793,
-      "sha256": "99bae9d3930a3288bbc75c6ae68c08b56371afa1db20e17a301a7d5784a14120",
-      "acquisition_time": "2026-09-16T00:12:19.925446"
+      "size_bytes": 1021,
+      "sha256": "0c79365f1692741bbeb62aba3bc60cb9a6557940b986862d624f1f50262ef719",
+      "acquisition_time": "2026-10-13T13:40:44.561979"
     }
   ]
 }
